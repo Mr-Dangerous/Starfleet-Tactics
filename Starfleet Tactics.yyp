@@ -1519,6 +1519,14 @@
             }
         },
         {
+            "Key": "310f7ad9-17fd-4a2b-8961-dd3815221aa0",
+            "Value": {
+                "id": "0a680fb7-3d30-48fd-bb89-cba91b4d2131",
+                "resourcePath": "scripts\\scr_draw_phantom_graphics\\scr_draw_phantom_graphics.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "31625c98-f7de-4de8-adad-898b8f113c19",
             "Value": {
                 "id": "21dd3fb4-bba6-4b7e-9dae-4b593d5491ef",
@@ -1660,6 +1668,14 @@
                 "id": "9f11194d-dfde-4978-a6b3-da4f17f493ec",
                 "resourcePath": "sprites\\s_nuke_nuke3\\s_nuke_nuke3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3658c8b5-5ae0-410a-84af-6f0bf3542d92",
+            "Value": {
+                "id": "0cf6023c-d27b-4b5a-abc2-2aeea052315b",
+                "resourcePath": "views\\3658c8b5-5ae0-410a-84af-6f0bf3542d92.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2748,6 +2764,14 @@
                 "id": "cf2b8f81-51a9-424f-9cc7-969ec9199241",
                 "resourcePath": "sprites\\s_laser_mixed_103\\s_laser_mixed_103.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5a48e9f5-448b-4743-beab-6c664edf8d44",
+            "Value": {
+                "id": "ad448dc8-bde1-4452-a663-fc1c04e63791",
+                "resourcePath": "scripts\\__enums\\__enums.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -4679,6 +4703,14 @@
             }
         },
         {
+            "Key": "9a4f33da-5a50-42e1-a3b8-6ac37a3fd5ba",
+            "Value": {
+                "id": "a22a795e-cedd-4711-a098-c81bd9da5c5c",
+                "resourcePath": "objects\\o_ship\\o_ship.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9a5bb088-4734-43bd-9937-b6d2153b087a",
             "Value": {
                 "id": "b4e9cc8b-efa3-45aa-80b8-d7c09b4f2766",
@@ -5271,6 +5303,14 @@
             }
         },
         {
+            "Key": "ae99ff8f-1105-4b1d-a452-625a86470ee4",
+            "Value": {
+                "id": "93dc8bcf-5992-4291-910c-e3439be387c4",
+                "resourcePath": "scripts\\scr_load_phantom_graphics\\scr_load_phantom_graphics.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "af8f6a36-d3c4-4778-a6a3-ece954190154",
             "Value": {
                 "id": "e75b957f-428a-4457-ab90-4e2f88d5741e",
@@ -5532,6 +5572,14 @@
                 "id": "f26a514b-e8c3-4266-9cd7-8df8d15a0f79",
                 "resourcePath": "sprites\\s_laser_mixed_068\\s_laser_mixed_068.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b8f82eee-1703-4f71-b5d6-4ca960201ab5",
+            "Value": {
+                "id": "750ceb78-1db7-4a97-a4cd-7ebec6071118",
+                "resourcePath": "scripts\\__macros\\__macros.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -6436,6 +6484,14 @@
                 "id": "ecbfbce2-c0f2-45ba-aabd-15686d1c92d5",
                 "resourcePath": "sprites\\s_tox_blue_18\\s_tox_blue_18.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d30a55e8-6085-4b90-ba51-2e2ce971d941",
+            "Value": {
+                "id": "b8583096-707e-4604-b0e6-69e0160d5435",
+                "resourcePath": "scripts\\scr_calculate_graphic_offset\\scr_calculate_graphic_offset.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -7800,7 +7856,11 @@
         }
     ],
     "script_order": [
-        
+        "ae99ff8f-1105-4b1d-a452-625a86470ee4",
+        "310f7ad9-17fd-4a2b-8961-dd3815221aa0",
+        "5a48e9f5-448b-4743-beab-6c664edf8d44",
+        "b8f82eee-1703-4f71-b5d6-4ca960201ab5",
+        "d30a55e8-6085-4b90-ba51-2e2ce971d941"
     ],
     "tutorial": ""
 }
