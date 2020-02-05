@@ -25,4 +25,8 @@
 
 #macro CREATE_SHIP 0
 #macro INJECT_VARIABLES 15
+
+#macro ELEMENT_X_COORDINATE = 0
+#macro ELEMENT_Y_COORDINATE = 1
+#macro IS_UNDER = 2
 #endregion

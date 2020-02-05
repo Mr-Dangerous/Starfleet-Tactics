@@ -10,3 +10,5 @@ created = false
 max_speed = 0
 acceleration_rate = 0
 turn_speed = 0
+//
+state = ship.manual

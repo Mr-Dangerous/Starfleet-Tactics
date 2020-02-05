@@ -1,0 +1,4 @@
+enum ship{
+	locked,
+	manual
+}
