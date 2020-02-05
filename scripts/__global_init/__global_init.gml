@@ -1,0 +1,1 @@
+global.ship_maps = ds_map_create()

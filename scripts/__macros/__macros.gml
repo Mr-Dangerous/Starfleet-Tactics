@@ -9,9 +9,9 @@
 #macro WEAPON_OFFSETS 2
 #macro SPRITE_INFO 3
 
-#macro	SHIP_SPRITE = 0
-#macro SHIP_SPRITE_IMAGE_SCALE = 1
-#macro DRAWING_SCRIPT = 2
+#macro	SHIP_SPRITE 0
+#macro SHIP_SPRITE_IMAGE_SCALE 1
+#macro DRAWING_SCRIPT 2
 
 #macro GRAPHIC_DIRECTION_OFFSET 0
 #macro GRAPHIC_LENGTH_OFFSET 1
@@ -23,5 +23,6 @@
 
 #endregion
 
-
+#macro CREATE_SHIP 0
+#macro INJECT_VARIABLES 15
 #endregion

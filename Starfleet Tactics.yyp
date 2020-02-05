@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "04abaa80-0d27-4ab5-b71c-84711e4b18e5",
+            "Value": {
+                "id": "86424e9e-33bd-4177-ade9-ba8c13890136",
+                "resourcePath": "objects\\o_ship_spawner\\o_ship_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "05346211-88ef-4b9b-97e0-a5b00e698f05",
             "Value": {
                 "id": "78885893-28c5-4ba8-b21e-0c452da4d27f",
@@ -1439,6 +1447,14 @@
             }
         },
         {
+            "Key": "2ebb0cf5-7b15-45e5-982f-28b5e3b6add0",
+            "Value": {
+                "id": "97fc2c08-e682-4dc2-8df5-6c549c526f7b",
+                "resourcePath": "scripts\\scr_load_phantom\\scr_load_phantom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2ecda5ce-6a83-4727-8432-e998e14bea8b",
             "Value": {
                 "id": "d348783b-e684-4499-b79c-2788581bcc6b",
@@ -1556,6 +1572,14 @@
                 "id": "2523e5a9-057a-4151-ac2d-9db5023fe766",
                 "resourcePath": "sprites\\s_tox_green_03\\s_tox_green_03.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "335b7c23-61e9-4648-8239-9bdb7db0c39b",
+            "Value": {
+                "id": "8d4075e5-91d2-4df1-8001-db123e3a6864",
+                "resourcePath": "scripts\\__global_init\\__global_init.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2935,6 +2959,14 @@
             }
         },
         {
+            "Key": "6052fb1f-8a08-4896-aece-c8de8710a626",
+            "Value": {
+                "id": "e8d7164e-5259-46ca-8bc7-75460d7123c0",
+                "resourcePath": "objects\\o_card_game_controller\\o_card_game_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6093ea4a-ad56-4814-b11b-3313ef09b209",
             "Value": {
                 "id": "98b95078-96fd-4c8f-9c78-576c42426e3f",
@@ -3922,7 +3954,7 @@
             "Key": "7f8dc46c-cb6f-4e5a-8fd6-e06cf7b3930f",
             "Value": {
                 "id": "aacceda6-1259-4a00-a21a-e350ff09c065",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\r_firing_range\\r_firing_range.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -4068,6 +4100,14 @@
                 "id": "c7a0be46-ee40-402d-9d65-41af47473343",
                 "resourcePath": "sprites\\s_tox_blue_22\\s_tox_blue_22.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "832ef3f4-9e9b-42b5-8aa5-e5a17a0c7a89",
+            "Value": {
+                "id": "ff91a7e0-f46d-4d67-b079-75295222d2a7",
+                "resourcePath": "objects\\o_temp_button\\o_temp_button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7191,6 +7231,14 @@
             }
         },
         {
+            "Key": "e97dd2af-9ae6-4a77-bdba-571e366c4f93",
+            "Value": {
+                "id": "8415fe1a-28c0-4d8e-9997-55dc95106317",
+                "resourcePath": "sprites\\sprite918\\sprite918.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e97ebb59-d0db-431a-aa37-07015a9af5d5",
             "Value": {
                 "id": "19682aca-8e5b-407c-8842-2fbf1da774b5",
@@ -7204,6 +7252,14 @@
                 "id": "efa3a1bd-7dbe-42e5-8487-b3888f215ec0",
                 "resourcePath": "sprites\\s_illum_red_23\\s_illum_red_23.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ea2c53b5-deaa-40b5-bd2f-a9a50c2abc48",
+            "Value": {
+                "id": "485c1461-7175-4fdd-b01e-02019951eb3a",
+                "resourcePath": "datafiles_yy\\Starfleet Tactics.json.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -7856,11 +7912,13 @@
         }
     ],
     "script_order": [
-        "ae99ff8f-1105-4b1d-a452-625a86470ee4",
-        "310f7ad9-17fd-4a2b-8961-dd3815221aa0",
         "5a48e9f5-448b-4743-beab-6c664edf8d44",
         "b8f82eee-1703-4f71-b5d6-4ca960201ab5",
-        "d30a55e8-6085-4b90-ba51-2e2ce971d941"
+        "ae99ff8f-1105-4b1d-a452-625a86470ee4",
+        "310f7ad9-17fd-4a2b-8961-dd3815221aa0",
+        "2ebb0cf5-7b15-45e5-982f-28b5e3b6add0",
+        "d30a55e8-6085-4b90-ba51-2e2ce971d941",
+        "335b7c23-61e9-4648-8239-9bdb7db0c39b"
     ],
     "tutorial": ""
 }

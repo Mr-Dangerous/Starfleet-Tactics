@@ -1,0 +1,12 @@
+{
+  "JSON_Ships": [
+    {
+      "Name": "Phantom",
+      "Max Speed": 3,
+      "Acceleration Rate": 0.1,
+      "Turn Speed": 2,
+      "Sprite": "s_illum_default_10",
+      "Loading Script": "scr_load_phantom"
+    }
+  ]
+}
