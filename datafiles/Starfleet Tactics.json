@@ -1,3 +1,4 @@
+
 {
   "JSON_Ships": [
     {
@@ -117,14 +118,20 @@
         42,
         true,
         "s_nuke_nuke5",
-        0.5
+        0.75,
+        "rotate",
+        1,
+        "glow",
+        1
       ],
       "Effect Coordinate 2": [
         41,
         42,
         true,
         "s_tech_icon_glow_1",
-        0.5
+        1,
+        "glow",
+        1
       ],
       "Effect Coordinate 3": "null",
       "Effect Coordinate 4": "null"
