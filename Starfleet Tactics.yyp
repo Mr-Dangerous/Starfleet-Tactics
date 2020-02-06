@@ -839,14 +839,6 @@
             }
         },
         {
-            "Key": "1bc5db73-6698-4e23-b809-567cd9f316ce",
-            "Value": {
-                "id": "5b40cb01-f8da-4ef6-b8dd-7f1c07310e5e",
-                "resourcePath": "scripts\\scr_load_ship\\scr_load_ship.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "1bfd95c9-691d-466c-a41e-de54b24bda29",
             "Value": {
                 "id": "a9506301-8d66-49d5-80be-e5387b3dcf4a",
@@ -1455,14 +1447,6 @@
             }
         },
         {
-            "Key": "2ebb0cf5-7b15-45e5-982f-28b5e3b6add0",
-            "Value": {
-                "id": "97fc2c08-e682-4dc2-8df5-6c549c526f7b",
-                "resourcePath": "scripts\\scr_load_phantom\\scr_load_phantom.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "2ecda5ce-6a83-4727-8432-e998e14bea8b",
             "Value": {
                 "id": "d348783b-e684-4499-b79c-2788581bcc6b",
@@ -1540,14 +1524,6 @@
                 "id": "d240fc5e-981e-4dd9-aeb2-bf7d72b06220",
                 "resourcePath": "sprites\\s_tox_blue_04\\s_tox_blue_04.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "310f7ad9-17fd-4a2b-8961-dd3815221aa0",
-            "Value": {
-                "id": "0a680fb7-3d30-48fd-bb89-cba91b4d2131",
-                "resourcePath": "scripts\\scr_draw_phantom_graphics\\scr_draw_phantom_graphics.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -5359,14 +5335,6 @@
             }
         },
         {
-            "Key": "ae99ff8f-1105-4b1d-a452-625a86470ee4",
-            "Value": {
-                "id": "93dc8bcf-5992-4291-910c-e3439be387c4",
-                "resourcePath": "scripts\\scr_load_phantom_graphics\\scr_load_phantom_graphics.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "af8f6a36-d3c4-4778-a6a3-ece954190154",
             "Value": {
                 "id": "e75b957f-428a-4457-ab90-4e2f88d5741e",
@@ -7930,13 +7898,9 @@
     "script_order": [
         "5a48e9f5-448b-4743-beab-6c664edf8d44",
         "b8f82eee-1703-4f71-b5d6-4ca960201ab5",
-        "ae99ff8f-1105-4b1d-a452-625a86470ee4",
-        "310f7ad9-17fd-4a2b-8961-dd3815221aa0",
-        "2ebb0cf5-7b15-45e5-982f-28b5e3b6add0",
-        "d30a55e8-6085-4b90-ba51-2e2ce971d941",
         "335b7c23-61e9-4648-8239-9bdb7db0c39b",
-        "ad92d492-1ba2-4f41-8188-ba394a434c36",
-        "1bc5db73-6698-4e23-b809-567cd9f316ce"
+        "d30a55e8-6085-4b90-ba51-2e2ce971d941",
+        "ad92d492-1ba2-4f41-8188-ba394a434c36"
     ],
     "tutorial": ""
 }

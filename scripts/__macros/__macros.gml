@@ -7,28 +7,18 @@
 #macro EXHAUST_OFFSETS 0
 #macro EFFECT_OFFSETS 1
 #macro WEAPON_OFFSETS 2
-#macro SPRITE_INFO 3
-
-#macro	SHIP_SPRITE 0
-#macro SHIP_SPRITE_IMAGE_SCALE 1
-#macro DRAWING_SCRIPT 2
 
 #macro GRAPHIC_DIRECTION_OFFSET 0
 #macro GRAPHIC_LENGTH_OFFSET 1
-
-#macro SPRITE_TO_CREATE 4
-
-
+#macro IS_UNDER 2
+#macro SPRITE_INDEX 3
+#macro SPRITE_IMAGE_SCALE 4
+#endregion
 
 
 #endregion
 
+#region ship spawner macros
 #macro CREATE_SHIP 0
 #macro INJECT_VARIABLES 15
-
-#macro ELEMENT_X_COORDINATE 0
-#macro ELEMENT_Y_COORDINATE 1
-#macro IS_UNDER 2
-#macro SPRITE_INDEX 3
-#macro SPRITE_IMAGE_SCALE 4
 #endregion

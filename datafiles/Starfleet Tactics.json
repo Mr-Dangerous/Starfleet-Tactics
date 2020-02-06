@@ -1,3 +1,4 @@
+
 {
   "JSON_Ships": [
     {
@@ -6,7 +7,73 @@
       "Acceleration Rate": 0.1,
       "Turn Speed": 2,
       "Sprite": "s_illum_default_10",
-      "Loading Script": "scr_load_phantom"
+      "Exhaust Coordinate 1": [
+        30,
+        70,
+        true,
+        "s_normal_single_exhaust",
+        0.5
+      ],
+      "Exhaust Coordinate 2": "null",
+      "Exhaust Coordinate 3": "null",
+      "Exhaust Coordinate 4": "null",
+      "Weapon Coordinate 1": [
+        48,
+        55,
+        true,
+        "s_illum_laser_1",
+        1
+      ],
+      "Weapon Coordinate 2": [
+        48,
+        84,
+        true,
+        "s_illum_laser_1",
+        1
+      ],
+      "Weapon Coordinate 3": "null",
+      "Weapon Coordinate 4": "null",
+      "Effect Coordinate 1": "null",
+      "Effect Coordinate 2": "null",
+      "Effect Coordinate 3": "null",
+      "Effect Coordinate 4": "null"
+    },
+    {
+      "Name": "Wraith",
+      "Max Speed": 2,
+      "Acceleration Rate": 0.05,
+      "Turn Speed": 1,
+      "Sprite": "s_illum_default_12",
+      "Exhaust Coordinate 1": [
+        3,
+        69,
+        true,
+        "s_normal_double_exhaust",
+        0.5
+      ],
+      "Exhaust Coordinate 2": "null",
+      "Exhaust Coordinate 3": "null",
+      "Exhaust Coordinate 4": "null",
+      "Weapon Coordinate 1": [
+        52,
+        52,
+        true,
+        "s_illum_laser_1",
+        1
+      ],
+      "Weapon Coordinate 2": [
+        52,
+        82,
+        true,
+        "s_illum_laser_1",
+        1
+      ],
+      "Weapon Coordinate 3": "null",
+      "Weapon Coordinate 4": "null",
+      "Effect Coordinate 1": "null",
+      "Effect Coordinate 2": "null",
+      "Effect Coordinate 3": "null",
+      "Effect Coordinate 4": "null"
     }
   ]
 }
