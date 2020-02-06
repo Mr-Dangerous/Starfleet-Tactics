@@ -1,4 +1,3 @@
-
 {
   "JSON_Ships": [
     {
@@ -6,6 +5,8 @@
       "Max Speed": 3,
       "Acceleration Rate": 0.1,
       "Turn Speed": 2,
+      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Projectile Duration": 100,
       "Sprite": "s_illum_default_10",
       "Exhaust Coordinate 1": [
         30,
@@ -21,15 +22,15 @@
         48,
         55,
         true,
-        "s_illum_laser_1",
-        1
+        "s_illum_laser_2",
+        0.1
       ],
       "Weapon Coordinate 2": [
         48,
         84,
         true,
         "s_illum_laser_1",
-        1
+        0.1
       ],
       "Weapon Coordinate 3": "null",
       "Weapon Coordinate 4": "null",
@@ -43,6 +44,8 @@
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
       "Turn Speed": 1,
+      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Projectile Duration": 100,
       "Sprite": "s_illum_default_12",
       "Exhaust Coordinate 1": [
         3,
@@ -59,19 +62,70 @@
         52,
         true,
         "s_illum_laser_1",
-        1
+        0.1
       ],
       "Weapon Coordinate 2": [
         52,
         82,
         true,
         "s_illum_laser_1",
-        1
+        0.1
       ],
       "Weapon Coordinate 3": "null",
       "Weapon Coordinate 4": "null",
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
+      "Effect Coordinate 3": "null",
+      "Effect Coordinate 4": "null"
+    },
+    {
+      "Name": "Core Container",
+      "Max Speed": 2,
+      "Acceleration Rate": 0.05,
+      "Turn Speed": 1,
+      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Projectile Duration": 100,
+      "Sprite": "s_tox_dark_blue_03",
+      "Exhaust Coordinate 1": [
+        46,
+        25,
+        false,
+        "s_tox_engine2_left",
+        0.5
+      ],
+      "Exhaust Coordinate 2": [
+        46,
+        60,
+        false,
+        "s_tox_engine2_right",
+        0.5
+      ],
+      "Exhaust Coordinate 3": "null",
+      "Exhaust Coordinate 4": "null",
+      "Weapon Coordinate 1": [
+        64,
+        42,
+        true,
+        "s_laser_mixed_012",
+        0.3
+      ],
+      "Weapon Coordinate 2": "null",
+      "Weapon Coordinate 3": "null",
+      "Weapon Coordinate 4": "null",
+      "Effect Coordinate 1": [
+        41,
+        42,
+        true,
+        "s_nuke_nuke5",
+        0.5
+      ],
+      "Effect Coordinate 2": [
+        41,
+        42,
+        true,
+        "s_tech_icon_glow_1",
+        0.5
+      ],
       "Effect Coordinate 3": "null",
       "Effect Coordinate 4": "null"
     }

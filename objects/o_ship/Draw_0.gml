@@ -34,6 +34,26 @@ if (speed > 0){
 } else {
 	thrust_counter = 0
 }
+
+//Effects
+if (has_effects){
+	var _effect_list = graphic_resource_array[EFFECT_OFFSETS] 
+	var _effect_number = ds_list_size(_effect_list)
+	
+	
+	for (var i = 0; i < _effect_number; i++){
+		var _individual_effect_array = ds_list_find_value(_effect_list, i)
+		if (_individual_effect_array != "null"){
+			var _x = x+ lengthdir_x(_individual_effect_array[GRAPHIC_LENGTH_OFFSET],_individual_effect_array[GRAPHIC_DIRECTION_OFFSET]+image_angle)
+			var _y = y+ lengthdir_y(_individual_effect_array[GRAPHIC_LENGTH_OFFSET],_individual_effect_array[GRAPHIC_DIRECTION_OFFSET]+image_angle)
+			var _x_scale = _individual_effect_array[SPRITE_IMAGE_SCALE]
+			var _y_scale = _individual_effect_array[SPRITE_IMAGE_SCALE]
+			var _sprite = _individual_effect_array[SPRITE_INDEX]
+			draw_sprite_ext(_sprite, 0, _x, _y, _x_scale, _y_scale, image_angle, c_white, 1)
+		}
+	}
+	
+}
 	
 	
 #endregion

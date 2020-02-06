@@ -2,7 +2,7 @@
     "id": "f21a5bca-5ce5-421f-be9a-9184dcf0819a",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_tox_engine2",
+    "name": "s_tox_engine2_left",
     "For3D": false,
     "HTile": false,
     "VTile": false,

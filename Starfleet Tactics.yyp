@@ -895,6 +895,14 @@
             }
         },
         {
+            "Key": "1e0db19f-5a68-4a87-abd2-d2b4655f3e4b",
+            "Value": {
+                "id": "2f4f8262-ad3c-4e51-b334-8f81083bdd0a",
+                "resourcePath": "scripts\\scr_fire_basic_attack\\scr_fire_basic_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1e26a18f-4a50-4418-9b62-70cf3bda6d47",
             "Value": {
                 "id": "e084aeaa-33a4-48ca-ac46-5e6635aad812",
@@ -1548,6 +1556,14 @@
                 "id": "58b42b86-d32a-46ad-95f0-1e6d9cdb8ff7",
                 "resourcePath": "sprites\\s_flareset2fx01\\s_flareset2fx01.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32cba4ef-27b0-459d-b70e-1e6daa59f2ce",
+            "Value": {
+                "id": "7e12ad0b-6020-4068-9d3f-55fc95b466ef",
+                "resourcePath": "objects\\o_projectile\\o_projectile.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4516,6 +4532,22 @@
                 "id": "c6edd1a2-5bed-4f41-ba4e-936ca8c7e97a",
                 "resourcePath": "sprites\\s_alien_29\\s_alien_29.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "91ed048e-26cf-40d1-9c32-5dd7e9e2f4fd",
+            "Value": {
+                "id": "e3364a92-cb60-4121-b79a-0b2952244521",
+                "resourcePath": "sprites\\s_tox_engine2_right\\s_tox_engine2_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "91eff895-5395-40fa-8c29-514bafb072ff",
+            "Value": {
+                "id": "24535d33-6728-4a39-862d-c61437f81861",
+                "resourcePath": "scripts\\scr_calculate_convergence_angle\\scr_calculate_convergence_angle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -7522,7 +7554,7 @@
             "Key": "f21a5bca-5ce5-421f-be9a-9184dcf0819a",
             "Value": {
                 "id": "df6b4ab7-1176-4b7d-89ca-3a40297c5833",
-                "resourcePath": "sprites\\s_tox_engine2\\s_tox_engine2.yy",
+                "resourcePath": "sprites\\s_tox_engine2_left\\s_tox_engine2_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7900,7 +7932,9 @@
         "b8f82eee-1703-4f71-b5d6-4ca960201ab5",
         "335b7c23-61e9-4648-8239-9bdb7db0c39b",
         "d30a55e8-6085-4b90-ba51-2e2ce971d941",
-        "ad92d492-1ba2-4f41-8188-ba394a434c36"
+        "ad92d492-1ba2-4f41-8188-ba394a434c36",
+        "91eff895-5395-40fa-8c29-514bafb072ff",
+        "1e0db19f-5a68-4a87-abd2-d2b4655f3e4b"
     ],
     "tutorial": ""
 }

@@ -1,0 +1,20 @@
+var _weapon_list = graphic_resource_array[WEAPON_OFFSETS]
+
+for (var i = 0; i < ds_list_size(_weapon_list); i++){
+	var _weapon = ds_list_find_value(_weapon_list, i)
+		if (_weapon != "null"){
+		var _x_offset = lengthdir_x(_weapon[GRAPHIC_LENGTH_OFFSET], image_angle + _weapon[GRAPHIC_DIRECTION_OFFSET])
+		var _y_offset = lengthdir_y(_weapon[GRAPHIC_LENGTH_OFFSET], image_angle + _weapon[GRAPHIC_DIRECTION_OFFSET])
+	
+		var _projectile = instance_create_layer(x+_x_offset, y+_y_offset, "Projectiles_Under", o_projectile)
+		_projectile.sprite_index = _weapon[SPRITE_INDEX]
+		_projectile.image_xscale = _weapon[SPRITE_IMAGE_SCALE]
+		_projectile.image_yscale = _weapon[SPRITE_IMAGE_SCALE]
+		_projectile.speed = basic_attack_projectile_speed
+		_projectile.duration = basic_attack_projectile_duration
+		var _weapon_range = basic_attack_projectile_speed*basic_attack_projectile_duration
+		//var _convergence_angle = scr_calculate_convergence_angle(_x_offset, _y_offset, _weapon_range)
+		_projectile.image_angle = image_angle//+_convergence_angle
+		_projectile.direction = _projectile.image_angle
+	}	
+}
