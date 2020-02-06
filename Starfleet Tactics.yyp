@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "0c01de9b-6b06-44bc-95ed-de8adc41924e",
+            "Value": {
+                "id": "45d3a672-1a37-4740-96a0-5c5055efeed0",
+                "resourcePath": "scripts\\scr_execute_effect_manager\\scr_execute_effect_manager.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0c19953e-8213-41c5-b036-37e075da3e5e",
             "Value": {
                 "id": "39942f56-c953-47df-8e14-cb49dffab04c",
@@ -7934,7 +7942,8 @@
         "d30a55e8-6085-4b90-ba51-2e2ce971d941",
         "ad92d492-1ba2-4f41-8188-ba394a434c36",
         "91eff895-5395-40fa-8c29-514bafb072ff",
-        "1e0db19f-5a68-4a87-abd2-d2b4655f3e4b"
+        "1e0db19f-5a68-4a87-abd2-d2b4655f3e4b",
+        "0c01de9b-6b06-44bc-95ed-de8adc41924e"
     ],
     "tutorial": ""
 }

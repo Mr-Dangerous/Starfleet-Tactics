@@ -8,6 +8,7 @@ graphic_resource_array = scr_return_origin_offset_array(name)
 //check for effects
 if (_ship_map[? "Effect Coordinate 1"] != "null"){
 	has_effects = true
+	//should check to see what kind of effects here
 }
 
 

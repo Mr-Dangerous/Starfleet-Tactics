@@ -5,6 +5,11 @@
 	
 //Thrusters
 if (speed > 0){
+		
+	thrust_length_multiplier = speed/max_speed
+	thrust_length_multiplier = clamp(thrust_length_multiplier, .15, 1)
+	
+
 	var _exhaust_list = graphic_resource_array[EXHAUST_OFFSETS] 
 	var _exhaust_number = ds_list_size(_exhaust_list)
 	var _reference_exhaust = ds_list_find_value(_exhaust_list, 0)
@@ -26,19 +31,22 @@ if (speed > 0){
 		var _individual_exhaust_array = ds_list_find_value(_exhaust_list, i)
 		var _x = x+ lengthdir_x(_individual_exhaust_array[GRAPHIC_LENGTH_OFFSET],_individual_exhaust_array[GRAPHIC_DIRECTION_OFFSET]+image_angle)
 		var _y = y+ lengthdir_y(_individual_exhaust_array[GRAPHIC_LENGTH_OFFSET],_individual_exhaust_array[GRAPHIC_DIRECTION_OFFSET]+image_angle)
-		var _x_scale = _individual_exhaust_array[SPRITE_IMAGE_SCALE]+_x_scale_adjuster
+		var _x_scale = (_individual_exhaust_array[SPRITE_IMAGE_SCALE]+_x_scale_adjuster) * thrust_length_multiplier
 		var _y_scale = _individual_exhaust_array[SPRITE_IMAGE_SCALE]
 		var _sprite = _individual_exhaust_array[SPRITE_INDEX]
 		draw_sprite_ext(_sprite, _sub_image, _x, _y, _x_scale, _y_scale, image_angle, c_white, 1)
 	}
 } else {
 	thrust_counter = 0
+	max_thrust = 0
 }
 
 //Effects
 if (has_effects){
 	var _effect_list = graphic_resource_array[EFFECT_OFFSETS] 
 	var _effect_number = ds_list_size(_effect_list)
+	
+	
 	
 	
 	for (var i = 0; i < _effect_number; i++){

@@ -4,6 +4,9 @@ card_game_controller = instance_find(o_card_game_controller, 0)
 created = false
 graphic_resource_array = 0
 has_effects = false
+glow_effect = false
+increasing_glow_effect = false
+decreasing_glow_effect = false
 //stats
 max_speed = 0
 acceleration_rate = 0

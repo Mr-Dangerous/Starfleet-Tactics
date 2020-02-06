@@ -52,6 +52,7 @@ repeat(3){
 			var _image_scale = ds_list_find_value(_element_data, 4)
 			_element_offset_array[SPRITE_IMAGE_SCALE] = _image_scale
 			ds_list_add(_list_to_add_to, _element_offset_array)
+			
 		}
 	}
 	j++
