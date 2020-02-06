@@ -9,3 +9,7 @@ acceleration_rate = 0
 turn_speed = 0
 //
 state = ship.manual
+
+//graphic counters
+
+thrust_counter = 0
