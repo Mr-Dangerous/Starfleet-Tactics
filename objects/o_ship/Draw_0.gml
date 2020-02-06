@@ -13,7 +13,7 @@ if (speed > 0){
 	var _exhaust_list = graphic_resource_array[EXHAUST_OFFSETS] 
 	var _exhaust_number = ds_list_size(_exhaust_list)
 	var _reference_exhaust = ds_list_find_value(_exhaust_list, 0)
-	var _exhaust_sprite_size = sprite_get_number(_reference_exhaust[SPRITE_INDEX])
+	var _exhaust_sprite_size = sprite_get_number(_reference_exhaust[ASSET_INDEX])
 	
 	var _image_speed_multiplier = 3 
 	var _sub_image_reset_number = (_image_speed_multiplier * _exhaust_sprite_size)
@@ -33,7 +33,7 @@ if (speed > 0){
 		var _y = y+ lengthdir_y(_individual_exhaust_array[GRAPHIC_LENGTH_OFFSET],_individual_exhaust_array[GRAPHIC_DIRECTION_OFFSET]+image_angle)
 		var _x_scale = (_individual_exhaust_array[SPRITE_IMAGE_SCALE]+_x_scale_adjuster) * thrust_length_multiplier
 		var _y_scale = _individual_exhaust_array[SPRITE_IMAGE_SCALE]
-		var _sprite = _individual_exhaust_array[SPRITE_INDEX]
+		var _sprite = _individual_exhaust_array[ASSET_INDEX]
 		draw_sprite_ext(_sprite, _sub_image, _x, _y, _x_scale, _y_scale, image_angle, c_white, 1)
 	}
 } else {
@@ -41,6 +41,22 @@ if (speed > 0){
 	max_thrust = 0
 }
 
+//adjust effects here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 //Effects
 if (has_effects){
 	var _effect_list = graphic_resource_array[EFFECT_OFFSETS] 
@@ -56,12 +72,13 @@ if (has_effects){
 			var _y = y+ lengthdir_y(_individual_effect_array[GRAPHIC_LENGTH_OFFSET],_individual_effect_array[GRAPHIC_DIRECTION_OFFSET]+image_angle)
 			var _x_scale = _individual_effect_array[SPRITE_IMAGE_SCALE]
 			var _y_scale = _individual_effect_array[SPRITE_IMAGE_SCALE]
-			var _sprite = _individual_effect_array[SPRITE_INDEX]
+			var _sprite = _individual_effect_array[ASSET_INDEX]
 			draw_sprite_ext(_sprite, 0, _x, _y, _x_scale, _y_scale, image_angle, c_white, 1)
 		}
 	}
 	
 }
+*/
 	
 	
 #endregion

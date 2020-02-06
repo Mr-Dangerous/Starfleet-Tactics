@@ -6,9 +6,48 @@ sprite_index = _sprite
 graphic_resource_array = scr_return_origin_offset_array(name)
 
 //check for effects
-if (_ship_map[? "Effect Coordinate 1"] != "null"){
-	has_effects = true
-	//should check to see what kind of effects here
+if (has_effects){
+	var _effect_list = graphic_resource_array[EFFECT_OFFSETS]
+	var _number_of_effects = ds_list_size(_effect_list)
+	for (var i = 0; i < _number_of_effects; i++){
+		var _effect = ds_list_find_value(_effect_list, i)
+		var _effect_depth = _effect[IS_UNDER]
+		var _effect_layer
+		if (_effect_depth = 1){
+			_effect_layer = "Effects_Under"
+		}
+		if (_effect_depth = 0){
+			_effect_layer = "Effects_Over"
+		}
+		var _x= lengthdir_x(_effect[GRAPHIC_LENGTH_OFFSET], image_angle + _effect[GRAPHIC_DIRECTION_OFFSET])
+		var _y= lengthdir_y(_effect[GRAPHIC_LENGTH_OFFSET], image_angle + _effect[GRAPHIC_DIRECTION_OFFSET])
+		var _effect_object = instance_create_layer(_x, _y, _effect_layer, o_ship_effect)
+		paired_effects = _effect_object
+		_effect_object.paired_ship = self
+		_effect_object.graphic_length_offset_from_origin = _effect[GRAPHIC_LENGTH_OFFSET]
+		_effect_object.graphic_direction_offset_from_origin = _effect[GRAPHIC_DIRECTION_OFFSET]
+		_effect_object.image_scale = _effect[SPRITE_IMAGE_SCALE]
+		_effect_object.sprite_index = _effect[ASSET_INDEX]
+		//parse out the effects
+		var _effect_array_size = array_length_1d(_effect)
+		for (var i = SPRITE_IMAGE_SCALE+1; i < _effect_array_size; i+=2){
+			var _effect_to_load = _effect[i]
+			switch(_effect_to_load){
+				case "rotate":
+					_effect_object.rotate = 1
+					_effect_object.rotate_case = _effect[i+1]
+				break;
+				case "glow":
+					_effect_object.glow = 1
+					_effect_object.glow_case = _effect[i+1]
+				break;
+			}
+		}
+		
+	}
+	
+	
+	
 }
 
 
