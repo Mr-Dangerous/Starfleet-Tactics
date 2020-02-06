@@ -30,16 +30,16 @@ if (has_effects){
 		_effect_object.sprite_index = _effect[ASSET_INDEX]
 		//parse out the effects
 		var _effect_array_size = array_length_1d(_effect)
-		for (var i = SPRITE_IMAGE_SCALE+1; i < _effect_array_size; i+=2){
-			var _effect_to_load = _effect[i]
+		for (var j = SPRITE_IMAGE_SCALE+1; j < _effect_array_size; j+=2){
+			var _effect_to_load = _effect[j]
 			switch(_effect_to_load){
 				case "rotate":
 					_effect_object.rotate = 1
-					_effect_object.rotate_case = _effect[i+1]
+					_effect_object.rotate_case = _effect[j+1]
 				break;
 				case "glow":
 					_effect_object.glow = 1
-					_effect_object.glow_case = _effect[i+1]
+					_effect_object.glow_case = _effect[j+1]
 				break;
 			}
 		}

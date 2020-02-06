@@ -6,6 +6,8 @@ x = paired_ship.x + _x_offset
 y = paired_ship.y + _y_offset
 image_angle = paired_ship.image_angle + rotate_effect
 image_alpha = 1 + glow_effect
+image_xscale = image_scale
+image_yscale = image_scale
 
 if (rotate){
 	
@@ -14,7 +16,7 @@ if (rotate){
 	}
 	switch(rotate_case){
 		case 1:
-			rotate_effect += .5
+			rotate_effect += 2
 		break;
 	}
 }
