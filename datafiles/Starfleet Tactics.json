@@ -108,7 +108,7 @@
         42,
         true,
         "s_laser_mixed_012",
-        0.3
+        1
       ],
       "Weapon Coordinate 2": "null",
       "Weapon Coordinate 3": "null",
@@ -129,10 +129,112 @@
         "s_illumFX_2",
         0.55,
         "glow",
-        2,
+        1,
         "rotate",
         2
       ],
+      "Effect Coordinate 3": "null",
+      "Effect Coordinate 4": "null"
+    },
+    {
+      "Name": "Banshee",
+      "Max Speed": 2,
+      "Acceleration Rate": 0.05,
+      "Turn Speed": 1,
+      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Projectile Duration": 100,
+      "Sprite": "s_illum_default_11",
+      "Exhaust Coordinate 1": [
+        17,
+        68,
+        true,
+        "s_normal_double_exhaust",
+        0.75
+      ],
+      "Exhaust Coordinate 2": "null",
+      "Exhaust Coordinate 3": "null",
+      "Exhaust Coordinate 4": "null",
+      "Weapon Coordinate 1": [
+        47,
+        87,
+        true,
+        "s_illum_laser_1",
+        0.1
+      ],
+      "Weapon Coordinate 2": [
+        47,
+        48,
+        true,
+        "s_illum_laser_1",
+        0.1
+      ],
+      "Weapon Coordinate 3": "null",
+      "Weapon Coordinate 4": "null",
+      "Effect Coordinate 1": "null",
+      "Effect Coordinate 2": "null",
+      "Effect Coordinate 3": "null",
+      "Effect Coordinate 4": "null"
+    },
+    {
+      "Name": "Hammerhead",
+      "Max Speed": 1,
+      "Acceleration Rate": 0.01,
+      "Turn Speed": 1,
+      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Projectile Duration": 100,
+      "Sprite": "s_illum_red_02",
+      "Exhaust Coordinate 1": [
+        19,
+        106,
+        true,
+        "s_normal_double_exhaust",
+        1.5
+      ],
+      "Exhaust Coordinate 2": [
+        19,
+        92,
+        true,
+        "s_normal_double_exhaust",
+        1.5
+      ],
+      "Exhaust Coordinate 3": [
+        17,
+        100,
+        true,
+        "s_normal_double_exhaust",
+        1.5
+      ],
+      "Exhaust Coordinate 4": "null",
+      "Weapon Coordinate 1": [
+        138,
+        17,
+        true,
+        "s_illum_laser_1",
+        0.2
+      ],
+      "Weapon Coordinate 2": [
+        194,
+        202,
+        true,
+        "s_illum_laser_1",
+        0.2
+      ],
+      "Weapon Coordinate 3": [
+        144,
+        131,
+        true,
+        "s_illum_laser_1",
+        0.2
+      ],
+      "Weapon Coordinate 4": [
+        144,
+        70,
+        true,
+        "s_illum_laser_1",
+        0.2
+      ],
+      "Effect Coordinate 1": "null",
+      "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
       "Effect Coordinate 4": "null"
     }
