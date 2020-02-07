@@ -23,3 +23,8 @@
 #macro CREATE_SHIP 0
 #macro INJECT_VARIABLES 15
 #endregion
+
+#region networkings
+#macro PROTOCOL_ID 1488
+#macro DEFAULT_PORT 14880
+#endregion

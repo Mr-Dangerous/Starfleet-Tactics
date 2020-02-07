@@ -5,8 +5,6 @@ if(!assert_singleton()){
 }
 
 MAX_PLAYERS = 8
-PROTOCOL_ID = 1488
-DEFAULT_PORT = 14880
 
 
 
