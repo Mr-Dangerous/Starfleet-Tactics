@@ -23,7 +23,7 @@
         48,
         55,
         true,
-        "s_illum_laser_2",
+        "s_illum_laser_1",
         0.1
       ],
       "Weapon Coordinate 2": [
@@ -120,16 +120,18 @@
         "s_nuke_nuke5",
         0.55,
         "rotate",
-        1,
+        1
       ],
       "Effect Coordinate 2": [
         41,
         42,
         true,
-        "s_tech_icon_glow_1",
+        "s_illumFX_2",
         0.55,
         "glow",
-        1
+        2,
+        "rotate",
+        2
       ],
       "Effect Coordinate 3": "null",
       "Effect Coordinate 4": "null"

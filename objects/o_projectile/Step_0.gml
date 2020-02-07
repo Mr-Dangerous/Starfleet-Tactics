@@ -2,8 +2,8 @@
 
 duration--
 
-if (duration < 30){
-	var _image_alpha = duration/30
+if (duration < 10){
+	var _image_alpha = duration/10
 	image_alpha = _image_alpha
 }
 if (duration <= 0){
