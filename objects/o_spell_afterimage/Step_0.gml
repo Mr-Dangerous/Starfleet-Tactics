@@ -6,6 +6,6 @@ if (duration <= 0){
 	instance_destroy()
 }
 if (fade = true){
-	image_alpha = duration/8
+	image_alpha -= .2
 }
 image_alpha = clamp(image_alpha, 0, .6)
