@@ -16,3 +16,16 @@ for (var i =0; i <ds_list_size(ship_list); i++){
 	var _ship_map_key = _ship_map[? "Name"]
 	ds_map_add(global.ship_maps, _ship_map_key, _ship_map)	
 }
+
+//GUI positions
+
+//Left side is info window position
+
+//next in line are the shop buttons - shop refresh and level up
+
+//next in line are the five shop slots, on top of them the economy
+
+//the final window will be a grid of all of the items.  It will need a page function
+
+
+
