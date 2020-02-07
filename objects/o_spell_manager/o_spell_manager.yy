@@ -1,28 +1,38 @@
 {
-    "id": "32cba4ef-27b0-459d-b70e-1e6daa59f2ce",
+    "id": "ada6fa1a-64ee-4a19-bfc6-8a00497f69cb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_projectile",
+    "name": "o_spell_manager",
     "eventList": [
         {
-            "id": "60eaedb2-58e8-438c-a740-f9412b8b6451",
+            "id": "01978ea3-372e-46ca-8482-94b4e9744e02",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "32cba4ef-27b0-459d-b70e-1e6daa59f2ce"
+            "eventtype": 2,
+            "m_owner": "ada6fa1a-64ee-4a19-bfc6-8a00497f69cb"
         },
         {
-            "id": "18dabbee-68e7-4381-bc15-bfd29ea21e43",
+            "id": "bcc829bb-b30b-4433-92c1-53c0484c9fd0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "32cba4ef-27b0-459d-b70e-1e6daa59f2ce"
+            "m_owner": "ada6fa1a-64ee-4a19-bfc6-8a00497f69cb"
+        },
+        {
+            "id": "b3c3fc78-3a01-4575-8599-9fd4ad4000dc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ada6fa1a-64ee-4a19-bfc6-8a00497f69cb"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,22 +51,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "7b930e24-7c43-498d-a875-185ad41f7331",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "duration",
-            "varType": 0
-        }
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

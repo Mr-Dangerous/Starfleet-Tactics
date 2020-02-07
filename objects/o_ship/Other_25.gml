@@ -58,5 +58,11 @@ turn_speed = _ship_map[? "Turn Speed"]
 basic_attack_projectile_duration = _ship_map[? "Basic Attack Projectile Duration"]
 basic_attack_projectile_speed = _ship_map[? "Basic Attack Projectile Speed"]
 
+spell_script_string = _ship_map[? "Spell Timeline Script"]
+if (spell_script_string != "null"){
+	
+	spell_timeline_script = asset_get_index(spell_script_string)
+	
+}
 
 created = true

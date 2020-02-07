@@ -16,5 +16,18 @@ for (var i = 0; i < ds_list_size(_weapon_list); i++){
 		//var _convergence_angle = scr_calculate_convergence_angle(_x_offset, _y_offset, _weapon_range)
 		_projectile.image_angle = image_angle//+_convergence_angle
 		_projectile.direction = _projectile.image_angle
+		if (weapon_effects){
+			var _number_of_effects = array_length_1d(_weapon)
+			for (var k = SPRITE_IMAGE_SCALE+1; k < _number_of_effects; k+=2){
+				var _effect_type = _weapon[k]
+				switch(_effect_type){
+					case "rotate":
+						_projectile.rotate = true
+						_projectile.rotate_case = _weapon[k+1]
+					break;
+				}
+				
+			}
+		}
 	}	
 }

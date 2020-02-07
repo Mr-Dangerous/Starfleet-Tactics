@@ -1,5 +1,22 @@
 /// @description Insert description here
 
+//effects
+if(rotate){
+	switch(rotate_case){
+		case 1:
+		image_angle +=15
+		break;
+		
+		case 2:
+		image_angle -=15
+		break;
+	}
+}
+
+
+
+
+
 duration--
 
 if (duration < 10){
@@ -9,3 +26,6 @@ if (duration < 10){
 if (duration <= 0){
 	instance_destroy()
 }
+
+
+

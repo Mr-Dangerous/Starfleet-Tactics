@@ -1,28 +1,28 @@
 {
-    "id": "32cba4ef-27b0-459d-b70e-1e6daa59f2ce",
+    "id": "ce551dd3-3c7f-40e0-a4fb-5ac1cf705fe2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_projectile",
+    "name": "o_spell_projectile",
     "eventList": [
         {
-            "id": "60eaedb2-58e8-438c-a740-f9412b8b6451",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "32cba4ef-27b0-459d-b70e-1e6daa59f2ce"
-        },
-        {
-            "id": "18dabbee-68e7-4381-bc15-bfd29ea21e43",
+            "id": "9ffbc66d-7341-4127-8062-63ad0abf3591",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "32cba4ef-27b0-459d-b70e-1e6daa59f2ce"
+            "m_owner": "ce551dd3-3c7f-40e0-a4fb-5ac1cf705fe2"
+        },
+        {
+            "id": "d1c988aa-c0d5-4a63-bc35-9a86213c20c6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ce551dd3-3c7f-40e0-a4fb-5ac1cf705fe2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,22 +41,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "7b930e24-7c43-498d-a875-185ad41f7331",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "duration",
-            "varType": 0
-        }
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true

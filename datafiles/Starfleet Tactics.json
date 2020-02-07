@@ -8,6 +8,7 @@
       "Turn Speed": 2,
       "Basic Attack Projectile Speed": 7,
       "Basic Attack Projectile Duration": 100,
+      "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_10",
       "Exhaust Coordinate 1": [
         30,
@@ -47,6 +48,7 @@
       "Turn Speed": 1,
       "Basic Attack Projectile Speed": 7,
       "Basic Attack Projectile Duration": 100,
+      "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_12",
       "Exhaust Coordinate 1": [
         3,
@@ -86,6 +88,7 @@
       "Turn Speed": 1,
       "Basic Attack Projectile Speed": 7,
       "Basic Attack Projectile Duration": 100,
+      "Spell Timeline Script": "null",
       "Sprite": "s_tox_dark_blue_03",
       "Exhaust Coordinate 1": [
         46,
@@ -143,6 +146,7 @@
       "Turn Speed": 1,
       "Basic Attack Projectile Speed": 7,
       "Basic Attack Projectile Duration": 100,
+      "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_11",
       "Exhaust Coordinate 1": [
         17,
@@ -182,6 +186,7 @@
       "Turn Speed": 1,
       "Basic Attack Projectile Speed": 7,
       "Basic Attack Projectile Duration": 100,
+      "Spell Timeline Script": "null",
       "Sprite": "s_illum_red_02",
       "Exhaust Coordinate 1": [
         19,
@@ -213,8 +218,8 @@
         0.2
       ],
       "Weapon Coordinate 2": [
-        194,
-        202,
+        138,
+        184,
         true,
         "s_illum_laser_1",
         0.2
@@ -233,6 +238,56 @@
         "s_illum_laser_1",
         0.2
       ],
+      "Effect Coordinate 1": "null",
+      "Effect Coordinate 2": "null",
+      "Effect Coordinate 3": "null",
+      "Effect Coordinate 4": "null"
+    },
+    {
+      "Name": "Chiron",
+      "Max Speed": 2,
+      "Acceleration Rate": 0.05,
+      "Turn Speed": 2,
+      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Projectile Duration": 100,
+      "Spell Timeline Script": "tl_ghost_blade_spell",
+      "Sprite": "s_illum_army_03",
+      "Exhaust Coordinate 1": [
+        40,
+        44,
+        true,
+        "s_silver_single_exhaust",
+        0.75
+      ],
+      "Exhaust Coordinate 2": [
+        40,
+        84,
+        true,
+        "s_silver_single_exhaust",
+        0.75
+      ],
+      "Exhaust Coordinate 3": "null",
+      "Exhaust Coordinate 4": "null",
+      "Weapon Coordinate 1": [
+        58,
+        90,
+        true,
+        "s_laser_heavy_22",
+        0.4,
+        "rotate",
+        2
+      ],
+      "Weapon Coordinate 2": [
+        58,
+        38,
+        true,
+        "s_laser_heavy_22",
+        0.4,
+        "rotate",
+        1
+      ],
+      "Weapon Coordinate 3": "null",
+      "Weapon Coordinate 4": "null",
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",

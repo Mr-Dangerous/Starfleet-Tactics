@@ -4,6 +4,7 @@ card_game_controller = instance_find(o_card_game_controller, 0)
 created = false
 graphic_resource_array = 0
 has_effects = false
+weapon_effects = false
 glow_effect = false
 increasing_glow_effect = false
 decreasing_glow_effect = false
@@ -14,6 +15,8 @@ acceleration_rate = 0
 turn_speed = 0
 basic_attack_projectile_speed = 5
 basic_attack_projectile_duration = 50
+spell_timeline_script = -1
+speed_unlocked = false
 //
 state = ship.manual
 

@@ -1599,6 +1599,14 @@
             }
         },
         {
+            "Key": "33a4d7ed-51f6-47cd-acae-e787d69ee67e",
+            "Value": {
+                "id": "fef66c67-5f6d-4ec4-8dde-7f8279e8ae61",
+                "resourcePath": "objects\\o_spell_afterimage\\o_spell_afterimage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33a7d092-236f-41d2-b240-7515b8944488",
             "Value": {
                 "id": "f04abae9-bf20-4132-8383-e975342c234a",
@@ -1932,6 +1940,14 @@
                 "id": "42002ce1-5e33-4a7c-9615-0bd536af8137",
                 "resourcePath": "sprites\\s_cross_hair4\\s_cross_hair4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3fc32f62-964b-4207-8f7f-2f684cfdd13c",
+            "Value": {
+                "id": "b141dd36-2150-41f7-8829-e6599e4643f9",
+                "resourcePath": "scripts\\scr_cast_spell\\scr_cast_spell.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3596,6 +3612,14 @@
                 "id": "bcf9429a-ad5b-4d1c-8068-a439fa9309fa",
                 "resourcePath": "sprites\\s_laser_mixed_011\\s_laser_mixed_011.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7372b69c-ca72-4a7a-a689-8bfb96f9a749",
+            "Value": {
+                "id": "1fd7716c-5080-4838-b7cd-9b0279132278",
+                "resourcePath": "timelines\\tl_ghost_blade_spell\\tl_ghost_blade_spell.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -5343,6 +5367,14 @@
             }
         },
         {
+            "Key": "ada6fa1a-64ee-4a19-bfc6-8a00497f69cb",
+            "Value": {
+                "id": "b56c7037-a3da-4e41-9eb1-5680bc9908c3",
+                "resourcePath": "objects\\o_spell_manager\\o_spell_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "adb37464-447d-4f5d-9fbd-71c7de21d962",
             "Value": {
                 "id": "43e16df2-4147-493f-80b2-950a72f7be57",
@@ -6396,6 +6428,14 @@
                 "id": "a6143f71-24cb-4025-9d76-3c9d0a286a72",
                 "resourcePath": "sprites\\s_illum_green_01\\s_illum_green_01.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ce551dd3-3c7f-40e0-a4fb-5ac1cf705fe2",
+            "Value": {
+                "id": "84d9cdac-6eab-4b22-940f-a72d3d547ba1",
+                "resourcePath": "objects\\o_spell_projectile\\o_spell_projectile.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7959,7 +7999,8 @@
         "ad92d492-1ba2-4f41-8188-ba394a434c36",
         "91eff895-5395-40fa-8c29-514bafb072ff",
         "1e0db19f-5a68-4a87-abd2-d2b4655f3e4b",
-        "0c01de9b-6b06-44bc-95ed-de8adc41924e"
+        "0c01de9b-6b06-44bc-95ed-de8adc41924e",
+        "3fc32f62-964b-4207-8f7f-2f684cfdd13c"
     ],
     "tutorial": ""
 }

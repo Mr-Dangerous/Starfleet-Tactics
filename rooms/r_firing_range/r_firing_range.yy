@@ -13,7 +13,8 @@
         "4468356c-03be-4c0a-b8f6-1d5877f59170",
         "aa59d20e-cf76-4500-9128-55f2a55689a9",
         "d69c1650-59f2-4560-a431-3f43c71cf50f",
-        "47be3db8-f9bd-4a01-a373-9aa263b69bba"
+        "47be3db8-f9bd-4a01-a373-9aa263b69bba",
+        "969f23da-0a06-4548-94c9-449eebbfa429"
     ],
     "IsDnD": false,
     "layers": [
@@ -31,7 +32,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_25F9E80D","id": "969f23da-0a06-4548-94c9-449eebbfa429","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_25F9E80D","objId": "832ef3f4-9e9b-42b5-8aa5-e5a17a0c7a89","properties": [{"id": "f15d7a2f-beb4-41cd-aef4-dd5d68b72b5f","modelName": "GMOverriddenProperty","objectId": "832ef3f4-9e9b-42b5-8aa5-e5a17a0c7a89","propertyId": "f8dcd964-ff9a-417b-b8cc-264ce63a3079","mvc": "1.0","value": "Chiron"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 256,"y": 192}
             ],
             "layers": [
 

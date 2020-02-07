@@ -65,6 +65,20 @@ repeat(3){
 					}
 				}	
 			}
+			if (_accessor_string = "Weapon Coordinate " and _element_data != "null"){
+				weapon_effects = true
+				var _element_data_size = ds_list_size(_element_data)
+				//USING SPRITE IMAGE SCALE BECAUSE ITS THE LAST ONE IN THE ARRAY
+				if (_element_data_size > SPRITE_IMAGE_SCALE){
+					for (var k = 0; k < _element_data_size - (SPRITE_IMAGE_SCALE+2); k+=2){
+						var _effect_type = ds_list_find_value(_element_data, SPRITE_IMAGE_SCALE+k+1)
+						_element_offset_array[SPRITE_IMAGE_SCALE + k + 1] = _effect_type
+						var _effect_case = ds_list_find_value(_element_data, SPRITE_IMAGE_SCALE + k + 2)
+						_element_offset_array[SPRITE_IMAGE_SCALE + k + 2] = _effect_case
+				
+					}
+				}	
+			}
 		ds_list_add(_list_to_add_to, _element_offset_array)
 		}
 	}
