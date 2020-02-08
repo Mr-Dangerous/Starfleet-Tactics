@@ -1,8 +1,8 @@
 {
-    "id": "b9c41e6b-6c4f-4da1-90d2-a4d98239f362",
+    "id": "f5b656d2-e0e3-4eb7-8346-308666981033",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_on_button_join_click1",
+    "name": "scr_console_add_message",
     "IsCompatibility": false,
     "IsDnD": false
 }
