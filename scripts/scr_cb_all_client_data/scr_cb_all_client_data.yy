@@ -1,8 +1,8 @@
 {
-    "id": "5a48e9f5-448b-4743-beab-6c664edf8d44",
+    "id": "bc099491-fd94-4fee-8708-3c186fa77763",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "__enums",
+    "name": "scr_cb_all_client_data",
     "IsCompatibility": false,
     "IsDnD": false
 }

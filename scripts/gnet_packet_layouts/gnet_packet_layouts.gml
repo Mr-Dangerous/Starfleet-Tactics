@@ -16,3 +16,15 @@
 	enum PacketId { pos_update = 0, death_notification }
 	gnet_packet_layout_create(PacketId.death_notification, buffer_u8);
 */
+enum game_packet_type{
+	//Packet that is received by all clients when a new client is connected
+	new_client_connect_notification, 
+	//every piece of data you need to know about each connected client.
+	all_client_data,
+	client_disconnect_notification
+	
+	
+}
+gnet_packet_layout_create(game_packet_type.new_client_connect_notification, scr_cb_new_client_connect_notification, buffer_u8, buffer_string);
+gnet_packet_layout_create(game_packet_type.all_client_data, scr_cb_all_client_data, GNET_ARRAY_COUNT, [buffer_u8, buffer_string])
+gnet_packet_layout_create(game_packet_type.client_disconnect_notification, scr_cb_client_disconnect_notification, buffer_u8)

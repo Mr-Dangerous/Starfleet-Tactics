@@ -1,8 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-with(o_client){
-	instance_destroy()	
-}
-
-instance_destroy(m_game_console)
-
+scr_console_add_message("Client has been destroyed " + string(m_client_id))

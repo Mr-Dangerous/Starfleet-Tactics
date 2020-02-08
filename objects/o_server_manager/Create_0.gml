@@ -3,6 +3,7 @@
 if(!assert_singleton()){
 	return
 }
+global.isServer = true
 
 m_game_console = instance_create_depth(-50, -50, -100, o_console)
 

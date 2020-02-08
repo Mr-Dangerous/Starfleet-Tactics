@@ -3,13 +3,15 @@
 if(!assert_singleton()){
 	return
 }
+global.isServer = false
 m_game_console = instance_create_depth(-50, -50, -100, o_console)
+local_client = noone
 MAX_PLAYERS = 1
 
 
 
 
-var _result = gnet_start_network(MAX_PLAYERS, PROTOCOL_ID, -1, "Player" )
+var _result = gnet_start_network(MAX_PLAYERS, PROTOCOL_ID, -1, get_string("Enter a username", "Starfleet Player") )
 
 if(!_result){
 	show_debug_message("the provided port may not be open.  Coudl not intitalize network")

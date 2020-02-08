@@ -8,7 +8,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "b2e45b0b-2553-4131-a6c4-c42ed7cda069",
-        "51f79273-cd05-4a1c-a117-e68ea19b9432"
+        "51f79273-cd05-4a1c-a117-e68ea19b9432",
+        "f045e977-344d-423c-8f85-0bea89e8ea20"
     ],
     "IsDnD": false,
     "layers": [
@@ -26,8 +27,9 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "HostButton","id": "b2e45b0b-2553-4131-a6c4-c42ed7cda069","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "HostButton","objId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","properties": [{"id": "61a3f5f3-4c53-4bd5-ba2c-b942e4042c5b","modelName": "GMOverriddenProperty","objectId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","propertyId": "b830708e-c010-4fb6-a2a1-778331081b6f","mvc": "1.0","value": "Host"},{"id": "20ac4d01-cc42-438c-978c-df6103d20d74","modelName": "GMOverriddenProperty","objectId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","propertyId": "1549bf98-651a-4b5e-939b-3e2fbe440f36","mvc": "1.0","value": "scr_on_button_host_click"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 480,"y": 256},
-{"name": "JoinButton","id": "51f79273-cd05-4a1c-a117-e68ea19b9432","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "JoinButton","objId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","properties": [{"id": "82f65868-2b8f-470f-9e38-440d7eceb3a7","modelName": "GMOverriddenProperty","objectId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","propertyId": "b830708e-c010-4fb6-a2a1-778331081b6f","mvc": "1.0","value": "Join"},{"id": "50c3a539-fdb6-4762-a5d6-efb51fe74171","modelName": "GMOverriddenProperty","objectId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","propertyId": "1549bf98-651a-4b5e-939b-3e2fbe440f36","mvc": "1.0","value": "scr_on_button_join_click"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 480,"y": 480}
+{"name": "HostButton","id": "b2e45b0b-2553-4131-a6c4-c42ed7cda069","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "HostButton","objId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","properties": [{"id": "61a3f5f3-4c53-4bd5-ba2c-b942e4042c5b","modelName": "GMOverriddenProperty","objectId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","propertyId": "b830708e-c010-4fb6-a2a1-778331081b6f","mvc": "1.0","value": "Host"},{"id": "20ac4d01-cc42-438c-978c-df6103d20d74","modelName": "GMOverriddenProperty","objectId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","propertyId": "1549bf98-651a-4b5e-939b-3e2fbe440f36","mvc": "1.0","value": "scr_on_button_host_click"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 960,"y": 448},
+{"name": "JoinButton","id": "51f79273-cd05-4a1c-a117-e68ea19b9432","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "JoinButton","objId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","properties": [{"id": "82f65868-2b8f-470f-9e38-440d7eceb3a7","modelName": "GMOverriddenProperty","objectId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","propertyId": "b830708e-c010-4fb6-a2a1-778331081b6f","mvc": "1.0","value": "Join"},{"id": "50c3a539-fdb6-4762-a5d6-efb51fe74171","modelName": "GMOverriddenProperty","objectId": "22dbe17a-71fa-41fa-98d1-bd6945b0ff43","propertyId": "1549bf98-651a-4b5e-939b-3e2fbe440f36","mvc": "1.0","value": "scr_on_button_join_click"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 960,"y": 672},
+{"name": "inst_2D739F37","id": "f045e977-344d-423c-8f85-0bea89e8ea20","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2D739F37","objId": "6052fb1f-8a08-4896-aece-c8de8710a626","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 32,"y": 64}
             ],
             "layers": [
 
@@ -89,12 +91,12 @@
     },
     "roomSettings":     {
         "id": "91eee899-2f19-4880-8113-31632b97f591",
-        "Height": 900,
+        "Height": 1080,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1600
+        "Width": 1920
     },
     "mvc": "1.0",
     "views": [
