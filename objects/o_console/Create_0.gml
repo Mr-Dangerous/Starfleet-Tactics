@@ -4,6 +4,6 @@ if(!assert_singleton()){
 	return
 }
 
-MAX_MESSAGES = 6
+MAX_MESSAGES = 16
 
 m_message_list = ds_list_create()
