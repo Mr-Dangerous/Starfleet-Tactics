@@ -10,7 +10,7 @@
         "b983f4c7-e413-4515-8f29-88918c308aa2"
     ],
     "filterType": "GMObject",
-    "folderName": "Game",
+    "folderName": "Game Netowrking",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
