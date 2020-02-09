@@ -21,13 +21,28 @@ switch(state){
 	//add motion
 	var _motion_to_add = 0
 	var _direction_change = 0
-	if (_thrust or _reverse_thrust){
+	if (_thrust){
 		if(_speed_unlocked){
 			_motion_to_add = 5
 			
 		} else {
-			_motion_to_add = (_thrust-_reverse_thrust)*acceleration_rate
+			_motion_to_add = (_thrust)*acceleration_rate
 		}
+	} else {
+		speed -= acceleration_rate/2
+		if (speed < 0){
+			speed = 0
+		}
+	}
+	
+	if (_reverse_thrust){
+		if (speed > 0){
+		speed -= acceleration_rate*2
+		}
+		if (speed < 0){
+			speed = 0
+		}
+		
 	}
 	if (_left_turn or _right_turn){
 		_direction_change = (_left_turn - _right_turn)*turn_speed
