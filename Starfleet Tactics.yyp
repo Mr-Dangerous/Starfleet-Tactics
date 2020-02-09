@@ -1607,6 +1607,14 @@
             }
         },
         {
+            "Key": "2fae7b20-8178-48f1-b590-2cea42ff53dd",
+            "Value": {
+                "id": "2d58df32-8c9d-4a58-bcb0-39d409051ae3",
+                "resourcePath": "scripts\\scr_cb_create_ship_firing_range\\scr_cb_create_ship_firing_range.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2fe09b3c-283f-4638-80b4-907ce41c6d52",
             "Value": {
                 "id": "128c4535-464b-404e-b744-e3a3f9b4ba54",
@@ -8917,7 +8925,8 @@
         "9d4fcec1-7341-461c-aadf-4b2c7152b5c8",
         "bc099491-fd94-4fee-8708-3c186fa77763",
         "c6873863-24cc-4bda-abab-816cab167eee",
-        "8d1bc278-f759-4c17-849e-63da028095a3"
+        "8d1bc278-f759-4c17-849e-63da028095a3",
+        "2fae7b20-8178-48f1-b590-2cea42ff53dd"
     ],
     "tutorial": ""
 }
