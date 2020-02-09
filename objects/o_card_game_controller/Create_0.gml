@@ -17,6 +17,8 @@ for (var i =0; i <ds_list_size(ship_list); i++){
 	ds_map_add(global.ship_maps, _ship_map_key, _ship_map)	
 }
 
+
+
 //GUI positions
 
 //Left side is info window position

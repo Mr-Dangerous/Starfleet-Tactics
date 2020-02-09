@@ -57,3 +57,61 @@ switch(state){
 	
 	
 }
+
+
+
+
+//Drawing here, assembled into a list
+
+#region pre draw_self() - universal graphics that appear under the ship
+	
+//Thrusters
+if (speed > 0){
+		
+	thrust_length_multiplier = speed/max_speed
+	thrust_length_multiplier = clamp(thrust_length_multiplier, .15, 1)
+	
+
+	var _exhaust_list = graphic_resource_array[EXHAUST_OFFSETS] 
+	var _exhaust_number = ds_list_size(_exhaust_list)
+	var _reference_exhaust = ds_list_find_value(_exhaust_list, 0)
+	var _exhaust_sprite_size = sprite_get_number(_reference_exhaust[ASSET_INDEX])
+	
+	var _image_speed_multiplier = 3 
+	var _sub_image_reset_number = (_image_speed_multiplier * _exhaust_sprite_size)
+	thrust_counter++
+	if (thrust_counter > _sub_image_reset_number){
+		thrust_counter = 0
+	}
+	var _sub_image = floor(thrust_counter/_image_speed_multiplier)
+	var _x_scale_multiplier = floor(thrust_counter%8)/2
+	if (_x_scale_multiplier = 3) _x_scale_multiplier = 1
+	var _x_scale_adjuster = .1*(_x_scale_multiplier)
+	
+		
+	for (var i = 0; i < _exhaust_number; i++){
+		var _individual_exhaust_array = ds_list_find_value(_exhaust_list, i)
+		var _x = x+ lengthdir_x(_individual_exhaust_array[GRAPHIC_LENGTH_OFFSET],_individual_exhaust_array[GRAPHIC_DIRECTION_OFFSET]+image_angle)
+		var _y = y+ lengthdir_y(_individual_exhaust_array[GRAPHIC_LENGTH_OFFSET],_individual_exhaust_array[GRAPHIC_DIRECTION_OFFSET]+image_angle)
+		var _x_scale = (_individual_exhaust_array[SPRITE_IMAGE_SCALE]+_x_scale_adjuster) * thrust_length_multiplier
+		var _y_scale = _individual_exhaust_array[SPRITE_IMAGE_SCALE]
+		var _sprite = _individual_exhaust_array[ASSET_INDEX]
+		var _sprite_array = [_sprite, _sub_image, _x, _y, _x_scale, _y_scale, image_angle, c_white, 1]
+		ds_list_add(extra_sprite_list, _sprite_array)
+		
+	}
+} else {
+	thrust_counter = 0
+	max_thrust = 0
+}
+//finally, add int eh default sprite.
+var _networking_sprite_array = [sprite_index, 0, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha]
+ds_list_add(sprite_list, _networking_sprite_array)
+
+for (var i = 0; i < ds_list_size(extra_sprite_list); i++){
+	var _sprite = extra_sprite_list[| i]
+	ds_list_add(sprite_list, _sprite)
+}
+
+	
+#endregion

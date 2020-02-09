@@ -19,3 +19,5 @@ if(!_result){
 } else {
 	room_goto(r_firing_range)
 }
+
+sprite_list = ds_list_create()

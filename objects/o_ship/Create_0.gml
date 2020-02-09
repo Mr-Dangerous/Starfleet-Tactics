@@ -9,6 +9,9 @@ glow_effect = false
 increasing_glow_effect = false
 decreasing_glow_effect = false
 paired_effects = ds_list_create()
+server_manager = instance_find(o_server_manager, 0)
+sprite_list = server_manager.sprite_list
+extra_sprite_list = ds_list_create()
 //stats
 max_speed = 0
 acceleration_rate = 0

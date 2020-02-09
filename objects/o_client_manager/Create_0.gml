@@ -27,3 +27,5 @@ _result = gnet_connect("127.0.0.1", DEFAULT_PORT)//local network
 if (_result[0] == null){
 	show_debug_message(_result[1]);
 }
+
+sprites_to_represent = ds_list_create()
