@@ -5,6 +5,8 @@ var _sprite = asset_get_index(_ship_map[? "Sprite"])
 sprite_index = _sprite
 graphic_resource_array = scr_return_origin_offset_array(name)
 
+
+
 //check for effects
 if (has_effects){
 	var _effect_list = graphic_resource_array[EFFECT_OFFSETS]
@@ -54,9 +56,11 @@ if (has_effects){
 max_speed = _ship_map[? "Max Speed"]
 acceleration_rate = _ship_map[? "Acceleration Rate"]
 turn_speed = _ship_map[? "Turn Speed"]
+armor = _ship_map[? "Armor"]
 
 basic_attack_projectile_duration = _ship_map[? "Basic Attack Projectile Duration"]
 basic_attack_projectile_speed = _ship_map[? "Basic Attack Projectile Speed"]
+basic_attack_damage = _ship_map[? "Basic Attack Damage"]
 
 spell_script_string = _ship_map[? "Spell Timeline Script"]
 if (spell_script_string != "null"){

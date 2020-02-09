@@ -30,4 +30,5 @@ enum game_packet_type{
 gnet_packet_layout_create(game_packet_type.new_client_connect_notification, scr_cb_new_client_connect_notification, buffer_u8, buffer_string);
 gnet_packet_layout_create(game_packet_type.all_client_data, scr_cb_all_client_data, GNET_ARRAY_COUNT, [buffer_u8, buffer_string])
 gnet_packet_layout_create(game_packet_type.client_disconnect_notification, scr_cb_client_disconnect_notification, buffer_u8)
-gnet_packet_layout_create(game_packet_type.send_sprite_data, scr_cb_send_sprite_data, buffer_u16, buffer_u8, buffer_s16 , buffer_s16, buffer_u8, buffer_u8, buffer_s16, buffer_string, buffer_u8) 
+gnet_packet_layout_create(game_packet_type.send_sprite_data, scr_cb_send_sprite_data, GNET_ARRAY_COUNT, [buffer_u16, buffer_u8, buffer_s32 , buffer_s32, buffer_f16, buffer_f16, buffer_s16, buffer_u32, buffer_f16]) 
+																																										

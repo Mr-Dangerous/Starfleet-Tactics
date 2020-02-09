@@ -3711,14 +3711,6 @@
             }
         },
         {
-            "Key": "6bfdb61e-9792-46b0-a040-78481d58166e",
-            "Value": {
-                "id": "269bed70-7f1e-47e1-a6ee-2296e41f188e",
-                "resourcePath": "objects\\o_effect_glow\\o_effect_glow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6c3d27f9-12f2-4a0d-bab6-d7815d0f756f",
             "Value": {
                 "id": "f0bc51e4-4fde-42f3-8d1d-200c5c35976b",

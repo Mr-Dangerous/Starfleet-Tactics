@@ -25,6 +25,6 @@
 #endregion
 
 #region networkings
-#macro PROTOCOL_ID 1488
-#macro DEFAULT_PORT 14880
+#macro PROTOCOL_ID 1337
+#macro DEFAULT_PORT 13370
 #endregion

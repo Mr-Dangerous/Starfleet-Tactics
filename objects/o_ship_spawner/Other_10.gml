@@ -5,6 +5,10 @@ if (ship_to_spawn != ""){
 	//load the ship up!
 	with(_deployed_ship){
 		name = other.ship_to_spawn
+		owner = other.owner
 		event_user(INJECT_VARIABLES)
+		
 	}
+
 }
+owner = -1

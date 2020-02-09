@@ -16,7 +16,8 @@ for (var i = 0; i < array_length_1d(_all_client_data); i++){
 			m_username = _current_client_username
 			scr_console_add_message(string_build("{} has connected with connection id {}", m_username, m_client_id ))
 			if (i = 0){
-				o_client_manager.local_client = id
+				client_manager = instance_find(o_client_manager, 0)
+				client_manager.local_client = id
 				scr_console_add_message("My Client id is added at: " + string(m_client_id))
 			}
 		}

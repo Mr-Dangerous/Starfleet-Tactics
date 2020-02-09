@@ -1,5 +1,7 @@
 /// @description 
-
+if (armor <= 0){
+	instance_destroy()
+}
 switch(state){
 	
 	
@@ -96,8 +98,12 @@ if (speed > 0){
 		var _x_scale = (_individual_exhaust_array[SPRITE_IMAGE_SCALE]+_x_scale_adjuster) * thrust_length_multiplier
 		var _y_scale = _individual_exhaust_array[SPRITE_IMAGE_SCALE]
 		var _sprite = _individual_exhaust_array[ASSET_INDEX]
+		if (image_number = 1){
+			_sub_image = 0
+		}
 		var _sprite_array = [_sprite, _sub_image, _x, _y, _x_scale, _y_scale, image_angle, c_white, 1]
 		ds_list_add(extra_sprite_list, _sprite_array)
+		scr_console_add_message("extra sprite added!")
 		
 	}
 } else {
@@ -109,8 +115,9 @@ var _networking_sprite_array = [sprite_index, 0, x, y, image_xscale, image_yscal
 ds_list_add(sprite_list, _networking_sprite_array)
 
 for (var i = 0; i < ds_list_size(extra_sprite_list); i++){
-	var _sprite = extra_sprite_list[| i]
+	var _sprite = ds_list_find_value(extra_sprite_list, i)
 	ds_list_add(sprite_list, _sprite)
+	
 }
 
 	

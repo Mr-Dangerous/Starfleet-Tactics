@@ -16,3 +16,6 @@ if(after_image = true){
 		_afterimage.sprite_index = sprite_index
 	}
 }
+
+var _networking_sprite_array = [sprite_index, 0, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha]
+ds_list_add(sprite_list, _networking_sprite_array)

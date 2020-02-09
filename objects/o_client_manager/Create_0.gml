@@ -10,7 +10,7 @@ MAX_PLAYERS = 1
 
 
 
-
+var _ip_address = get_string("Enter an IP address (hit ok for local network).  Append :13370 to the end for port", "127.0.0.1") 
 var _result = gnet_start_network(MAX_PLAYERS, PROTOCOL_ID, -1, get_string("Enter a username", "Starfleet Player") )
 
 if(!_result){
@@ -18,11 +18,11 @@ if(!_result){
 	instance_destroy()
 	return;
 } else {
-	var _port_string = string_build("My Communincatin Port: {}", global.gnet_myPort);
+	var _port_string = string_build("My Communincation Port: {}", global.gnet_myPort);
 	show_debug_message(_port_string);
 }
 
-_result = gnet_connect("127.0.0.1", DEFAULT_PORT)//local network
+_result = gnet_connect(_ip_address, DEFAULT_PORT)//local network
 
 if (_result[0] == null){
 	show_debug_message(_result[1]);

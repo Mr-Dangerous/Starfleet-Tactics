@@ -2,3 +2,9 @@
 // You can write your code in this editor
 rotate = false
 rotate_case = 0
+
+server_manager = instance_find(o_server_manager, 0)
+sprite_list = server_manager.sprite_list
+
+damage = 1
+owner = -1
