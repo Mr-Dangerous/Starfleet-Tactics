@@ -9,7 +9,9 @@
         "c6873863-24cc-4bda-abab-816cab167eee",
         "8d1bc278-f759-4c17-849e-63da028095a3",
         "2fae7b20-8178-48f1-b590-2cea42ff53dd",
-        "57364720-db23-412a-9086-07b617de3f58"
+        "57364720-db23-412a-9086-07b617de3f58",
+        "f15bdc4e-3206-44a2-8318-78d05f8e1d61",
+        "e46bc0de-4060-4b29-9d35-693caafae294"
     ],
     "filterType": "GMScript",
     "folderName": "My Callbacks",

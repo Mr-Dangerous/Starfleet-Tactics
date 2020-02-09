@@ -10,12 +10,12 @@ switch(state){
 	
 	case ship.manual: // For debugging and checking graphics
 	
-	var _thrust =keyboard_check(ord("W"))
-	var _reverse_thrust = keyboard_check(ord("S"))
-	var _left_turn = keyboard_check(ord("A"))
-	var _right_turn = keyboard_check(ord("D"))
-	var _fire_weapons = keyboard_check_pressed(ord("Q"))
-	var _use_ability = keyboard_check_pressed(ord("E"))
+	var _thrust = client.w_pressed
+	var _reverse_thrust = client.s_pressed
+	var _left_turn = client.a_pressed
+	var _right_turn = client.d_pressed
+	var _fire_weapons = client.q_pressed
+	var _use_ability = client.e_pressed
 	var _speed_unlocked = keyboard_check(vk_lshift)
 
 	//add motion

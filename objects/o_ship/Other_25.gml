@@ -4,6 +4,8 @@ var _ship_map = global.ship_maps[? name]
 var _sprite = asset_get_index(_ship_map[? "Sprite"])
 sprite_index = _sprite
 graphic_resource_array = scr_return_origin_offset_array(name)
+client = scr_get_client_by_id(owner)
+
 
 
 
@@ -68,5 +70,6 @@ if (spell_script_string != "null"){
 	spell_timeline_script = asset_get_index(spell_script_string)
 	
 }
+
 
 created = true

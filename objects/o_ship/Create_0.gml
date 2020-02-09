@@ -11,6 +11,10 @@ decreasing_glow_effect = false
 paired_effects = ds_list_create()
 server_manager = instance_find(o_server_manager, 0)
 client_manager = instance_find(o_client_manager, 0)
+client = -1
+
+//keypresses
+
 
 sprite_list = server_manager.sprite_list
 extra_sprite_list = ds_list_create()
