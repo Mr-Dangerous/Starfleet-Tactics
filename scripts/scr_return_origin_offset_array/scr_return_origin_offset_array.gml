@@ -9,6 +9,7 @@ var _effects_offsets = ds_list_create()
 var _origin_sprite = asset_get_index(_ship_map[? "Sprite"])
 var _x_origin = sprite_get_xoffset(_origin_sprite)
 var _y_origin = sprite_get_yoffset(_origin_sprite)
+var _major_image_scale = _ship_map[? "Image Scale"]
 
 var j = 0
 
@@ -42,14 +43,14 @@ repeat(3){
 			var _relative_element_position_x = _element_position_1_x-_x_origin
 			var _relative_element_position_y = _element_position_1_y-_y_origin
 		
-			var _length = point_distance(0, 0, _relative_element_position_x, _relative_element_position_y)
+			var _length = point_distance(0, 0, _relative_element_position_x, _relative_element_position_y)*_major_image_scale //needed this var because I'm a dummy
 			var _p_dir =  point_direction(0, 0, _relative_element_position_x, _relative_element_position_y)
 			_element_offset_array[GRAPHIC_DIRECTION_OFFSET] = _p_dir
 			_element_offset_array[GRAPHIC_LENGTH_OFFSET] = _length
 			_element_offset_array[IS_UNDER] = ds_list_find_value(_element_data, 2)
 			var _sprite = asset_get_index(ds_list_find_value(_element_data, 3))
 			_element_offset_array[ASSET_INDEX] = _sprite
-			var _image_scale = ds_list_find_value(_element_data, 4)
+			var _image_scale = ds_list_find_value(_element_data, 4)*_major_image_scale
 			_element_offset_array[SPRITE_IMAGE_SCALE] = _image_scale	
 			if (_accessor_string = "Effect Coordinate " and _element_data != "null"){
 				has_effects = true

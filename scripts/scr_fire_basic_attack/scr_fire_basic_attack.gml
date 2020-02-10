@@ -27,6 +27,10 @@ for (var i = 0; i < ds_list_size(_weapon_list); i++){
 						_projectile.rotate = true
 						_projectile.rotate_case = _weapon[k+1]
 					break;
+					case "flip":
+						_projectile.flip = true
+						_projectile.flip_case = _weapon[k+1]
+					break;
 				}
 				
 			}

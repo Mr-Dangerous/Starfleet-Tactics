@@ -52,6 +52,7 @@ switch(state){
 	}
 	if (_use_ability){
 		if (spell_timeline_script != -1){
+			show_debug_message("Timeline casting now!")
 			script_execute(scr_cast_spell)
 		}
 	}

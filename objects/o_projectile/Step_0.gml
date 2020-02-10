@@ -12,6 +12,13 @@ if(rotate){
 		break;
 	}
 }
+if (flip){
+	switch(flip_case){
+		case 1:
+		image_yscale *= -1
+		break;
+	}
+}
 
 
 

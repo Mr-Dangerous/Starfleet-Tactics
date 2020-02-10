@@ -1631,6 +1631,14 @@
             }
         },
         {
+            "Key": "2f4ed6f6-9585-4cdc-99b2-78c2b7a0da15",
+            "Value": {
+                "id": "b684809b-38ab-46fa-8ac7-a57d548342e8",
+                "resourcePath": "objects\\o_spell_point\\o_spell_point.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2fae7b20-8178-48f1-b590-2cea42ff53dd",
             "Value": {
                 "id": "2d58df32-8c9d-4a58-bcb0-39d409051ae3",
@@ -8508,6 +8516,14 @@
                 "id": "985acc78-e566-4f39-b4fe-45fbb34c5c60",
                 "resourcePath": "sprites\\s_laser_light_085\\s_laser_light_085.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1debd80-9151-48b7-baa7-dba62cd5480b",
+            "Value": {
+                "id": "d7fa6648-36da-4343-b99d-18bbd61dc1f3",
+                "resourcePath": "timelines\\tl_nova_blast\\tl_nova_blast.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

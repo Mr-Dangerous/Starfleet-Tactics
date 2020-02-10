@@ -7,6 +7,8 @@ graphic_resource_array = scr_return_origin_offset_array(name)
 client = scr_get_client_by_id(owner)
 
 
+image_xscale = _ship_map[? "Image Scale"]
+image_yscale = _ship_map[? "Image Scale"]
 
 
 //check for effects

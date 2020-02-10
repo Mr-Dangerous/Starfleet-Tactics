@@ -3,3 +3,4 @@
 x = origin_ship.x
 y = origin_ship.y
 image_angle = origin_ship.image_angle
+direction = origin_ship.direction

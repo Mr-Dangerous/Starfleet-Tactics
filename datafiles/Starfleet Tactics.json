@@ -3,6 +3,9 @@
   "JSON_Ships": [
     {
       "Name": "Phantom",
+      "Manufacturer": "Spectre",
+      "Tactical Class": "Recon",
+      "Specifcation": "Ghost",
       "Max Speed": 3,
       "Acceleration Rate": 0.1,
       "Turn Speed": 2,
@@ -12,6 +15,7 @@
       "Basic Attack Projectile Duration": 100,
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_10",
+      "Image Scale": 0.8,
       "Exhaust Coordinate 1": [
         30,
         70,
@@ -45,6 +49,9 @@
     },
     {
       "Name": "Wraith",
+      "Manufacturer": "Spectre",
+      "Tactical Class": "Gunship",
+      "Specifcation": "Weapons Platform",
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
       "Turn Speed": 1,
@@ -54,6 +61,7 @@
       "Basic Attack Projectile Duration": 100,
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_12",
+      "Image Scale": 0.8,
       "Exhaust Coordinate 1": [
         3,
         69,
@@ -87,6 +95,9 @@
     },
     {
       "Name": "Core Container",
+      "Manufacturer": "Supernova Fabrications",
+      "Tactical Class": "Fighter",
+      "Specifcation": "Energy",
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
       "Turn Speed": 1,
@@ -96,6 +107,7 @@
       "Basic Attack Projectile Duration": 100,
       "Spell Timeline Script": "null",
       "Sprite": "s_tox_dark_blue_03",
+      "Image Scale": 1.2,
       "Exhaust Coordinate 1": [
         46,
         25,
@@ -147,6 +159,9 @@
     },
     {
       "Name": "Banshee",
+      "Manufacturer": "Spectre",
+      "Tactical Class": "Fighter",
+      "Specifcation": "Battalion",
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
       "Turn Speed": 1,
@@ -156,6 +171,7 @@
       "Basic Attack Projectile Duration": 100,
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_11",
+      "Image Scale": 1.1,
       "Exhaust Coordinate 1": [
         17,
         68,
@@ -189,6 +205,9 @@
     },
     {
       "Name": "Hammerhead",
+      "Manufacturer": "Shellner Industries",
+      "Tactical Class": "Sub Capital",
+      "Specifcation": "Fortress",
       "Max Speed": 1,
       "Acceleration Rate": 0.01,
       "Turn Speed": 1,
@@ -198,6 +217,7 @@
       "Basic Attack Projectile Duration": 100,
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_red_02",
+      "Image Scale": 1.5,
       "Exhaust Coordinate 1": [
         19,
         106,
@@ -255,6 +275,9 @@
     },
     {
       "Name": "Chiron",
+      "Manufacturer": "Spectre",
+      "Tactical Class": "Fighter",
+      "Specifcation": "Ghost",
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
       "Turn Speed": 2,
@@ -264,6 +287,7 @@
       "Basic Attack Projectile Duration": 100,
       "Spell Timeline Script": "tl_ghost_blade_spell",
       "Sprite": "s_illum_army_03",
+      "Image Scale": 0.8,
       "Exhaust Coordinate 1": [
         40,
         44,
@@ -296,6 +320,106 @@
         "s_laser_heavy_22",
         0.4,
         "rotate",
+        1
+      ],
+      "Weapon Coordinate 3": "null",
+      "Weapon Coordinate 4": "null",
+      "Effect Coordinate 1": "null",
+      "Effect Coordinate 2": "null",
+      "Effect Coordinate 3": "null",
+      "Effect Coordinate 4": "null"
+    },
+    {
+      "Name": "Arc Carrier",
+      "Manufacturer": "Eldar",
+      "Tactical Class": "Gunship",
+      "Specifcation": "Energy",
+      "Max Speed": 2,
+      "Acceleration Rate": 0.05,
+      "Turn Speed": 1,
+      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Damage": 6,
+      "Armor": 800,
+      "Basic Attack Projectile Duration": 100,
+      "Spell Timeline Script": "tl_nova_blast",
+      "Sprite": "s_illum_default_05",
+      "Image Scale": 1,
+      "Exhaust Coordinate 1": [
+        74,
+        94,
+        true,
+        "s_normal_double_exhaust",
+        1
+      ],
+      "Exhaust Coordinate 2": "null",
+      "Exhaust Coordinate 3": "null",
+      "Exhaust Coordinate 4": "null",
+      "Weapon Coordinate 1": [
+        88,
+        25,
+        true,
+        "s_laser_mixed_018",
+        1,
+        "flip",
+        1
+      ],
+      "Weapon Coordinate 2": [
+        88,
+        162,
+        true,
+        "s_laser_mixed_018",
+        1,
+        "flip",
+        1
+      ],
+      "Weapon Coordinate 3": "null",
+      "Weapon Coordinate 4": "null",
+      "Effect Coordinate 1": "null",
+      "Effect Coordinate 2": "null",
+      "Effect Coordinate 3": "null",
+      "Effect Coordinate 4": "null"
+    },
+    {
+      "Name": "Overlord",
+      "Manufacturer": "Eldar",
+      "Tactical Class": "Sub Capital",
+      "Specifcation": "Command",
+      "Max Speed": 1,
+      "Acceleration Rate": 0.05,
+      "Turn Speed": 1,
+      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Damage": 6,
+      "Armor": 1200,
+      "Basic Attack Projectile Duration": 100,
+      "Spell Timeline Script": "null",
+      "Sprite": "s_illum_default_08",
+      "Image Scale": 1.7,
+      "Exhaust Coordinate 1": [
+        71,
+        100,
+        true,
+        "s_normal_double_exhaust",
+        1
+      ],
+      "Exhaust Coordinate 2": "null",
+      "Exhaust Coordinate 3": "null",
+      "Exhaust Coordinate 4": "null",
+      "Weapon Coordinate 1": [
+        130,
+        181,
+        true,
+        "s_laser_heavy_07",
+        1,
+        "flip",
+        1
+      ],
+      "Weapon Coordinate 2": [
+        130,
+        18,
+        true,
+        "s_laser_heavy_07",
+        1.1,
+        "flip",
         1
       ],
       "Weapon Coordinate 3": "null",

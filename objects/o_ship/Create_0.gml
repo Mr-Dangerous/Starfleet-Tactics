@@ -36,3 +36,4 @@ state = ship.manual
 //graphic counters
 
 thrust_counter = 0
+
