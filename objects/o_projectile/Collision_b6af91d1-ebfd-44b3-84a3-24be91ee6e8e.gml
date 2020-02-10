@@ -1,8 +1,8 @@
 /// @description
 with(other){
 	if (owner != other.owner){
-		armor -= damage
+		armor -= other.damage
+		instance_destroy(other)
+	}
 	
-		}
-	instance_destroy()
 }

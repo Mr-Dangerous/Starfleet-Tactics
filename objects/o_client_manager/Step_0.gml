@@ -31,6 +31,7 @@ if (room = r_firing_range){
 	}
 	if (q_pressed){
 		gnet_rpc_send(0, scr_cb_send_q_pressed, local_client.m_client_id)
+		show_debug_message("FIRE BUTTON PRESSED!")
 	}
 	if (e_pressed){
 		gnet_rpc_send(0, scr_cb_send_e_pressed, local_client.m_client_id)
