@@ -6,7 +6,7 @@ for (var i = 0; i < ds_list_size(_weapon_list); i++){
 		var _x_offset = lengthdir_x(_weapon[GRAPHIC_LENGTH_OFFSET], image_angle + _weapon[GRAPHIC_DIRECTION_OFFSET])
 		var _y_offset = lengthdir_y(_weapon[GRAPHIC_LENGTH_OFFSET], image_angle + _weapon[GRAPHIC_DIRECTION_OFFSET])
 	
-		var _projectile = instance_create_layer(x+_x_offset, y+_y_offset, "Projectiles_Under", o_projectile)
+		var _projectile = instance_create_layer(x+_x_offset, y+_y_offset, LAYER_PROJECTILES_UNDER, o_projectile)
 		_projectile.owner = owner
 		_projectile.damage = basic_attack_damage
 		_projectile.sprite_index = _weapon[ASSET_INDEX]

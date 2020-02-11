@@ -4,7 +4,9 @@ var _ship_map = global.ship_maps[? name]
 var _sprite = asset_get_index(_ship_map[? "Sprite"])
 sprite_index = _sprite
 graphic_resource_array = scr_return_origin_offset_array(name)
+if (room = r_firing_range){
 client = scr_get_client_by_id(owner)
+}
 
 
 image_xscale = _ship_map[? "Image Scale"]
@@ -20,10 +22,10 @@ if (has_effects){
 		var _effect_depth = _effect[IS_UNDER]
 		var _effect_layer
 		if (_effect_depth = 1){
-			_effect_layer = "Effects_Under"
+			_effect_layer = LAYER_EFFECTS_UNDER
 		}
 		if (_effect_depth = 0){
-			_effect_layer = "Effects_Over"
+			_effect_layer = LAYER_EFFECTS_OVER
 		}
 		var _x= lengthdir_x(_effect[GRAPHIC_LENGTH_OFFSET], image_angle + _effect[GRAPHIC_DIRECTION_OFFSET])
 		var _y= lengthdir_y(_effect[GRAPHIC_LENGTH_OFFSET], image_angle + _effect[GRAPHIC_DIRECTION_OFFSET])

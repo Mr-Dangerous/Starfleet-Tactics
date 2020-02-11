@@ -28,3 +28,28 @@
 #macro PROTOCOL_ID 1337
 #macro DEFAULT_PORT 3000
 #endregion
+
+#region layer macros
+#macro LAYER_GUI_HIGH "GUI_layer_high"
+#macro LAYER_GUI_LOW "GUI_layer_low"
+#macro LAYER_PROJECTILES_HIGH "Projetiles_Over"
+#macro LAYER_EFFECTS_OVER "Effects_Over"
+#macro LAYER_SHIPS "Ships"
+#macro LAYER_EFFECTS_UNDER "Effects_Under"
+#macro LAYER_PROJECTILES_UNDER "Projectiles_Under"
+#macro LAYER_INSTANCES "Instances"
+#endregion
+
+#region
+#macro BUTTON_X 0
+#macro BUTTON_Y 1
+#macro BUTTON_DISPLAY_STRING 2
+#macro BUTTON_SCRIPT 3
+#macro BUTTON_COLOR 4
+#macro BUTTON_HOVER 5
+#endregion
+
+#macro ZONE_X 0
+#macro ZONE_Y 1
+#macro ZONE_XX 2
+#macro ZONE_YY 3

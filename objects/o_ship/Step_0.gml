@@ -4,7 +4,9 @@ if (armor <= 0){
 }
 switch(state){
 	
+	case ship.locked:
 	
+	break;
 	
 	
 	
@@ -126,7 +128,7 @@ if (speed > 0){
 	thrust_counter = 0
 	max_thrust = 0
 }
-//finally, add int eh default sprite.
+//finally, add in the default sprite.
 var _networking_sprite_array = [sprite_index, 0, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha]
 ds_list_add(sprite_list, _networking_sprite_array)
 

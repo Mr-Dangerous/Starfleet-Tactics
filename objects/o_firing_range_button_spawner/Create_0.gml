@@ -13,7 +13,7 @@ if (!is_undefined(_current_ship)){
 	do{
 		var _x = _x_offset +(_position_x * _spacing)
 		var _y = _y_offset +(_position_y * _spacing)
-		var _new_button = instance_create_layer(_x, _y, "Instances", o_temp_button)
+		var _new_button = instance_create_layer(_x, _y, LAYER_INSTANCES, o_temp_button)
 		_new_button.ship_name = _current_ship
 		_position_x++
 		

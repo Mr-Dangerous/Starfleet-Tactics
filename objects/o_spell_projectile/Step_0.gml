@@ -9,7 +9,7 @@ direction += turn_speed
 image_angle += turn_speed
 
 if(after_image = true){
-	var _afterimage = instance_create_layer(x, y, "Effects_Over", o_spell_afterimage){
+	var _afterimage = instance_create_layer(x, y, LAYER_EFFECTS_OVER, o_spell_afterimage){
 		_afterimage.duration = 8
 		_afterimage.fade = true
 		_afterimage.image_angle = image_angle
