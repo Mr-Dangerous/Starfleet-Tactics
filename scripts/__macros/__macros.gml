@@ -20,12 +20,13 @@
 #endregion
 
 #region ship spawner macros
-#macro CREATE_SHIP 0
-#macro INJECT_VARIABLES 15
+#macro CREATE_SHIP 0					//User Event 0 in o_ship
+#macro CREATE_SQUAD 0					//User Event 0 in o_squad
+#macro INJECT_VARIABLES 15				//User Event 15 for all objects that have variables injected
 #endregion
 
 #region networkings
-#macro PROTOCOL_ID 1337
+#macro PROTOCOL_ID 1337					
 #macro DEFAULT_PORT 3000
 #endregion
 
@@ -47,7 +48,7 @@
 #macro BUTTON_SCRIPT 3
 #macro BUTTON_COLOR 4
 #macro BUTTON_HOVER 5
-#macro BUTTON_ARGUMENT_1 6
+
 #endregion
 
 #macro ZONE_X 0
@@ -60,4 +61,14 @@
 #macro BATTLEFIELD_Y_POSITION 1
 #macro BATTLEFIELD_SQUAD_CONTAINED 2
 #macro BATTLEFIELD_PLAYER 3
+#endregion
+
+#region formations
+#macro FORMATION_DIRECTION 1
+#macro FORMATION_LENGTH 0
+#macro SHIP_1 0
+#macro SHIP_2 1
+#macro SHIP_3 2
+#macro SHIP_4 3
+#macro SHIP_5 4
 #endregion

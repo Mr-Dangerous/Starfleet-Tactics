@@ -1975,6 +1975,22 @@
             }
         },
         {
+            "Key": "3901fb49-fbea-44a5-8d5d-b46f195e13a1",
+            "Value": {
+                "id": "28f7c05d-f0c6-44e1-b60c-1c0fc8d6eba9",
+                "resourcePath": "objects\\o_squad_spawner\\o_squad_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "390fb11f-ecf3-4684-9665-a7e4097bdf73",
+            "Value": {
+                "id": "68472036-c17e-45e1-804b-8e575ebd0d13",
+                "resourcePath": "objects\\o_squad\\o_squad.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3918d9a6-7883-444c-8bbc-e18bdd482c30",
             "Value": {
                 "id": "3cfaf536-6619-410e-9295-33647dd8bc69",
@@ -2499,6 +2515,14 @@
             "Value": {
                 "id": "4b295031-7d06-4f06-a8f7-d379bc0c7e7f",
                 "resourcePath": "sprites\\s_tox_fog2\\s_tox_fog2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "48bd3d25-cd37-4ab1-99e8-b8a538a6563c",
+            "Value": {
+                "id": "407371c1-e034-4176-a0f6-54c5e484c82f",
+                "resourcePath": "sprites\\sprite921\\sprite921.yy",
                 "resourceType": "GMSprite"
             }
         },
