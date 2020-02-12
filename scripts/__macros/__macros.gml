@@ -47,6 +47,7 @@
 #macro BUTTON_SCRIPT 3
 #macro BUTTON_COLOR 4
 #macro BUTTON_HOVER 5
+#macro BUTTON_ARGUMENT_1 6
 #endregion
 
 #macro ZONE_X 0

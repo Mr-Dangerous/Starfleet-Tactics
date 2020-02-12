@@ -7,6 +7,10 @@ var _mouse_y = device_mouse_y_to_gui(0)
 var ship_spawn_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y, 
 	ship_spawn_button_zone[ZONE_X], ship_spawn_button_zone[ZONE_Y],
 	ship_spawn_button_zone[ZONE_XX], ship_spawn_button_zone[ZONE_YY])
+	
+var player_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y, 
+	select_player_button_zone[ZONE_X], select_player_button_zone[ZONE_Y],
+	select_player_button_zone[ZONE_XX], select_player_button_zone[ZONE_YY])
 
 
 if(ship_spawn_button_zone_clicked){
@@ -18,14 +22,32 @@ if(ship_spawn_button_zone_clicked){
 			scr_on_create_ship_clicked(_ship_button[BUTTON_DISPLAY_STRING])
 			show_debug_message(string_build("{} sent to spawner", _ship_button[BUTTON_DISPLAY_STRING]))
 		}
+		//reset
+		_ship_button[@ BUTTON_COLOR] = c_gray
+		_ship_button[@ BUTTON_HOVER] = false
 		
 	}
 }
 
-//reset the GUIs
-for (var i = 0; i <ds_list_size(ship_spawn_button_position_list); i++){
-	var _ship_button = ds_list_find_value(ship_spawn_button_position_list, i)
-	_ship_button[@ BUTTON_COLOR] = c_gray
-	_ship_button[@ BUTTON_HOVER] = false
+if(player_button_zone_clicked){
+	for (var i = 0; i < ds_list_size(select_player_buttons_list); i++){
+		var _button = ds_list_find_value(select_player_buttons_list, i)
+
+		if (_button[BUTTON_HOVER]= true and point_in_rectangle(_mouse_x, _mouse_y, _button[BUTTON_X] - 2, _button[BUTTON_Y] - 2,
+			_button[BUTTON_X]+ 2 + player_select_button_width, _button[BUTTON_Y] +player_select_button_height +2)){
+			var _ship_spawner = instance_find(o_ship_spawner, 0)
+			_ship_spawner.owner = i
+			show_debug_message(string_build("Player set to {}", _ship_spawner.owner))
+		}
+		if (_button[BUTTON_HOVER] = true){
+			_button[@ BUTTON_COLOR] = c_olive
+			_button[@ BUTTON_HOVER] = false
+		} else {
+			_button[@ BUTTON_HOVER] = false
+			_button[@ BUTTON_COLOR] = c_gray
+		}
+		
+		
+	}
 }
 
