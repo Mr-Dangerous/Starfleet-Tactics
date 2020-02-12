@@ -1,12 +1,33 @@
 /// @description Create Ships
 if (ship_to_spawn != ""){
-	//make an empty ship
-	var _deployed_ship = instance_create_layer(400, 400, LAYER_SHIPS, o_ship)
-	//check for the grid
+	//determine which player is getting the ship
+	var _player_object = instance_find(o_player, owner_to_create_for)
+	var _battlefield_grid_to_attach_to = _player_object.battlefield
+	
+	//find an empty slot - will eventually be click and drag.
+	var _ship_position = noone
 	var _assigned_grid_x = -1
 	var _assigned_grid_y = -1
-	var _starting_x = 400
-	var _starting_y = 400
+	var j = 0
+	while (_ship_position = noone){
+		for(var i = 0; i < ds_grid_width(_battlefield_grid_to_attach_to); i++){
+			var _grid_spot = _battlefield_grid_to_attach_to[# i, j]
+			if (_grid_spot[BATTLEFIELD_SQUAD_CONTAINED] = noone){
+				_ship_position = _grid_spot 
+				_assigned_grid_x = i
+				_assigned_grid_y = j
+				break;
+			}
+		}
+		j++
+	}
+	
+
+	var _deployed_ship = instance_create_layer(400, 400, LAYER_SHIPS, o_ship)
+	_ship_position[@ BATTLEFIELD_SQUAD_CONTAINED] = _deployed_ship
+	
+	var _starting_x = _ship_position[BATTLEFIELD_X_POSITION]
+	var _starting_y = _ship_position[BATTLEFIELD_Y_POSITION]
 	
 	if (room != r_firing_range){
 		
@@ -25,6 +46,7 @@ if (ship_to_spawn != ""){
 		event_user(INJECT_VARIABLES)
 		
 	}
+	
 
 }
 owner = -1

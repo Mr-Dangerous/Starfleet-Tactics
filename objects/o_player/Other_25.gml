@@ -38,4 +38,6 @@ battle_map_created = true
 
 
 
+
+
 #endregion

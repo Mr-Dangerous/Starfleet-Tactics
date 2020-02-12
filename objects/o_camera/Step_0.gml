@@ -30,24 +30,25 @@ camera_set_view_size(view_camera[0], _new_camera_width,_new_camera_height)
 
 var camera_x = camera_get_view_x(view_camera[0])
 var camera_y = camera_get_view_y(view_camera[0])
-if (instance_exists(focused_player)){
-	var _distance_to_focused_player = point_distance(camera_x, camera_y, focused_player.x, focused_player.y)
-	if (_distance_to_focused_player > 1000){
+if (instance_exists(focused_player) and camera_focus_change){
 	
-		camera_set_view_pos(view_camera[0], focused_player.x, focused_player.y)
-		current_zoom = 1
-		selected_zoom_level = 1
-	}
+	
+	camera_set_view_pos(view_camera[0], focused_player.x, focused_player.y)
+	current_zoom = 1
+	selected_zoom_level = 1
+	camera_focus_change = false
+	
 }
 
 	
 //find the new x position and y position of the camera
-var _new_x = -((_new_camera_width - base_camera_width)/2) + camera_x_speed
-var _new_y = -((_new_camera_height - base_camera_height)/2) + camera_y_speed
+var _new_x = -((_new_camera_width - base_camera_width)/2)
+var _new_y = -((_new_camera_height - base_camera_height)/2)
 var _base_x = 0
 var _base_y = 0
 if (instance_exists(focused_player)){
 	_base_x = focused_player.x
+		
 	_base_y = focused_player.y
 }
 camera_set_view_pos(view_camera[0], _base_x+_new_x,  _base_y+_new_y)
