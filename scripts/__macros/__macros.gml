@@ -54,3 +54,10 @@
 #macro ZONE_Y 1
 #macro ZONE_XX 2
 #macro ZONE_YY 3
+
+#region battlefields
+#macro BATTLEFIELD_X_POSITION 0
+#macro BATTLEFIELD_Y_POSITION 1
+#macro BATTLEFIELD_SQUAD_CONTAINED 2
+#macro BATTLEFIELD_PLAYER 3
+#endregion
