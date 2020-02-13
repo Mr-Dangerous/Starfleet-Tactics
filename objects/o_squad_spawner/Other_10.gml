@@ -45,4 +45,5 @@ if (ship_name != ""){
 	
 
 }
-owner = -1
+ship_to_spawn = ""
+

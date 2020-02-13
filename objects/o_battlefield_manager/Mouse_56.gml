@@ -44,7 +44,7 @@ if(player_button_zone_clicked){
 			camera.camera_focus_change = true
 			
 			
-			show_debug_message(string_build("Player set to {}", _squad_spawner.owner))
+			show_debug_message(string_build("Player set to {}", _squad_spawner.owner_to_create_for))
 		}
 		if (_button[BUTTON_HOVER] = true){
 			_button[@ BUTTON_COLOR] = c_olive
