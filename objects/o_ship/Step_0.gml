@@ -5,7 +5,12 @@ if (armor <= 0){
 switch(state){
 	
 	case ship.locked:
-	
+		var _x = reference_squad.x + lengthdir_x(formation_length_offset, reference_squad.direction + formation_direction_offset)
+		var _y = reference_squad.y + lengthdir_y(formation_length_offset, reference_squad.direction + formation_direction_offset)
+		x = _x
+		y = _y
+		image_angle = reference_squad.image_angle
+		direciton = reference_squad.direction
 	break;
 	
 	

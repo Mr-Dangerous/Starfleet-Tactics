@@ -14,6 +14,8 @@ client_manager = instance_find(o_client_manager, 0)
 client = -1
 assigned_grid_x = -1
 assigned_grid_y = -1
+formation_length_offset = 0
+formation_direction_offset = 0
 
 //keypresses
 sprite_list = ds_list_create()
@@ -23,6 +25,8 @@ if (room = r_firing_range){
 }
 extra_sprite_list = ds_list_create()
 owner = -1
+reference_squad = noone
+formation_number = -1
 
 //stats
 max_speed = 0

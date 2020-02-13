@@ -2431,6 +2431,14 @@
             }
         },
         {
+            "Key": "461b6e81-e38d-488c-9a56-34dd331320d1",
+            "Value": {
+                "id": "4cdd628e-0619-41a0-ba98-da02fea4297b",
+                "resourcePath": "objects\\o_squad_reposition_clone\\o_squad_reposition_clone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "463af131-7e47-411e-80dd-a18c20789163",
             "Value": {
                 "id": "f4dbf4be-a266-4981-9d4b-7f87c9a18635",
