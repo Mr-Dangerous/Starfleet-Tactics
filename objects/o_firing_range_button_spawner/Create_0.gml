@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var _current_ship = ds_map_find_first(global.ship_maps)
+var _current_ship = ds_map_find_first(global.level_1_ships)
 var _x_offset = 150
 var _y_offset = 400
 var _spacing = 130
@@ -21,7 +21,7 @@ if (!is_undefined(_current_ship)){
 			_position_x = 0
 			_position_y++
 		}
-		_current_ship = ds_map_find_next(global.ship_maps, _current_ship)
+		_current_ship = ds_map_find_next(global.level_1_ships, _current_ship)
 	} until is_undefined(_current_ship)
 	
 }

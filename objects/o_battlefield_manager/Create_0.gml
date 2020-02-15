@@ -81,11 +81,11 @@ _vertical_spacing = 44
 
 _current_row = 0
 _current_column = 0
-var _current_map = ds_map_find_first(global.ship_maps)
+var _current_map = ds_map_find_first(global.level_1_ships)
 
 
 
-for (var i = 0; i < ds_map_size(global.ship_maps); i++){
+for (var i = 0; i < ds_map_size(global.level_1_ships); i++){
 	var _button_position_array = []
 	var _ship_name = _current_map
 
@@ -100,7 +100,7 @@ for (var i = 0; i < ds_map_size(global.ship_maps); i++){
 		ship_spawn_button_zone[ZONE_X] = _button_position_array[BUTTON_X] - 4
 		ship_spawn_button_zone[ZONE_Y] = _button_position_array[BUTTON_Y] - 4
 	}
-	if (_current_column >= max_ship_spawn_buttons_in_row-1 and i+1 <=ds_map_size(global.ship_maps)){
+	if (_current_column >= max_ship_spawn_buttons_in_row-1 and i+1 <=ds_map_size(global.level_1_ships)){
 		_current_column = 0
 		_current_row++
 		ship_spawn_button_zone[ZONE_XX] = _button_position_array[BUTTON_X] + ship_spawn_button_width + 4
@@ -111,7 +111,7 @@ for (var i = 0; i < ds_map_size(global.ship_maps); i++){
 	
 		
 	ds_list_add(ship_spawn_button_position_list, _button_position_array)
-	_current_map = ds_map_find_next(global.ship_maps, _ship_name)
+	_current_map = ds_map_find_next(global.level_1_ships, _ship_name)
 }
 #endregion
 

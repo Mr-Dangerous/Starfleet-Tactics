@@ -21,7 +21,7 @@ if (owner = 3){
 #region battlefield
 var _x_offset = 270
 var _y_offset = 60
-var _spacing = 200
+var _spacing = BATTLEGRID_SPACING
 grid_square_size = _spacing-10
 
 for (var i = 0; i < ds_grid_width(battlefield); i++){

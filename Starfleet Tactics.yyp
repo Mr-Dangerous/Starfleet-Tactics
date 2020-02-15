@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "08e0367e-3ef5-4ecb-8377-86b10d1aeef1",
+            "Value": {
+                "id": "560edf27-8e99-4d62-bdc5-60956c8fcf81",
+                "resourcePath": "objects\\o_battle_manager\\o_battle_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0945f512-9aad-426e-9436-a807bd106f57",
             "Value": {
                 "id": "105df2c2-74d2-477a-8673-6cbb77bdd00f",

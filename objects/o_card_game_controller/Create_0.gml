@@ -14,8 +14,24 @@ for (var i =0; i <ds_list_size(ship_list); i++){
 	var _ship_map = ds_map_create()
 	var _ship_map = ds_list_find_value(ship_list, i)
 	var _ship_map_key = _ship_map[? "Name"]
+	var _ship_map_level = _ship_map[? "Level"]
 	ds_map_add(global.ship_maps, _ship_map_key, _ship_map)	
+
+	switch(_ship_map_level){
+		case 1:
+			ds_map_add(global.level_1_ships, _ship_map_key, _ship_map)	
+		break;
+				
+		case 2:
+			ds_map_add(global.level_2_ships, _ship_map_key, _ship_map)	
+		break
+			
+		case 3:
+			ds_map_add(global.level_3_ships, _ship_map_key, _ship_map)	
+		break
+	}
 }
+
 
 
 
