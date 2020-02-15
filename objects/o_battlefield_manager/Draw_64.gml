@@ -40,3 +40,20 @@ for (var i = 0; i < ds_list_size(select_player_buttons_list); i++){
 }
 draw_set_halign(fa_left)
 #endregion
+
+#region draw the fight button
+draw_set_halign(fa_center)
+
+var _button = fight_button
+var _button_color =c_gray
+draw_rectangle_color(_button[BUTTON_X] - 2, _button[BUTTON_Y] - 2,
+	_button[BUTTON_X]+ 2 + fight_button_width, _button[BUTTON_Y] +fight_button_height +2,
+	c_white, c_white, c_white, c_white, false)
+draw_rectangle_color(_button[BUTTON_X], _button[BUTTON_Y],
+	_button[BUTTON_X] + fight_button_width, _button[BUTTON_Y] +fight_button_height,
+	_button_color, _button_color, _button_color, _button_color, false)
+draw_text(_button[BUTTON_X]+(fight_button_width/2), _button[BUTTON_Y], _button[BUTTON_DISPLAY_STRING])
+	
+
+draw_set_halign(fa_left)
+#endregion

@@ -12,6 +12,15 @@ var player_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y,
 	select_player_button_zone[ZONE_X], select_player_button_zone[ZONE_Y],
 	select_player_button_zone[ZONE_XX], select_player_button_zone[ZONE_YY])
 
+var fight_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y,
+	fight_button_zone[ZONE_X], fight_button_zone[ZONE_Y],
+	fight_button_zone[ZONE_XX], fight_button_zone[ZONE_YY])
+	
+if (fight_button_zone_clicked and fight_button[@ BUTTON_HOVER] = true){
+	scr_start_fight()
+	
+}
+fight_button[@ BUTTON_HOVER] = false
 
 if(ship_spawn_button_zone_clicked){
 	for (var i = 0; i < ds_list_size(ship_spawn_button_position_list); i++){

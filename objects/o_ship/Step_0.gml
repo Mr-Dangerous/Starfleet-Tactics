@@ -10,7 +10,7 @@ switch(state){
 		x = _x
 		y = _y
 		image_angle = reference_squad.image_angle
-		direciton = reference_squad.direction
+		direction = reference_squad.direction
 	break;
 	
 	
@@ -144,4 +144,11 @@ for (var i = 0; i < ds_list_size(extra_sprite_list); i++){
 }
 
 	
+#endregion
+
+#region
+if (double_click_timer > 0){
+	double_click_timer--
+	show_debug_message(double_click_timer)
+}
 #endregion

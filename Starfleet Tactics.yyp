@@ -4087,6 +4087,14 @@
             }
         },
         {
+            "Key": "7205d704-c26e-4d9d-aa0b-20fc4e06a646",
+            "Value": {
+                "id": "f281f61b-7088-48d1-b702-f73a23571c97",
+                "resourcePath": "scripts\\scr_start_fight\\scr_start_fight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "726264a0-520d-4e3a-90e9-c1b5f20344ba",
             "Value": {
                 "id": "a544785d-4de3-477a-aa66-c512075939f5",
@@ -9165,7 +9173,8 @@
         "60b8159d-d74b-4d5e-89a0-7c55337f31cf",
         "7c2b76ee-e4d2-44a9-8347-a2d0f15ab0e3",
         "f5b656d2-e0e3-4eb7-8346-308666981033",
-        "d75040d8-6cfe-42d4-af9c-7a3275ea3b96"
+        "d75040d8-6cfe-42d4-af9c-7a3275ea3b96",
+        "7205d704-c26e-4d9d-aa0b-20fc4e06a646"
     ],
     "tutorial": ""
 }

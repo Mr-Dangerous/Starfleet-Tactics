@@ -16,6 +16,8 @@ assigned_grid_x = -1
 assigned_grid_y = -1
 formation_length_offset = 0
 formation_direction_offset = 0
+double_click = false
+double_click_timer = 0
 
 //keypresses
 sprite_list = ds_list_create()

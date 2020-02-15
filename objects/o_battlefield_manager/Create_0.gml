@@ -13,6 +13,8 @@ for (var i = 0; i < _number_of_players; i++){
 	ds_list_add(player_list, _player)
 }
 
+players_to_fight_list = ds_list_create()
+
 
 camera = instance_find(o_camera, 0)
 camera.focused_player = player_list[|0]
@@ -63,6 +65,8 @@ for (var i = 0; i < _number_of_players; i++){
 }
 #endregion
 
+
+
 #region ship spawn buttons
 ship_spawn_button_position_list = ds_list_create()
 ship_spawn_button_zone = []
@@ -110,6 +114,25 @@ for (var i = 0; i < ds_map_size(global.ship_maps); i++){
 	_current_map = ds_map_find_next(global.ship_maps, _ship_name)
 }
 #endregion
+
+#region fight button
+
+fight_button_x_offset = view_wport[0]/2 - 100
+fight_button_y_offset = +40
+fight_button_width = 250
+fight_button_height = 40
+fight_button_zone[ZONE_X] = fight_button_x_offset
+fight_button_zone[ZONE_Y] = fight_button_y_offset
+fight_button_zone[ZONE_XX] = fight_button_x_offset+fight_button_width
+fight_button_zone[ZONE_YY] = fight_button_y_offset+fight_button_height
+fight_button[BUTTON_X] = fight_button_x_offset
+fight_button[BUTTON_Y]= fight_button_y_offset
+fight_button[BUTTON_DISPLAY_STRING] = "Fight!"
+
+
+
+#endregion
+
 
 
 
