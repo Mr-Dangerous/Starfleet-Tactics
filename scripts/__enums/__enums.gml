@@ -5,7 +5,8 @@ enum ship{
 
 enum camera_state{
 	overview,
-	following
+	following,
+	battle
 }
 
 //enum game_packet_type is in gnet_packet_layouts

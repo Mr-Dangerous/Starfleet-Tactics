@@ -9,6 +9,42 @@ if (current_zoom_level != selected_zoom_level){
 
 
 switch(state){
+	case camera_state.battle:
+	
+	selected_zoom = zoom_levels[selected_zoom_level]
+	var _differential = 1
+	if (abs(selected_zoom - current_zoom) > .3){
+		var _divisor = abs(selected_zoom - current_zoom)
+		_differential *= _divisor/.3
+		_differential = clamp(_differential, 1, 10)
+	}
+	if (current_zoom < selected_zoom){
+		current_zoom += .01 * _differential
+	}
+	if (current_zoom > selected_zoom){
+		current_zoom -= .01 * _differential
+	}
+
+	var _new_camera_width = round(base_camera_width*current_zoom)
+	var _new_camera_height = round(base_camera_height*current_zoom)
+
+	camera_set_view_size(view_camera[0], _new_camera_width,_new_camera_height)
+
+	var camera_x = camera_get_view_x(view_camera[0])
+	var camera_y = camera_get_view_y(view_camera[0])
+	
+	//find the new x position and y position of the camera
+	if (instance_exists(battle_manager)){
+		var _new_x = -((_new_camera_width - base_camera_width)/2)
+		var _new_y = -((_new_camera_height - base_camera_height)/2)
+		var _base_x = battle_manager.x
+		var _base_y = battle_manager.y
+	}
+	
+	camera_set_view_pos(view_camera[0], _base_x+_new_x,  _base_y+_new_y)
+	
+	break;
+	
 	case camera_state.overview:
 	selected_zoom = zoom_levels[selected_zoom_level]
 	var _differential = 1

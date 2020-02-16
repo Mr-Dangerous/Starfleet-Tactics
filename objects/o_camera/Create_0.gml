@@ -15,6 +15,7 @@ close_up_base_height = 720
 battlefield_manager = instance_find(o_battlefield_manager, 0)
 focused_player = noone
 camera_focus_change = true
+battle_manager = noone
 
 state = camera_state.overview
 object_following = noone
