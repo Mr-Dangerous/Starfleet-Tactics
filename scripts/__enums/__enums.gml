@@ -1,11 +1,14 @@
 enum ship{
 	locked,
 	manual, 
-	battle
+	battle,
+	post_combat, 
+	patrolling
 }
 enum squad{
 	locked,
-	battle
+	battle,
+	post_combat
 }
 
 enum camera_state{

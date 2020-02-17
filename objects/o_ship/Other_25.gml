@@ -67,6 +67,7 @@ armor = _ship_map[? "Armor"]
 basic_attack_projectile_duration = _ship_map[? "Basic Attack Projectile Duration"]
 basic_attack_projectile_speed = _ship_map[? "Basic Attack Projectile Speed"]
 basic_attack_damage = _ship_map[? "Basic Attack Damage"]
+basic_attack_range = basic_attack_projectile_duration*basic_attack_projectile_speed*.8
 
 spell_script_string = _ship_map[? "Spell Timeline Script"]
 if (spell_script_string != "null"){

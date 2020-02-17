@@ -16,6 +16,7 @@ for (var _x = 0; _x < BATTLEGRID_WIDTH; _x++){
 		if (instance_exists(_squad)){
 			_new_grid_entry[BATTLEFIELD_SQUAD_CONTAINED] = _squad
 			ds_grid_set(player_1_grid, _x, _y, _new_grid_entry)
+			ds_list_add(player_1_squads, _squad)
 			_squad.x = _new_grid_entry[BATTLEFIELD_X_POSITION]
 			_squad.y = _new_grid_entry[BATTLEFIELD_Y_POSITION]
 		}
@@ -27,6 +28,7 @@ for (var _x = 0; _x < BATTLEGRID_WIDTH; _x++){
 		if (instance_exists(_squad)){
 			_new_grid_entry[BATTLEFIELD_SQUAD_CONTAINED] = _squad
 			ds_grid_set(player_2_grid, _x, _y, _new_grid_entry)
+			ds_list_add(player_2_squads, _squad)
 			_squad.x = _new_grid_entry[BATTLEFIELD_X_POSITION]
 			_squad.y = _new_grid_entry[BATTLEFIELD_Y_POSITION]
 			

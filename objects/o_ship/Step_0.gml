@@ -14,6 +14,40 @@ switch(state){
 		
 	break;
 	
+	case ship.patrolling:
+		var _x = reference_squad.x + lengthdir_x(formation_length_offset, reference_squad.direction + formation_direction_offset)
+		var _y = reference_squad.y + lengthdir_y(formation_length_offset, reference_squad.direction + formation_direction_offset)
+		x = _x
+		y = _y
+		image_angle = reference_squad.direction
+		direction = reference_squad.direction
+	break;
+	
+	case ship.battle:
+	if (instance_exists(ship_target)){
+		var _direction_to_target = point_direction(x, y, ship_target.x, ship_target.y)
+		scr_turn_to_face_direction(_direction_to_target)
+		direction = image_angle
+		if (distance_to_point(ship_target.x, ship_target.y) > basic_attack_range){
+			speed+= acceleration_rate
+		} else {
+			speed -= acceleration_rate
+		}
+		scr_limit_speed()
+	}
+	
+	break;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	case ship.manual: // For debugging and checking graphics

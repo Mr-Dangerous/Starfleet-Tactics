@@ -18,6 +18,8 @@ formation_length_offset = 0
 formation_direction_offset = 0
 double_click = false
 double_click_timer = 0
+ship_target = noone
+enemy_ships_targeting = ds_list_create()
 
 //keypresses
 sprite_list = ds_list_create()
