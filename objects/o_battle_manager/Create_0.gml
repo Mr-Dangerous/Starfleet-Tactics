@@ -3,6 +3,9 @@
 player_1 = noone
 player_2 = noone
 
+player_1_squads = ds_list_create()
+player_2_squads = ds_list_create()
+
 player_1_grid = ds_grid_create(BATTLEGRID_WIDTH, BATTLEGRID_HEIGHT)
 player_2_grid = ds_grid_create(BATTLEGRID_WIDTH, BATTLEGRID_HEIGHT)
 

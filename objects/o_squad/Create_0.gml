@@ -23,3 +23,7 @@ ships_in_squad = ds_list_create()
 
 assigned_grid_x = -1
 assigned_grid_y = -1
+
+state = squad.locked
+
+squad_target = noone

@@ -1,16 +1,16 @@
 ///@param weapon_x_offset
-///@param weapon_y_offset
 ///@param weapon_range
+///@param 
+
 
 //This function is going to require some math later!
 
 
-var _weapon_x = argument0
-var _weapon_y = argument1
-var _weapon_range = argument2
+var _weapon_y = argument0
 
 
-var _convergence_angle = sign(sprite_yoffset - _weapon_y)*3
+
+var _convergence_angle = sign(y - y+_weapon_y)*2.5//this angle here needs to be dynamically calculated
 
 
 return _convergence_angle
