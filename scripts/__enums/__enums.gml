@@ -3,7 +3,10 @@ enum ship{
 	manual, 
 	battle,
 	post_combat, 
-	patrolling
+	patrolling,
+	out_of_combat,
+	executing_timeline_attack,
+	executing_ability
 }
 enum squad{
 	locked,

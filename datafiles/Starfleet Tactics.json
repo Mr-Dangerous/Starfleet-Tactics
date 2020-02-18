@@ -15,6 +15,12 @@
       "Basic Attack Damage": 4,
       "Armor": 400,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_red_10",
       "Image Scale": 0.45,
@@ -63,6 +69,12 @@
       "Basic Attack Damage": 4,
       "Armor": 200,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_10",
       "Image Scale": 0.4,
@@ -111,6 +123,12 @@
       "Basic Attack Damage": 6,
       "Armor": 800,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_12",
       "Image Scale": 0.5,
@@ -159,6 +177,12 @@
       "Basic Attack Damage": 6,
       "Armor": 400,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "null",
       "Sprite": "s_tox_dark_blue_03",
       "Image Scale": 0.7,
@@ -225,6 +249,12 @@
       "Basic Attack Damage": 6,
       "Armor": 800,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_11",
       "Image Scale": 0.6,
@@ -273,6 +303,12 @@
       "Basic Attack Damage": 5,
       "Armor": 1200,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_red_02",
       "Image Scale": 1,
@@ -345,6 +381,12 @@
       "Basic Attack Damage": 6,
       "Armor": 800,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "tl_ghost_blade_spell",
       "Sprite": "s_illum_army_03",
       "Image Scale": 0.5,
@@ -403,6 +445,12 @@
       "Basic Attack Damage": 6,
       "Armor": 800,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "tl_nova_blast",
       "Sprite": "s_illum_default_05",
       "Image Scale": 0.5,
@@ -455,6 +503,12 @@
       "Basic Attack Damage": 6,
       "Armor": 1200,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_08",
       "Image Scale": 1,
@@ -507,6 +561,12 @@
       "Basic Attack Damage": 5,
       "Armor": 800,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_default_04",
       "Image Scale": 0.5,
@@ -559,6 +619,12 @@
       "Basic Attack Damage": 5,
       "Armor": 400,
       "Basic Attack Projectile Duration": 100,
+      "Basic Attack Burst Number": 3,
+      "Basic Attack Speed Interval": 2,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_slide_attack"
+      ],
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_red_16",
       "Image Scale": 0.4,

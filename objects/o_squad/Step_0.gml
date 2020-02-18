@@ -27,7 +27,10 @@ switch(state){
 				_desired_direction += point_direction(x, y, squad_target.x, squad_target.y)
 				_desired_speed += 1 //Also to be in the JSON later.  Needs to be slightly slower than the ships max_speed	
 			}
-		
+			if (point_distance(x,y, squad_target.x, squad_target.y) < _max_engagment_range and point_distance(x, y, squad_target.x, squad_target.y) > _min_engagment_range){
+				_desired_direction += point_direction(x, y, squad_target.x, squad_target.y)+90
+				_desired_speed += 1
+			}
 			if (point_distance(x, y, squad_target.x, squad_target.y) < _min_engagment_range){
 				_desired_direction += point_direction(squad_target.x, squad_target.y, x, y) - 180
 				_desired_speed += 1

@@ -2,6 +2,8 @@
 if (armor <= 0){
 	instance_destroy()
 }
+var _desired_direction = 0
+var _desired_motion = 0
 switch(state){
 	
 	case ship.locked:
@@ -25,16 +27,30 @@ switch(state){
 	
 	case ship.battle:
 	if (instance_exists(ship_target)){
-		var _direction_to_target = point_direction(x, y, ship_target.x, ship_target.y)
-		scr_turn_to_face_direction(_direction_to_target)
-		direction = image_angle
-		if (distance_to_point(ship_target.x, ship_target.y) > basic_attack_range){
-			speed+= acceleration_rate
-		} else {
-			speed -= acceleration_rate
+		switch(combat_state){
+			case ship.out_of_combat:  //approach the enemy
+			_desired_direction = point_direction(x, y, ship_target.x, ship_target.y)
+			if (distance_to_point(ship_target.x, ship_target.y) > basic_attack_range){
+				_desired_motion += acceleration_rate
+			}
+			if (distance_to_point(ship_target.x, ship_target.y) < basic_attack_range){
+				combat_state = ship.executing_timeline_attack
+				timeline_index = scr_choose_timeline_random(basic_attack_patterns)
+			}
+				
+			break;
+			
+			case ship.executing_timeline_attack:
+			if (timeline_running = false){
+				timeline_running = true
+			}
+			break;
 		}
-		scr_limit_speed()
-	}
+	} 
+	scr_turn_to_face_direction(_desired_direction)
+	direction = image_angle
+	motion_add(direction, _desired_motion)
+	scr_limit_speed()
 	
 	break;
 	

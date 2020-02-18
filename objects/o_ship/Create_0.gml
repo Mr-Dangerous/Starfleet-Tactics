@@ -42,9 +42,16 @@ basic_attack_projectile_duration = 50
 basic_attack_damage = 1
 spell_timeline_script = -1
 speed_unlocked = false
+number_of_attacks = 0
+basic_attack_speed_interval = 0//in frames
+basic_attack_burst_number = 0
+basic_attack_speed_interval = 0
+basic_attack_patterns = 0
+basic_attack_speed_counter = 0
 
 //
 state = ship.locked
+combat_state = ship.out_of_combat
 if (room = r_firing_range){
 	state = ship.manual
 }
