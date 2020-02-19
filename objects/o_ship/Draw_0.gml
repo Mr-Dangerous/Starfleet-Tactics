@@ -8,6 +8,11 @@ for (var  i = 0; i < ds_list_size(extra_sprite_list); i++){
 }
 draw_self()
 
+//just for a moment
+if (instance_exists(ship_target)){
+	draw_line(x, y, ship_target.x, ship_target.y)
+}
+
 #region post draw_self() - universal graphics that appear over the ship
 
 #endregion

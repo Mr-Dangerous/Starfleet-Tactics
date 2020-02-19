@@ -20,6 +20,10 @@ double_click = false
 double_click_timer = 0
 ship_target = noone
 enemy_ships_targeting = ds_list_create()
+evasion_counter = 0
+evade_direction = 0
+original_direction = 0
+new_direction = 0
 
 //keypresses
 sprite_list = ds_list_create()

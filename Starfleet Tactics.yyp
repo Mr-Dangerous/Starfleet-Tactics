@@ -1391,6 +1391,14 @@
             }
         },
         {
+            "Key": "26f11815-280b-451b-956c-73ad9c53829b",
+            "Value": {
+                "id": "886f8c06-1d90-4c3e-83ce-b55e230fdd71",
+                "resourcePath": "scripts\\scr_choose_evasive_timeline\\scr_choose_evasive_timeline.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27407c1a-f95b-41b2-b358-d5e2949d9fd4",
             "Value": {
                 "id": "9fce03af-05a3-44c2-8f09-9eb096265b7d",
@@ -2127,6 +2135,14 @@
             }
         },
         {
+            "Key": "3c585523-a191-4eea-96ad-83adc6c26c0c",
+            "Value": {
+                "id": "62c017d7-ec52-471f-83e9-f2ac74d6302a",
+                "resourcePath": "timelines\\tl_fast_zig_zag\\tl_fast_zig_zag.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "3c5be69f-05c3-4ea5-9f17-8349796d4854",
             "Value": {
                 "id": "8646b8e6-8f53-482e-a523-f8aa24c91cd8",
@@ -2764,6 +2780,14 @@
                 "id": "9c7a4c7d-e05a-4199-8a89-ea10d1978e29",
                 "resourcePath": "views\\4d5d847e-8675-42bd-aeec-70d6d2e0d40f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4d768a93-3078-43f5-aafb-7796d03db2b2",
+            "Value": {
+                "id": "7f5d7127-4df2-4e19-8e49-d77f3a0b25f2",
+                "resourcePath": "timelines\\tl_fast_pause_turn\\tl_fast_pause_turn.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -5895,6 +5919,14 @@
             }
         },
         {
+            "Key": "a39ee2fd-3f3c-44b6-8b61-bd7e46126eec",
+            "Value": {
+                "id": "3d048413-3d84-405d-a493-2be87912d2c1",
+                "resourcePath": "timelines\\tl_fast_hard_turn_loop\\tl_fast_hard_turn_loop.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "a3a90310-0479-4c26-8b6f-4a0c6bc07c60",
             "Value": {
                 "id": "30a631ac-6f4d-426e-a0d2-a6151ea757fe",
@@ -6196,6 +6228,14 @@
                 "id": "b4290378-0655-48e6-a6e2-3e87d6aea08a",
                 "resourcePath": "sprites\\s_illum_green_12\\s_illum_green_12.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "acc9665d-64ed-4d5c-8e84-2aeaa2444f52",
+            "Value": {
+                "id": "94202dda-d032-4ad2-a09e-9465e75d73c4",
+                "resourcePath": "timelines\\tl_fast_assist_ally\\tl_fast_assist_ally.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -9171,6 +9211,7 @@
         "5a48e9f5-448b-4743-beab-6c664edf8d44",
         "b8f82eee-1703-4f71-b5d6-4ca960201ab5",
         "335b7c23-61e9-4648-8239-9bdb7db0c39b",
+        "26f11815-280b-451b-956c-73ad9c53829b",
         "ad92d492-1ba2-4f41-8188-ba394a434c36",
         "91eff895-5395-40fa-8c29-514bafb072ff",
         "1e0db19f-5a68-4a87-abd2-d2b4655f3e4b",
