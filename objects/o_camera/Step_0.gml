@@ -37,8 +37,8 @@ switch(state){
 	if (instance_exists(battle_manager)){
 		var _new_x = -((_new_camera_width - base_camera_width)/2)
 		var _new_y = -((_new_camera_height - base_camera_height)/2)
-		var _base_x = battle_manager.x
-		var _base_y = battle_manager.y
+		var _base_x = battle_manager.x - base_camera_width/2
+		var _base_y = battle_manager.y - base_camera_height/2
 	}
 	
 	camera_set_view_pos(view_camera[0], _base_x+_new_x,  _base_y+_new_y)
