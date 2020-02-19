@@ -24,6 +24,7 @@ evasion_counter = 0
 evade_direction = 0
 original_direction = 0
 new_direction = 0
+number_of_evades = 0
 
 //keypresses
 sprite_list = ds_list_create()

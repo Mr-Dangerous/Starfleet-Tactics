@@ -10,7 +10,7 @@ var _weapon_y = argument0
 
 
 
-var _convergence_angle = sign(y - y+_weapon_y)*2.5//this angle here needs to be dynamically calculated
+var _convergence_angle = sign(y - y+_weapon_y)*-2.5//this angle here needs to be dynamically calculated
 
 
 return _convergence_angle

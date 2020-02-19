@@ -2023,6 +2023,14 @@
             }
         },
         {
+            "Key": "390d2c0f-bb23-4054-b8c9-91597e3bae93",
+            "Value": {
+                "id": "7f1552ae-f28a-4701-8520-f67fad313ae3",
+                "resourcePath": "views\\390d2c0f-bb23-4054-b8c9-91597e3bae93.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "390fb11f-ecf3-4684-9665-a7e4097bdf73",
             "Value": {
                 "id": "68472036-c17e-45e1-804b-8e575ebd0d13",
@@ -2156,6 +2164,14 @@
                 "id": "a4144dfe-79e1-4d95-9537-2acaba4ce4a7",
                 "resourcePath": "sprites\\s_laser_heavy_32\\s_laser_heavy_32.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c6b14e5-f8fb-4e4e-a49c-baf3d4870392",
+            "Value": {
+                "id": "e954842d-9a77-47a2-a771-f57994ebf868",
+                "resourcePath": "views\\3c6b14e5-f8fb-4e4e-a49c-baf3d4870392.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2532,6 +2548,14 @@
                 "id": "ba97d5c0-ab78-458c-a0e7-caef450c9e72",
                 "resourcePath": "sprites\\s_tox_gold_29\\s_tox_gold_29.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "47145efd-5d6a-425e-b673-29b3353e1f9d",
+            "Value": {
+                "id": "36457565-e926-4cc6-992d-dd6f80138bd4",
+                "resourcePath": "views\\47145efd-5d6a-425e-b673-29b3353e1f9d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3407,6 +3431,14 @@
             }
         },
         {
+            "Key": "5f5823f6-26b7-4367-9967-545a00d1806a",
+            "Value": {
+                "id": "f1599638-18cd-435c-a7f8-be9f61bbf2cd",
+                "resourcePath": "views\\5f5823f6-26b7-4367-9967-545a00d1806a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5f986ea8-5360-4e8d-a3cc-4928bb91f8ac",
             "Value": {
                 "id": "cb698cd4-a1c5-4e64-b027-6f8575084f46",
@@ -4108,6 +4140,14 @@
                 "id": "e817dd81-8880-4b7b-bb68-b21ac4b67ab7",
                 "resourcePath": "sprites\\s_tox_blue_28\\s_tox_blue_28.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "709fffd4-5efc-4428-aa37-ad798e2cd374",
+            "Value": {
+                "id": "71719ce7-ab43-4d1f-a0e8-b88a9fba30f0",
+                "resourcePath": "views\\709fffd4-5efc-4428-aa37-ad798e2cd374.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -7276,6 +7316,14 @@
                 "id": "364adf31-cb20-465b-8159-ee8f8a251a1b",
                 "resourcePath": "sprites\\s_laser_huge_06\\s_laser_huge_06.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ca22bd06-7fa1-4e50-95d6-689e11f9ace4",
+            "Value": {
+                "id": "b09a194a-d407-4c2f-b0cc-8f435b3ac99c",
+                "resourcePath": "timelines\\tl_slow_overkill\\tl_slow_overkill.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
