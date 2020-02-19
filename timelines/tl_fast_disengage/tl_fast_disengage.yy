@@ -1,142 +1,108 @@
 {
-    "id": "28d0ba18-538c-4a49-9fe9-43a61126b3ad",
+    "id": "c24d9133-272d-43c6-a6d7-bc057627c350",
     "modelName": "GMTimeline",
     "mvc": "1.0",
-    "name": "tl_fast_slide_attack",
+    "name": "tl_fast_disengage",
     "momentList": [
         {
-            "id": "7a7391be-18d4-47fa-9500-4cdc0beaf7a0",
+            "id": "aab83f92-968c-4612-acef-ffbb21effd1a",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "11323d06-2a08-4637-ab5a-432a76fc955c",
+                "id": "bf9a0728-64fa-428d-9938-87a46819bc88",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 0,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "c24d9133-272d-43c6-a6d7-bc057627c350"
             },
             "moment": 0
         },
         {
-            "id": "ce2ee7ea-82e4-4c84-a434-327e934cf2a6",
+            "id": "d1cfe9b1-2307-41b0-9185-962297a49c54",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "fbee1574-a95a-48cb-818d-9e20924626bd",
+                "id": "17c91060-7de7-4a02-b44a-9a25e0ba40d2",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 1,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "c24d9133-272d-43c6-a6d7-bc057627c350"
             },
             "moment": 1
         },
         {
-            "id": "1249ce63-f044-4340-938d-e630568bcbc1",
+            "id": "6e1e14d8-a1d6-480c-96c5-73366d663436",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "01edde99-34fc-49f1-9307-f6a8d3a19c41",
+                "id": "1bc573e4-ec2a-4d00-9508-a02be4eedb9b",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 2,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "c24d9133-272d-43c6-a6d7-bc057627c350"
             },
             "moment": 2
         },
         {
-            "id": "ffa95578-26e8-4a09-84f8-f9801c83a4d8",
+            "id": "5a9f3e08-5aa8-4375-b4b9-4ae59c28eade",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "9171185c-d8a0-40c1-9938-70fde2330d1a",
+                "id": "ff9ce1b4-fb55-4c6e-af76-c8d15665e7ec",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 3,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "c24d9133-272d-43c6-a6d7-bc057627c350"
             },
             "moment": 3
         },
         {
-            "id": "b07f8c0f-cea0-44b1-98af-5fcf3c2c6b71",
+            "id": "240ebb38-dbbd-4ae9-a5bf-ece72a4eec2e",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "d87c23ac-3a80-4c70-a86e-553de8ff7349",
+                "id": "9d8f48d2-5fcc-43e7-b603-93ac5412c496",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 4,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "c24d9133-272d-43c6-a6d7-bc057627c350"
             },
             "moment": 4
         },
         {
-            "id": "1ae4ce22-9436-4fa1-87a3-d9d7a70a6c81",
+            "id": "196a1cc6-5be7-4d83-b01d-314b4b96ed4a",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "253dcd8b-9090-49a0-82e6-082004cb6459",
-                "modelName": "GMEvent",
-                "mvc": "1.0",
-                "IsDnD": false,
-                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 5,
-                "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
-            },
-            "moment": 5
-        },
-        {
-            "id": "a497dc66-4b5d-4644-8b2e-ea3170230d20",
-            "modelName": "GMMoment",
-            "mvc": "1.0",
-            "name": "",
-            "evnt": {
-                "id": "a43dbc47-3832-4c30-890c-f2714f16773b",
-                "modelName": "GMEvent",
-                "mvc": "1.0",
-                "IsDnD": false,
-                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 6,
-                "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
-            },
-            "moment": 6
-        },
-        {
-            "id": "e6431fa1-baf8-47c7-bd37-35320f942386",
-            "modelName": "GMMoment",
-            "mvc": "1.0",
-            "name": "",
-            "evnt": {
-                "id": "929c069f-f46c-43a0-9be1-3e268584e72d",
+                "id": "b99f05ac-4b21-4a9f-acae-3cf6e1390736",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 100,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "c24d9133-272d-43c6-a6d7-bc057627c350"
             },
             "moment": 100
         }

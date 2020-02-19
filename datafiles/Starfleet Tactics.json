@@ -70,7 +70,7 @@
       "Armor": 200,
       "Basic Attack Projectile Duration": 100,
       "Basic Attack Burst Number": 3,
-      "Basic Attack Speed Interval": 2,
+      "Basic Attack Speed Interval": 20,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_slide_attack"

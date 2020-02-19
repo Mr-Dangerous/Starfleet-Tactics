@@ -33,6 +33,7 @@ reference_squad = noone
 formation_number = -1
 
 //stats
+gimbal_fire_angle = 3
 max_speed = 0
 acceleration_rate = 0
 turn_speed = 0
@@ -48,6 +49,8 @@ basic_attack_burst_number = 0
 basic_attack_speed_interval = 0
 basic_attack_patterns = 0
 basic_attack_speed_counter = 0
+desired_motion = 0
+desired_direction = 0
 
 //
 state = ship.locked

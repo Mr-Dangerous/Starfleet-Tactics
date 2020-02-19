@@ -1,144 +1,110 @@
 {
-    "id": "28d0ba18-538c-4a49-9fe9-43a61126b3ad",
+    "id": "4dcb0913-0c89-47f6-9eee-ae947002eb74",
     "modelName": "GMTimeline",
     "mvc": "1.0",
-    "name": "tl_fast_slide_attack",
+    "name": "tl_return_to_squad",
     "momentList": [
         {
-            "id": "7a7391be-18d4-47fa-9500-4cdc0beaf7a0",
+            "id": "1011333d-70f8-4af6-9545-f032425254f7",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "11323d06-2a08-4637-ab5a-432a76fc955c",
+                "id": "0508a14d-3718-4238-8950-867374ecfb02",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 0,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "4dcb0913-0c89-47f6-9eee-ae947002eb74"
             },
             "moment": 0
         },
         {
-            "id": "ce2ee7ea-82e4-4c84-a434-327e934cf2a6",
+            "id": "29295550-56e2-4dfe-bc32-182c73085fb0",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "fbee1574-a95a-48cb-818d-9e20924626bd",
+                "id": "6fcba0f7-40d8-43a0-ae32-b9d845cdaf3b",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 1,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "4dcb0913-0c89-47f6-9eee-ae947002eb74"
             },
             "moment": 1
         },
         {
-            "id": "1249ce63-f044-4340-938d-e630568bcbc1",
+            "id": "72dec66b-f964-4310-bf1b-5864276b7d07",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "01edde99-34fc-49f1-9307-f6a8d3a19c41",
+                "id": "71d91161-fdaa-45de-af03-233d80943442",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 2,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "4dcb0913-0c89-47f6-9eee-ae947002eb74"
             },
             "moment": 2
         },
         {
-            "id": "ffa95578-26e8-4a09-84f8-f9801c83a4d8",
+            "id": "65d16407-adb8-4d6e-ad66-db77069e7719",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "9171185c-d8a0-40c1-9938-70fde2330d1a",
+                "id": "45233c99-7e8c-4796-b91f-4f37d2dffb31",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 3,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "4dcb0913-0c89-47f6-9eee-ae947002eb74"
             },
             "moment": 3
         },
         {
-            "id": "b07f8c0f-cea0-44b1-98af-5fcf3c2c6b71",
+            "id": "fd0d2dc0-2130-42ef-839d-5989560a856b",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "d87c23ac-3a80-4c70-a86e-553de8ff7349",
+                "id": "56b4e2d5-3f26-4c2f-a99f-57815f299b90",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 4,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "4dcb0913-0c89-47f6-9eee-ae947002eb74"
             },
             "moment": 4
         },
         {
-            "id": "1ae4ce22-9436-4fa1-87a3-d9d7a70a6c81",
+            "id": "f57facdc-8ab8-47a2-bb24-3f15fde19d56",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "253dcd8b-9090-49a0-82e6-082004cb6459",
+                "id": "b7ea58d7-ecfd-4fcf-afbe-02dee804f4ed",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 5,
                 "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
+                "m_owner": "4dcb0913-0c89-47f6-9eee-ae947002eb74"
             },
             "moment": 5
-        },
-        {
-            "id": "a497dc66-4b5d-4644-8b2e-ea3170230d20",
-            "modelName": "GMMoment",
-            "mvc": "1.0",
-            "name": "",
-            "evnt": {
-                "id": "a43dbc47-3832-4c30-890c-f2714f16773b",
-                "modelName": "GMEvent",
-                "mvc": "1.0",
-                "IsDnD": false,
-                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 6,
-                "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
-            },
-            "moment": 6
-        },
-        {
-            "id": "e6431fa1-baf8-47c7-bd37-35320f942386",
-            "modelName": "GMMoment",
-            "mvc": "1.0",
-            "name": "",
-            "evnt": {
-                "id": "929c069f-f46c-43a0-9be1-3e268584e72d",
-                "modelName": "GMEvent",
-                "mvc": "1.0",
-                "IsDnD": false,
-                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 100,
-                "eventtype": 0,
-                "m_owner": "28d0ba18-538c-4a49-9fe9-43a61126b3ad"
-            },
-            "moment": 100
         }
     ]
 }

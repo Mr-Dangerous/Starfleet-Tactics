@@ -2783,6 +2783,14 @@
             }
         },
         {
+            "Key": "4dcb0913-0c89-47f6-9eee-ae947002eb74",
+            "Value": {
+                "id": "a5d7e19e-d9ad-410b-a941-38f551a17b74",
+                "resourcePath": "timelines\\tl_return_to_squad\\tl_return_to_squad.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "4ddbe00b-234e-4b19-989b-935bf98c62c1",
             "Value": {
                 "id": "1dba9d53-f90c-4eba-b32d-16f7cc96815d",
@@ -2836,6 +2844,14 @@
                 "id": "0a4b98f5-1546-41a6-9b0a-f5d3f64912ac",
                 "resourcePath": "scripts\\FOLDER_Framework\\FOLDER_Framework.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5068a4ee-d821-45f9-9f7b-6e362b48fdd0",
+            "Value": {
+                "id": "4964160e-ae98-4537-9ef4-45cbaac0b078",
+                "resourcePath": "timelines\\tl_fast_joust\\tl_fast_joust.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -6860,6 +6876,14 @@
                 "id": "ddcd53a5-feb9-4b9f-a1bb-40552105c52e",
                 "resourcePath": "sprites\\s_laser_mixed_124\\s_laser_mixed_124.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c24d9133-272d-43c6-a6d7-bc057627c350",
+            "Value": {
+                "id": "8dd7a56e-3892-433d-b530-6412f62facc0",
+                "resourcePath": "timelines\\tl_fast_disengage\\tl_fast_disengage.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
