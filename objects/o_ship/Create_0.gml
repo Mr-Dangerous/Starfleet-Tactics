@@ -22,7 +22,7 @@ ship_target = noone
 enemy_ships_targeting = ds_list_create()
 evasion_counter = 0
 evade_direction = 0
-original_direction = 0
+original_angle = 0
 new_direction = 0
 number_of_evades = 0
 

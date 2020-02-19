@@ -14,9 +14,8 @@ for (var i = 0; i < ds_list_size(_weapon_list); i++){
 		_projectile.image_yscale = _weapon[SPRITE_IMAGE_SCALE]
 		_projectile.speed = basic_attack_projectile_speed
 		_projectile.duration = basic_attack_projectile_duration
-		var _weapon_range = basic_attack_projectile_speed*basic_attack_projectile_duration
-		var _convergence_angle = scr_calculate_convergence_angle(_y_offset)
-		_projectile.image_angle = image_angle+_convergence_angle
+		var _convergence_angle = scr_calculate_convergence_angle(_x_offset, _y_offset)
+		_projectile.image_angle = _convergence_angle
 		_projectile.direction = _projectile.image_angle
 		if (weapon_effects){
 			var _number_of_effects = array_length_1d(_weapon)

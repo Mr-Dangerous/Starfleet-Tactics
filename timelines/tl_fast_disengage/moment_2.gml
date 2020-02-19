@@ -9,3 +9,4 @@ if (speed >= max_speed*.9 and abs(angle_difference(image_angle, evade_direction)
 } else {
 	timeline_position = 2
 }
+

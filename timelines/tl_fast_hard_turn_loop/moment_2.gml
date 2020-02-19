@@ -11,7 +11,7 @@ if (ds_list_size(enemy_ships_targeting) > 0){
 desired_direction = evade_direction
 desired_motion += acceleration_rate
 evasion_counter--
-if (evasion_counter <= 0 and abs(angle_difference(image_angle, orginal_angle) < 5)){
+if (evasion_counter <= 0 and abs(angle_difference(image_angle, original_angle) < 5)){
 	timeline_position = 3
 } else {
 	timeline_position = 1

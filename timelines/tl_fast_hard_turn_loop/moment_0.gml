@@ -1,7 +1,7 @@
 ///@desc intialize vars
 //first check to see which direction has more enemies, left or right
 evasion_counter = 10
-orginal_angle = image_angle
+original_angle = image_angle
 evade_direction = image_angle + 90*choose(-1, 1)
 if (ds_list_size(enemy_ships_targeting) > 0){		
 	var _enemy_ship_targeting = enemy_ships_targeting[|0]
