@@ -26,6 +26,12 @@ original_angle = 0
 new_direction = 0
 number_of_evades = 0
 
+
+generate_shields = false
+
+
+
+
 //keypresses
 sprite_list = ds_list_create()
 if (room = r_firing_range){

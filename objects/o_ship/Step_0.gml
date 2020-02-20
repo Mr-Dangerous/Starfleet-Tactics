@@ -3,6 +3,12 @@ if (armor <= 0){
 	instance_destroy()
 }
 
+if (generate_shields){
+	
+	companion_shield_object.timeline_running = true
+	companion_shield_object.timeline_position = 0
+}
+generate_shields = false
 
 switch(state){
 	

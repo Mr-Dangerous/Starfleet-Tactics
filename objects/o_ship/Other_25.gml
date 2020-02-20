@@ -63,6 +63,7 @@ max_speed = _ship_map[? "Max Speed"]
 acceleration_rate = _ship_map[? "Acceleration Rate"]
 turn_speed = _ship_map[? "Turn Speed"]
 armor = _ship_map[? "Armor"]
+shields = _ship_map[? "Shields"]
 
 basic_attack_projectile_duration = _ship_map[? "Basic Attack Projectile Duration"]
 basic_attack_projectile_speed = _ship_map[? "Basic Attack Projectile Speed"]
@@ -80,5 +81,13 @@ if (spell_script_string != "null"){
 	
 }
 
+
+
+companion_shield_object = instance_create_layer(x, y, LAYER_EFFECTS_OVER, o_shield_effect)
+companion_shield_object.hard_shield_sprite = s_shield_hard_5
+companion_shield_object.soft_shield_sprite = s_shield_soft_4
+companion_shield_object.cloud_shield_sprite = s_shield_cloud_2
+companion_shield_object.reference_ship = self
+companion_shield_object.image_scale = image_xscale
 
 created = true

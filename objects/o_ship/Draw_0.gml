@@ -13,6 +13,8 @@ if (instance_exists(ship_target)){
 	draw_line(x, y, ship_target.x, ship_target.y)
 }
 
+
+
 #region post draw_self() - universal graphics that appear over the ship
 
 #endregion

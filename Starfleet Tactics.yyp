@@ -2495,6 +2495,14 @@
             }
         },
         {
+            "Key": "45e10605-9866-41cc-9dff-d79b17a4eb76",
+            "Value": {
+                "id": "825e77d5-305c-4077-bc3c-9948efc37dba",
+                "resourcePath": "objects\\o_shield_effect\\o_shield_effect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "45f1a2f8-35cb-41c9-a093-5adcd4c0b38b",
             "Value": {
                 "id": "c5da7457-d5d9-4308-805d-a2fbe6dc20cc",
@@ -4956,6 +4964,14 @@
                 "id": "9408a925-025f-4c7d-a268-bc58afc84b28",
                 "resourcePath": "sprites\\s_tox_gold_19\\s_tox_gold_19.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "86375358-9fbc-439c-a6d2-d922d37a9a98",
+            "Value": {
+                "id": "f15d4dc6-f02d-4677-a744-6a68bf9d24e8",
+                "resourcePath": "timelines\\tl_draw_shields\\tl_draw_shields.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -8607,6 +8623,14 @@
             }
         },
         {
+            "Key": "ec484229-0d34-4a73-8811-48b77177eec9",
+            "Value": {
+                "id": "2a9bb8bd-f67c-428b-b413-d08a555b98fd",
+                "resourcePath": "scripts\\scr_draw_shield\\scr_draw_shield.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ecba15a9-ed6e-4856-822a-4c0402fb1513",
             "Value": {
                 "id": "33fd719e-8c32-4818-9959-cb116f0586ab",
@@ -9356,7 +9380,8 @@
         "27f03287-c792-4b66-8136-92b946acb481",
         "c35e58d6-ccc7-4ab8-908f-2e12091c524b",
         "436475dd-0b67-45cb-9f3d-d62da0261d31",
-        "0ab54466-1d44-4926-9ff6-34ae3dc91025"
+        "0ab54466-1d44-4926-9ff6-34ae3dc91025",
+        "ec484229-0d34-4a73-8811-48b77177eec9"
     ],
     "tutorial": ""
 }
