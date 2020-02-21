@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "0c93c5cc-7de5-497c-9fd1-7018f724d289",
+            "Value": {
+                "id": "cb3403db-c881-46ee-bbe1-a2340734ae71",
+                "resourcePath": "objects\\o_ship_damage_effect\\o_ship_damage_effect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c9ed68b-a062-473a-8a9c-db8ea17344cc",
             "Value": {
                 "id": "a2bc9f20-167b-4a03-84de-104f45a0eba5",
@@ -2108,6 +2116,14 @@
                 "id": "4bf47583-69a4-4b1e-b424-286cafe4f1a4",
                 "resourcePath": "sprites\\s_tox_green_26\\s_tox_green_26.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3b65cdc3-289b-4b32-83ab-0a569efe781c",
+            "Value": {
+                "id": "e72f74ad-4858-4b59-8894-2f30621b0037",
+                "resourcePath": "timelines\\tl_ghost_blade_spell_position\\tl_ghost_blade_spell_position.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -4303,6 +4319,14 @@
             }
         },
         {
+            "Key": "740fa67f-b3bd-4fca-a6b8-65dda9ded4cf",
+            "Value": {
+                "id": "7dbe5c88-5e5c-48c2-94d4-ae00a84ef686",
+                "resourcePath": "scripts\\scr_calculate_basic_attack_damage\\scr_calculate_basic_attack_damage.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "742888c9-be1d-414e-a2b4-9eb1f71bf839",
             "Value": {
                 "id": "fc828d56-8c52-4fe9-bab2-42da2e0c0286",
@@ -4684,6 +4708,14 @@
                 "id": "443f0a49-5766-4340-b1d6-a207a26a28e0",
                 "resourcePath": "views\\7d8e0e7d-e293-44c2-a352-c368412c1e0b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7dc6edab-2f0f-4f4f-9c21-bc3a8a4ea84d",
+            "Value": {
+                "id": "3a3eba4f-3b96-4a96-bf37-4983c61390ab",
+                "resourcePath": "scripts\\scr_spell_effect_ghost_blade\\scr_spell_effect_ghost_blade.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -9283,7 +9315,6 @@
         "5a48e9f5-448b-4743-beab-6c664edf8d44",
         "b8f82eee-1703-4f71-b5d6-4ca960201ab5",
         "335b7c23-61e9-4648-8239-9bdb7db0c39b",
-        "26f11815-280b-451b-956c-73ad9c53829b",
         "ad92d492-1ba2-4f41-8188-ba394a434c36",
         "91eff895-5395-40fa-8c29-514bafb072ff",
         "1e0db19f-5a68-4a87-abd2-d2b4655f3e4b",
@@ -9377,11 +9408,14 @@
         "d75040d8-6cfe-42d4-af9c-7a3275ea3b96",
         "7205d704-c26e-4d9d-aa0b-20fc4e06a646",
         "d784a9f8-ff45-4ce7-894a-71c56666fecc",
+        "26f11815-280b-451b-956c-73ad9c53829b",
         "27f03287-c792-4b66-8136-92b946acb481",
         "c35e58d6-ccc7-4ab8-908f-2e12091c524b",
         "436475dd-0b67-45cb-9f3d-d62da0261d31",
         "0ab54466-1d44-4926-9ff6-34ae3dc91025",
-        "ec484229-0d34-4a73-8811-48b77177eec9"
+        "ec484229-0d34-4a73-8811-48b77177eec9",
+        "740fa67f-b3bd-4fca-a6b8-65dda9ded4cf",
+        "7dc6edab-2f0f-4f4f-9c21-bc3a8a4ea84d"
     ],
     "tutorial": ""
 }

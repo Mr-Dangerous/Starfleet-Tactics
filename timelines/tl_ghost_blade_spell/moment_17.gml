@@ -13,3 +13,5 @@ _projectile.speed = 20
 _projectile.duration = 8
 _projectile.spell_manager = self
 _projectile.after_image = true
+_projectile.owner = owner
+_projectile.spell_target = SPELL_TARGET_ENEMY

@@ -1,4 +1,15 @@
+///move to the positionting timeline
+
+
 ///@description Create first projectile
+//return the changed variables to normal
+if (timeline_running = false){
+	timeline_running = true
+}
+
+spell_effect = scr_spell_effect_ghost_blade
+
+
 var _length = 60
 var _direction = image_angle + 45
 var _x = x + lengthdir_x(_length, _direction)
@@ -12,3 +23,5 @@ _projectile.speed = 8
 _projectile.duration = 18
 _projectile.spell_manager = self
 _projectile.after_image = true
+_projectile.owner = owner
+_projectile.spell_target = SPELL_TARGET_ENEMY

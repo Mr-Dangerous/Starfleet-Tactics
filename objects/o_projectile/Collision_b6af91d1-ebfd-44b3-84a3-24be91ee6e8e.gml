@@ -1,9 +1,10 @@
 /// @description
 with(other){
 	if (owner != other.owner){
-		armor -= other.damage
+		
+		scr_calculate_basic_attack_damage(other.damage)
 		instance_destroy(other)
-		generate_shields = true
+	
 	}
 	
 }

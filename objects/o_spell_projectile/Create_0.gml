@@ -5,6 +5,8 @@ turn_speed = 0
 rotation = 0
 spell_manager = 0
 after_image=false
+owner = 0
+spell_target = ""
 
-server_manager = instance_find(o_server_manager, 0)
-sprite_list = server_manager.sprite_list
+//server_manager = instance_find(o_server_manager, 0)
+//sprite_list = server_manager.sprite_list

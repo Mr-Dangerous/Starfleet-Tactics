@@ -60,8 +60,11 @@ if (has_effects){
 
 
 max_speed = _ship_map[? "Max Speed"]
+base_max_speed = max_speed
 acceleration_rate = _ship_map[? "Acceleration Rate"]
+base_acceleration_rate = acceleration_rate
 turn_speed = _ship_map[? "Turn Speed"]
+base_turn_speed = turn_speed
 armor = _ship_map[? "Armor"]
 shields = _ship_map[? "Shields"]
 
@@ -73,11 +76,17 @@ basic_attack_burst_number = _ship_map[? "Basic Attack Burst Number"]
 basic_attack_speed_interval = _ship_map[? "Basic Attack Speed Interval"]
 basic_attack_patterns = _ship_map[? "Basic Attack Patterns"]//this may need to become some kind of list
 
-
+max_energy = _ship_map[? "Energy"]
+starting_energy = _ship_map[? "Starting Energy"]
 spell_script_string = _ship_map[? "Spell Timeline Script"]
+caster_level = _ship_map[? "Level"]
+
 if (spell_script_string != "null"){
 	
 	spell_timeline_script = asset_get_index(spell_script_string)
+	companion_spell_manager.timeline_index = spell_timeline_script
+	companion_spell_manager.owner = owner
+	companion_spell_manager.caster_level = caster_level
 	
 }
 

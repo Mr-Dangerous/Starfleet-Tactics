@@ -5,12 +5,12 @@
     "name": "tl_ghost_blade_spell",
     "momentList": [
         {
-            "id": "89bec910-92b0-4397-868a-c2d810ca758d",
+            "id": "cf03d6f1-abb7-468c-9330-137e8be40521",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "cce18ac5-16c5-42f3-b6d0-01fe83cf2b2b",
+                "id": "7a858bd1-09c7-484e-b4a3-ae1f80928fe5",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,

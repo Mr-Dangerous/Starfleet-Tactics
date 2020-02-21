@@ -25,9 +25,15 @@ evade_direction = 0
 original_angle = 0
 new_direction = 0
 number_of_evades = 0
+energy = 0
+starting_energy = 0
+max_energy = 0
+companion_spell_manager = instance_create_layer(x, y, LAYER_EFFECTS_OVER, o_spell_manager)
+companion_spell_manager.origin_ship = self
 
 
 generate_shields = false
+generate_physical_damage = false
 
 
 
@@ -49,6 +55,7 @@ max_speed = 0
 acceleration_rate = 0
 turn_speed = 0
 armor = 1
+caster_level = 0
 basic_attack_projectile_speed = 5
 basic_attack_projectile_duration = 50
 basic_attack_damage = 1

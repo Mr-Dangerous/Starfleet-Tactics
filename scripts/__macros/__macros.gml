@@ -81,3 +81,11 @@
 
 #macro TARGET_NORMAL "Default"
 
+#macro ARMOR_DAMAGE 0
+#macro SHIELD_DAMAGE 1
+
+#macro SPELL_TARGET_ENEMY "enemy"
+#macro SPELL_TARGET_ALLY "ally"
+#macro SPELL_TARGET_ANY "any"
+#macro EVENT_SPELL_EFFECT 0
+

@@ -10,6 +10,19 @@ if (generate_shields){
 }
 generate_shields = false
 
+if (generate_physical_damage){
+	generate_physical_damage = false
+	_random_x = x+irandom_range(-32, 32)
+	_random_y = y+irandom_range(-32, 32)
+	var _damage = instance_create_layer(_random_x, _random_y, LAYER_EFFECTS_OVER, o_ship_damage_effect)
+	_damage.sprite_index = s_normal_single_exhaust
+	_damage.image_scale = image_scale
+}
+
+if (energy <= max_energy){
+	energy+=.03
+}
+
 switch(state){
 	
 	case ship.locked:
