@@ -45,7 +45,15 @@ switch(state){
 	break;
 	
 	case ship.battle:
-	
+	squad_target = reference_squad.squad_target
+	if (!instance_exists(squad_target)){
+		state = ship.locked
+		combat_state = ship.out_of_combat
+		break;
+	}
+	if (!instance_exists(ship_target)){
+			ship_target = scr_assign_ship_target(self)
+	}
 	if (instance_exists(ship_target)){
 		switch(combat_state){
 			case ship.out_of_combat:  //approach the enemy

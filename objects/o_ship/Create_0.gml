@@ -47,6 +47,7 @@ if (room = r_firing_range){
 extra_sprite_list = ds_list_create()
 owner = -1
 reference_squad = noone
+squad_target = noone
 formation_number = -1
 
 //stats

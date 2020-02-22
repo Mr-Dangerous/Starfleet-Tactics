@@ -17,7 +17,8 @@ for (var i=0; i < _number_of_enemies_in_squad; i++){
 	}
 }
 if (!_target_assigned){
-	if (ds_list_size(_enemy_ships_in_squad > 0)){
+	var _enemy_ships_remaining = ds_list_size(_enemy_ships_in_squad)
+	if ( _enemy_ships_remaining > 0){
 		var _random_seed = irandom(_number_of_enemies_in_squad-1)
 		var _ship_target = ds_list_find_value(_enemy_ships_in_squad, _random_seed)
 		

@@ -6,9 +6,12 @@ for (var i = 0; i < ds_list_size(paired_effects); i++){
 	ds_list_destroy(paired_effects)
 }
 instance_destroy(companion_shield_object)
+instance_destroy(companion_spell_manager)
 if (instance_exists(ship_target)){
 	var _target_list = ship_target.enemy_ships_targeting
 	var _index = ds_list_find_index(_target_list, self)
 	ds_list_delete(_target_list, _index)
 	
 }
+var _list_index = ds_list_find_index(reference_squad.ships_in_squad, self)
+ds_list_delete(reference_squad.ships_in_squad, _list_index)

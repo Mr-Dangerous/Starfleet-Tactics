@@ -21,3 +21,12 @@ if (instance_exists(ship_target)){
 
 ds_list_clear(extra_sprite_list)
 
+var _timeline_string = ""
+if (timeline_index < 0){
+	_timeline_string = "No timeline!"
+} else {
+	_timeline_string = timeline_get_name(timeline_index)
+	
+}
+draw_text(x, y, _timeline_string)
+
