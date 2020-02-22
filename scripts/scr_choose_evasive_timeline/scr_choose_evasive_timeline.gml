@@ -3,15 +3,15 @@
 var ship_type = argument0
 var _return_script = 0
 switch (ship_type){
-	case "fast":
-		_return_script = choose(tl_fast_disengage,tl_fast_hard_turn_loop, tl_fast_assist_ally, tl_fast_zig_zag)
+	case SPEED_CLASS_FAST:
+		_return_script = choose(tl_fast_disengage,tl_fast_hard_turn_loop, tl_fast_zig_zag)
 	break;
 	
-	case "medium":
+	case SPEED_CLASS_MEDIUM:
 		_return_script = choose(tl_fast_disengage,tl_fast_hard_turn_loop)
 	break;
 	
-	case "slow":
+	case SPEED_CLASS_SLOW:
 		_return_script = choose(tl_fast_disengage,tl_fast_hard_turn_loop)
 	break;
 }

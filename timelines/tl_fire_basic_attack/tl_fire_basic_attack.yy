@@ -1,57 +1,57 @@
 {
-    "id": "ca22bd06-7fa1-4e50-95d6-689e11f9ace4",
+    "id": "3b9885f7-b204-47c6-be0c-aaa7c408b6d1",
     "modelName": "GMTimeline",
     "mvc": "1.0",
-    "name": "tl_slow_overkill",
+    "name": "tl_fire_basic_attack",
     "momentList": [
         {
-            "id": "3834d7e4-6796-476a-8e60-5ac829565efc",
+            "id": "379e34e5-82bd-47d3-951d-0230e9275fdc",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "a3d0995b-6381-4f27-8443-f5afe96ca9cd",
+                "id": "461b0a8c-1744-498c-8961-07dbd9bdb708",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 0,
                 "eventtype": 0,
-                "m_owner": "ca22bd06-7fa1-4e50-95d6-689e11f9ace4"
+                "m_owner": "3b9885f7-b204-47c6-be0c-aaa7c408b6d1"
             },
             "moment": 0
         },
         {
-            "id": "1814519e-2b66-4897-aea2-45ceabd89fd1",
+            "id": "0935a35d-a8a5-4241-8d15-92a630569fa8",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "ab484789-fd13-476b-b18c-7d4282933e5a",
+                "id": "e6363596-5d9a-4fae-926e-4333107445b6",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 1,
                 "eventtype": 0,
-                "m_owner": "ca22bd06-7fa1-4e50-95d6-689e11f9ace4"
+                "m_owner": "3b9885f7-b204-47c6-be0c-aaa7c408b6d1"
             },
             "moment": 1
         },
         {
-            "id": "39dfe054-08a5-4695-accd-22e6f8bb1225",
+            "id": "7b4499cb-e32a-4359-9fc0-8e3188b76c07",
             "modelName": "GMMoment",
             "mvc": "1.0",
             "name": "",
             "evnt": {
-                "id": "486a17a8-b8f2-4b04-a48c-4e27d64a6a66",
+                "id": "21a27a2a-561d-4668-956d-ebd1eaa4f568",
                 "modelName": "GMEvent",
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
                 "enumb": 2,
                 "eventtype": 0,
-                "m_owner": "ca22bd06-7fa1-4e50-95d6-689e11f9ace4"
+                "m_owner": "3b9885f7-b204-47c6-be0c-aaa7c408b6d1"
             },
             "moment": 2
         }

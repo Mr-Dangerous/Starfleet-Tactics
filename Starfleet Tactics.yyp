@@ -2135,6 +2135,14 @@
             }
         },
         {
+            "Key": "3b9885f7-b204-47c6-be0c-aaa7c408b6d1",
+            "Value": {
+                "id": "8a50ff71-2904-4b40-8721-c0c89ce5277b",
+                "resourcePath": "timelines\\tl_fire_basic_attack\\tl_fire_basic_attack.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "3bb1160a-47fc-4c80-b3a6-967191005c37",
             "Value": {
                 "id": "9a64fcf6-d4fb-47e0-88ce-e0c96061203f",
@@ -8879,6 +8887,14 @@
             }
         },
         {
+            "Key": "f204fd1d-b4d4-41b5-bcca-0104bbe4e10e",
+            "Value": {
+                "id": "36528a27-67ab-4826-81b4-a360308e5637",
+                "resourcePath": "scripts\\scr_select_timeline\\scr_select_timeline.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f21a5bca-5ce5-421f-be9a-9184dcf0819a",
             "Value": {
                 "id": "df6b4ab7-1176-4b7d-89ca-3a40297c5833",
@@ -9415,7 +9431,8 @@
         "0ab54466-1d44-4926-9ff6-34ae3dc91025",
         "ec484229-0d34-4a73-8811-48b77177eec9",
         "740fa67f-b3bd-4fca-a6b8-65dda9ded4cf",
-        "7dc6edab-2f0f-4f4f-9c21-bc3a8a4ea84d"
+        "7dc6edab-2f0f-4f4f-9c21-bc3a8a4ea84d",
+        "f204fd1d-b4d4-41b5-bcca-0104bbe4e10e"
     ],
     "tutorial": ""
 }

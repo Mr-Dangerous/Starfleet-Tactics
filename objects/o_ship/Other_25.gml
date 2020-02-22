@@ -67,12 +67,13 @@ turn_speed = _ship_map[? "Turn Speed"]
 base_turn_speed = turn_speed
 armor = _ship_map[? "Armor"]
 shields = _ship_map[? "Shields"]
+ship_speed_class = _ship_map[? "Ship Speed Class"]
+basic_attack_thermal_unit_cost = _ship_map[? "Basic Attack Thermal Unit Cost"]
 
 basic_attack_projectile_duration = _ship_map[? "Basic Attack Projectile Duration"]
 basic_attack_projectile_speed = _ship_map[? "Basic Attack Projectile Speed"]
 basic_attack_damage = _ship_map[? "Basic Attack Damage"]
 basic_attack_range = basic_attack_projectile_duration*basic_attack_projectile_speed*.8
-basic_attack_burst_number = _ship_map[? "Basic Attack Burst Number"]
 basic_attack_speed_interval = _ship_map[? "Basic Attack Speed Interval"]
 basic_attack_patterns = _ship_map[? "Basic Attack Patterns"]//this may need to become some kind of list
 

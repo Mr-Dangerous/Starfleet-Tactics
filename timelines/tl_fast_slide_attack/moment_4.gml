@@ -10,13 +10,8 @@ if (abs(angle_difference(image_angle, desired_direction)) < gimbal_fire_angle an
 }
 
 if (attack_conditions_met = true){
-	timeline_position = 5
-	abort_counter = 0
+	timeline_position = 0
+	timeline_index = tl_fire_basic_attack
 } else {
-	timeline_position =4
-	abort_counter++
-}
-
-if(abort_counter >= 15){
-	timeline_position = 100
+	timeline_position =3
 }

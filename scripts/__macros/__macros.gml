@@ -89,3 +89,8 @@
 #macro SPELL_TARGET_ANY "any"
 #macro EVENT_SPELL_EFFECT 0
 
+#macro SPEED_CLASS_FAST "Fast"
+#macro SPEED_CLASS_MEDIUM "Medium"
+#macro SPEED_CLASS_SLOW "Slow"
+
+

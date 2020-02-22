@@ -12,5 +12,5 @@ if (evasion_counter < 0){
 }
 if (number_of_evades <= 0 or ds_list_size(enemy_ships_targeting) = 0){
 	timeline_position = 0
-	timeline_index = scr_choose_timeline_random(basic_attack_patterns)
+	timeline_index = scr_select_timeline()
 }

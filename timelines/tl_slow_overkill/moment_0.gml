@@ -3,7 +3,6 @@
 //the ship finds the ship with the smallest angle difference in front of it, and then fires a burst 
 target_x = 0
 target_y = 0
-attack_counter = 0
 
 if (instance_exists(ship_target)){
 	var _new_target = ship_target.reference_squad.ships_in_squad[|0]

@@ -18,5 +18,5 @@ if (_enemy_ships_on_tail > 0){
 	number_of_evades = 3
 } else {
 	timeline_position = 0
-	timeline_index = scr_choose_evasive_timeline("fast")
+	timeline_index = scr_select_timeline()
 }

@@ -4,8 +4,6 @@
 
 position_conditions_met = false
 attack_conditions_met = false
-abort_counter = 0
-attack_counter = 0
 
 var _angle_behind_target = ship_target.image_angle + 180 + irandom_range(-60, 60)
 

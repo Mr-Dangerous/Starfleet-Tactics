@@ -54,6 +54,19 @@ switch(state){
 	if (!instance_exists(ship_target)){
 			ship_target = scr_assign_ship_target(self)
 	}
+	if (basic_attack_coolant_counter < basic_attack_coolant_effectiveness){
+		basic_attack_coolant_counter++
+		if (name = "Hammerhead 1"){
+			show_debug_message(basic_attack_coolant_counter)
+		}
+	}
+	if (basic_attack_coolant_counter >= basic_attack_coolant_effectiveness){
+		weapons_ready = true
+	} else { 
+		weapons_ready = false 
+	}
+	
+	
 	if (instance_exists(ship_target)){
 		switch(combat_state){
 			case ship.out_of_combat:  //approach the enemy
@@ -63,7 +76,7 @@ switch(state){
 			}
 			if (distance_to_point(ship_target.x, ship_target.y) < basic_attack_range){
 				combat_state = ship.executing_timeline_attack
-				timeline_index = scr_choose_timeline_random(basic_attack_patterns)
+				timeline_index = scr_select_timeline()
 			}
 				
 			break;
@@ -74,12 +87,6 @@ switch(state){
 				timeline_position = 0
 			}
 			break;
-		}
-	} else {
-		if (timeline_index != tl_return_to_squad){
-			timeline_index = tl_return_to_squad
-			timeline_running = true
-			timeline_position = 0
 		}
 	}
 

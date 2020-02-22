@@ -64,12 +64,19 @@ spell_timeline_script = -1
 speed_unlocked = false
 number_of_attacks = 0
 basic_attack_speed_interval = 0//in frames
-basic_attack_burst_number = 0
 basic_attack_speed_interval = 0
 basic_attack_patterns = 0
 basic_attack_speed_counter = 0
+basic_attack_thermal_unit_cost = 0
+basic_attack_base_thermal_capacity = 10 //limits the basic attacks
+basic_attack_thermal_capacity_used = 0
+basic_attack_coolant_effectiveness = 180 //the quantity of frames before the ship can attack again.
 desired_motion = 0
 desired_direction = 0
+ship_speed_class = 0
+weapons_ready = false
+basic_attack_coolant_counter = 0
+basic_attack_thermal_capacity_used = 0
 
 //
 state = ship.locked
