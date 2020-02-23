@@ -10,7 +10,8 @@
         "a39ee2fd-3f3c-44b6-8b61-bd7e46126eec",
         "4d768a93-3078-43f5-aafb-7796d03db2b2",
         "acc9665d-64ed-4d5c-8e84-2aeaa2444f52",
-        "3c585523-a191-4eea-96ad-83adc6c26c0c"
+        "3c585523-a191-4eea-96ad-83adc6c26c0c",
+        "69c6c9ea-76e6-47e7-8d7b-ebc5bf1db3e0"
     ],
     "filterType": "GMTimeline",
     "folderName": "Fast manuevers",

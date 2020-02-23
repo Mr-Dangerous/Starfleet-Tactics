@@ -1,3 +1,3 @@
-hard_sprite_alpha = 1
-cloud_sprite_alpha = .3
-soft_sprite_alpha = .5
+hard_sprite_alpha = 0
+cloud_sprite_alpha = .4
+soft_sprite_alpha = .9

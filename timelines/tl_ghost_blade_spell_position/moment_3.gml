@@ -14,7 +14,7 @@ if (point_distance(x, y, target_x, target_y) < 50){
 	companion_spell_manager.timeline_running = true
 	timeline_position = 0
 	
-	timeline_index = scr_choose_timeline_random(basic_attack_patterns)
+	timeline_index = scr_select_timeline()
 	max_speed = base_max_speed
 	acceleration_rate = base_acceleration_rate
 } else {

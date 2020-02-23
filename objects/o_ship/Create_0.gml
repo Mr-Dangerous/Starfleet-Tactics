@@ -30,9 +30,13 @@ starting_energy = 0
 max_energy = 0
 companion_spell_manager = instance_create_layer(x, y, LAYER_EFFECTS_OVER, o_spell_manager)
 companion_spell_manager.origin_ship = self
+flyby_counter = 0
+abort_counter = 180
 
 
 generate_shields = false
+reinforce_shields = false
+reinforce_shields_counter = 0
 generate_physical_damage = false
 
 

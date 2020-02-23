@@ -1,3 +1,4 @@
+abort_counter = 180
 var timeline = scr_choose_evasive_timeline(ship_speed_class)
 if (weapons_ready){
 	if (energy >= max_energy and spell_timeline_script != -1){

@@ -3015,6 +3015,14 @@
             }
         },
         {
+            "Key": "53594ff8-5d42-4424-a875-a9300b2f8a36",
+            "Value": {
+                "id": "8f884250-780a-47d5-ad38-c3abc3326c49",
+                "resourcePath": "timelines\\tl_draw_reinforced_shields\\tl_draw_reinforced_shields.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "537f6401-fd0e-413b-82f8-97fdaff42c8f",
             "Value": {
                 "id": "7a0ad245-5ed2-44c1-baf1-a6e3a4535433",
@@ -3916,6 +3924,14 @@
                 "id": "8b3bb504-3956-4b16-8a33-b667322f8eb6",
                 "resourcePath": "sprites\\s_flareset1fx04\\s_flareset1fx04.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "69c6c9ea-76e6-47e7-8d7b-ebc5bf1db3e0",
+            "Value": {
+                "id": "44b30850-524d-4991-bdd5-d1783c825b4d",
+                "resourcePath": "timelines\\tl_fast_flyby\\tl_fast_flyby.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -5100,6 +5116,14 @@
                 "id": "3b87d2f0-4182-474f-8bf4-7c37374aa907",
                 "resourcePath": "scripts\\FOLDER_Settings\\FOLDER_Settings.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "89595906-59c4-4f74-a06a-4547807853a8",
+            "Value": {
+                "id": "05a4f2ad-5841-45c3-8d14-0c51689db694",
+                "resourcePath": "timelines\\tl_slow_reinforce_shields\\tl_slow_reinforce_shields.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

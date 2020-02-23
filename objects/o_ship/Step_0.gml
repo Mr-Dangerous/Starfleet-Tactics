@@ -4,9 +4,14 @@ if (armor <= 0){
 }
 
 if (generate_shields){
-	
+	if (reinforce_shields){
+		companion_shield_object.timeline_index = tl_draw_reinforced_shields
+	} else {
+		companion_shield_object.timeline_index = tl_draw_shields
+	}
 	companion_shield_object.timeline_running = true
 	companion_shield_object.timeline_position = 0
+	
 }
 generate_shields = false
 
@@ -45,6 +50,11 @@ switch(state){
 	break;
 	
 	case ship.battle:
+	abort_counter--
+	if (abort_counter <= 0){
+		timeline_index = scr_select_timeline()
+		timeline_position = 0
+	}
 	squad_target = reference_squad.squad_target
 	if (!instance_exists(squad_target)){
 		state = ship.locked
@@ -60,6 +70,7 @@ switch(state){
 			show_debug_message(basic_attack_coolant_counter)
 		}
 	}
+	
 	if (basic_attack_coolant_counter >= basic_attack_coolant_effectiveness){
 		weapons_ready = true
 	} else { 
