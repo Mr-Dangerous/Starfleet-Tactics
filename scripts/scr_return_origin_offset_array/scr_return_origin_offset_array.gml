@@ -1,10 +1,11 @@
 ///@param name_of_ship
 var _ship_map = global.ship_maps[? argument0]
 
-var _origin_offsets = array_create(3, 0)
+var _origin_offsets = array_create(4, 0)
 var _exhaust_offsets = ds_list_create()
 var _weapon_offsets = ds_list_create()
 var _effects_offsets = ds_list_create()
+var _turret_offsets = ds_list_create()
 
 var _origin_sprite = asset_get_index(_ship_map[? "Sprite"])
 var _x_origin = sprite_get_xoffset(_origin_sprite)
@@ -13,7 +14,7 @@ var _major_image_scale = _ship_map[? "Image Scale"]
 
 var j = 0
 
-repeat(3){
+repeat(4){
 	var _accessor_string
 	var _list_to_add_to
 	switch(j){
@@ -29,14 +30,17 @@ repeat(3){
 			_accessor_string = "Effect Coordinate "
 			_list_to_add_to = _effects_offsets
 		break;
-		
+		case TURRET_OFFSETS:
+			_accessor_string = "Turret Hardpoint "
+			_list_to_add_to = _turret_offsets
+		break;
 	}
 	
 	for (var i = 0; i < 4; i++){
 		var _new_accessor_string = string(_accessor_string + string(i+1))
 		var _element_data = _ship_map[? _new_accessor_string]
 		if (_element_data != "null"){
-			var _element_offset_array = 0	
+			var _element_offset_array = []
 			var _element_position_1_x = ds_list_find_value(_element_data, 0)
 			var _element_position_1_y = ds_list_find_value(_element_data, 1)
 
@@ -80,6 +84,9 @@ repeat(3){
 					}
 				}	
 			}
+			if (_accessor_string = "Turret Hardpoint " and _element_data != "null"){
+				_element_offset_array[TURRET_MAP_KEY] = _element_data[|TURRET_MAP_KEY]
+			}
 		ds_list_add(_list_to_add_to, _element_offset_array)
 		}
 	}
@@ -89,6 +96,7 @@ repeat(3){
 _origin_offsets[EXHAUST_OFFSETS] = _exhaust_offsets
 _origin_offsets[EFFECT_OFFSETS] = _effects_offsets
 _origin_offsets[WEAPON_OFFSETS] = _weapon_offsets
+_origin_offsets[TURRET_OFFSETS] = _turret_offsets
 
 return _origin_offsets
 

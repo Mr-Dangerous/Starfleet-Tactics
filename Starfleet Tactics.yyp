@@ -2943,6 +2943,14 @@
             }
         },
         {
+            "Key": "51abe585-19f0-428d-adb0-297f30d7b8e2",
+            "Value": {
+                "id": "ec41296f-737f-433e-915b-ee405e3f94e6",
+                "resourcePath": "scripts\\scr_fire_basic_attack_turret\\scr_fire_basic_attack_turret.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "51ca46d8-ce39-41ea-897f-5b372380bad9",
             "Value": {
                 "id": "367a3f27-78c0-4328-abca-7c479848262c",
@@ -4159,6 +4167,14 @@
             }
         },
         {
+            "Key": "6f261e1d-0abd-4c4f-b744-b006d93f3e63",
+            "Value": {
+                "id": "538da4e6-f26e-4df2-8426-5217904990d2",
+                "resourcePath": "sprites\\s_illum_red_turret_1\\s_illum_red_turret_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6f5428fc-3f5c-41a1-8424-99074f9e4ea1",
             "Value": {
                 "id": "418f07f4-0bb7-45fc-8c05-0a96e7b25b3d",
@@ -4796,6 +4812,14 @@
                 "id": "97eac551-d426-4e39-8ac7-d229d1a4d9a1",
                 "resourcePath": "sprites\\s_laser_light_098\\s_laser_light_098.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7ff8364e-1fc1-41da-b623-ae254e154ade",
+            "Value": {
+                "id": "8541235a-6df7-4434-ad6d-7521934b1d80",
+                "resourcePath": "objects\\o_ship_turret\\o_ship_turret.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5787,6 +5811,14 @@
             "Value": {
                 "id": "82a4a0b6-adbd-4e54-8627-7829747b969a",
                 "resourcePath": "scripts\\scr_cb_new_client_connect_notification\\scr_cb_new_client_connect_notification.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9d8b78e1-68c0-48a6-82da-745fd3c5021c",
+            "Value": {
+                "id": "7274fa2c-facf-41fc-a011-a430e46c1541",
+                "resourcePath": "scripts\\scr_activate_turrets\\scr_activate_turrets.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -9358,6 +9390,7 @@
         "ad92d492-1ba2-4f41-8188-ba394a434c36",
         "91eff895-5395-40fa-8c29-514bafb072ff",
         "1e0db19f-5a68-4a87-abd2-d2b4655f3e4b",
+        "51abe585-19f0-428d-adb0-297f30d7b8e2",
         "0c01de9b-6b06-44bc-95ed-de8adc41924e",
         "3fc32f62-964b-4207-8f7f-2f684cfdd13c",
         "0b9e5e30-3360-463f-bc79-8cfd3daee920",
@@ -9456,7 +9489,8 @@
         "ec484229-0d34-4a73-8811-48b77177eec9",
         "740fa67f-b3bd-4fca-a6b8-65dda9ded4cf",
         "7dc6edab-2f0f-4f4f-9c21-bc3a8a4ea84d",
-        "f204fd1d-b4d4-41b5-bcca-0104bbe4e10e"
+        "f204fd1d-b4d4-41b5-bcca-0104bbe4e10e",
+        "9d8b78e1-68c0-48a6-82da-745fd3c5021c"
     ],
     "tutorial": ""
 }

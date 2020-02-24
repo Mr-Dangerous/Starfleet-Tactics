@@ -32,6 +32,14 @@ for (var i =0; i <ds_list_size(ship_list); i++){
 	}
 }
 
+turret_list = root_map[? "JSON_Turrets"]
+for (var i =0; i <ds_list_size(turret_list); i++){
+	var _turret_map = ds_list_find_value(turret_list, i)
+	var _turret_map_key = _turret_map[? "Name"]
+	ds_map_add(global.turrets, _turret_map_key, _turret_map)	
+}
+
+
 
 
 

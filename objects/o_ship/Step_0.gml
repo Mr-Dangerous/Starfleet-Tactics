@@ -3,6 +3,8 @@ if (armor <= 0){
 	instance_destroy()
 }
 
+turn_speed = ship_steering_force/ship_mass
+
 if (generate_shields){
 	if (reinforce_shields){
 		companion_shield_object.timeline_index = tl_draw_reinforced_shields

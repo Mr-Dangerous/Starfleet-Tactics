@@ -28,6 +28,8 @@ number_of_evades = 0
 energy = 0
 starting_energy = 0
 max_energy = 0
+turret_1 = noone
+turret_2 = noone
 companion_spell_manager = instance_create_layer(x, y, LAYER_EFFECTS_OVER, o_spell_manager)
 companion_spell_manager.origin_ship = self
 flyby_counter = 0
@@ -81,6 +83,7 @@ ship_speed_class = 0
 weapons_ready = false
 basic_attack_coolant_counter = 0
 basic_attack_thermal_capacity_used = 0
+ship_mass = 0
 
 //
 state = ship.locked

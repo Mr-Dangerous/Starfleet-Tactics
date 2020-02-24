@@ -13,5 +13,11 @@ if (instance_exists(ship_target)){
 	ds_list_delete(_target_list, _index)
 	
 }
+if (instance_exists(turret_1)){
+	instance_destroy(turret_1)
+}
+if (instance_exists(turret_2)){
+	instance_destroy(turret_2)
+}
 var _list_index = ds_list_find_index(reference_squad.ships_in_squad, self)
 ds_list_delete(reference_squad.ships_in_squad, _list_index)

@@ -53,9 +53,6 @@ if (has_effects){
 		}
 		
 	}
-	
-	
-	
 }
 
 
@@ -63,12 +60,18 @@ max_speed = _ship_map[? "Max Speed"]
 base_max_speed = max_speed
 acceleration_rate = _ship_map[? "Acceleration Rate"]
 base_acceleration_rate = acceleration_rate
-turn_speed = _ship_map[? "Turn Speed"]
-base_turn_speed = turn_speed
+
+
 armor = _ship_map[? "Armor"]
 shields = _ship_map[? "Shields"]
 ship_speed_class = _ship_map[? "Ship Speed Class"]
 basic_attack_thermal_unit_cost = _ship_map[? "Basic Attack Thermal Unit Cost"]
+ship_mass = _ship_map[? "Ship Mass"]
+base_ship_mass = ship_mass
+ship_steering_force = _ship_map[? "Steering Force"]
+base_ship_steering_force = ship_steering_force
+
+
 
 basic_attack_projectile_duration = _ship_map[? "Basic Attack Projectile Duration"]
 basic_attack_projectile_speed = _ship_map[? "Basic Attack Projectile Speed"]
@@ -89,6 +92,41 @@ if (spell_script_string != "null"){
 	companion_spell_manager.owner = owner
 	companion_spell_manager.caster_level = caster_level
 	
+}
+var _turret_1_array = _ship_map[? "Turret Hardpoint 1"]
+var _turret_2_array = _ship_map[? "Turret Hardpoint 2"]
+
+if (_turret_1_array != "null"){
+	var _turret_offset_list = graphic_resource_array[TURRET_OFFSETS]
+	var _turret_offset_array = _turret_offset_list[|1]
+	var _x = x + lengthdir_x(_turret_offset_array[GRAPHIC_LENGTH_OFFSET], _turret_offset_array[GRAPHIC_DIRECTION_OFFSET])
+	var _y = y + lengthdir_y(_turret_offset_array[GRAPHIC_LENGTH_OFFSET], _turret_offset_array[GRAPHIC_DIRECTION_OFFSET])
+	
+	turret_1 = instance_create_layer(_x, _y, LAYER_EFFECTS_OVER, o_ship_turret)
+	turret_1.name = _turret_offset_array[TURRET_MAP_KEY]
+	turret_1.reference_ship = self
+	turret_1.graphic_length_offset_from_origin = _turret_offset_array[GRAPHIC_LENGTH_OFFSET]
+	turret_1.graphic_direction_offset_from_origin = _turret_offset_array[GRAPHIC_DIRECTION_OFFSET]
+	turret_1.image_scale = _turret_offset_array[SPRITE_IMAGE_SCALE]
+	with (turret_1){
+		event_user(INJECT_VARIABLES)
+	}
+}
+if (_turret_2_array != "null"){
+	var _turret_offset_list = graphic_resource_array[TURRET_OFFSETS]
+	var _turret_offset_array = _turret_offset_list[|1]
+	var _x = x + lengthdir_x(_turret_offset_array[GRAPHIC_LENGTH_OFFSET], _turret_offset_array[GRAPHIC_DIRECTION_OFFSET])
+	var _y = y + lengthdir_y(_turret_offset_array[GRAPHIC_LENGTH_OFFSET], _turret_offset_array[GRAPHIC_DIRECTION_OFFSET])
+	
+	turret_2 = instance_create_layer(_x, _y, LAYER_EFFECTS_OVER, o_ship_turret)
+	turret_2.name = _turret_offset_array[TURRET_MAP_KEY]
+	turret_2.reference_ship = self
+	turret_2.graphic_length_offset_from_origin = _turret_offset_array[GRAPHIC_LENGTH_OFFSET]
+	turret_2.graphic_direction_offset_from_origin = _turret_offset_array[GRAPHIC_DIRECTION_OFFSET]
+	turret_2.image_scale = _turret_offset_array[SPRITE_IMAGE_SCALE]
+	with (turret_2){
+		event_user(INJECT_VARIABLES)
+	}
 }
 
 

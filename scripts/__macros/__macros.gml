@@ -7,12 +7,14 @@
 #macro EXHAUST_OFFSETS 0
 #macro EFFECT_OFFSETS 1
 #macro WEAPON_OFFSETS 2
+#macro TURRET_OFFSETS 3
 
 #macro GRAPHIC_DIRECTION_OFFSET 0
 #macro GRAPHIC_LENGTH_OFFSET 1
 #macro IS_UNDER 2
 #macro ASSET_INDEX 3
 #macro SPRITE_IMAGE_SCALE 4
+#macro TURRET_MAP_KEY 5
 
 #endregion
 
@@ -92,5 +94,8 @@
 #macro SPEED_CLASS_FAST "Fast"
 #macro SPEED_CLASS_MEDIUM "Medium"
 #macro SPEED_CLASS_SLOW "Slow"
+
+#macro TURRET_LENGTH 0
+#macro TURRET_POSITION 0
 
 
