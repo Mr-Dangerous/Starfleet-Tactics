@@ -4,9 +4,10 @@ _enemy_ship_list = ds_list_create()
 
 if (battle_player_number = 1){
 	
-	
-	for (var i = 0; i < ds_list_size(battle_manager.player_2_squads); i++){
-		var _squad = battle_manager.player_2_squads[|i]
+	var _list = battle_manager.player_2_squads
+	var _list_size = ds_list_size(_list)
+	for (var iterator = 0; iterator < _list_size; iterator++){
+		var _squad = _list[|iterator]
 		for (var j = 0; j < ds_list_size(_squad); j++){
 			var _ship = _squad[j]
 			ds_list_add(_enemy_ship_list, _ship)
