@@ -1,11 +1,12 @@
 ///@desc find target
 //get the enemy list
-var _enemy_ship_list = ds_list_create()
+_enemy_ship_list = ds_list_create()
+
 if (battle_player_number = 1){
 	
-
-	for (var _m=0; _m < ds_list_size(battle_manager.player_2_squads); _m++){
-		var _squad = battle_manager.player_2_squads[|_m]
+	
+	for (var i = 0; i < ds_list_size(battle_manager.player_2_squads); i++){
+		var _squad = battle_manager.player_2_squads[|i]
 		for (var j = 0; j < ds_list_size(_squad); j++){
 			var _ship = _squad[j]
 			ds_list_add(_enemy_ship_list, _ship)
