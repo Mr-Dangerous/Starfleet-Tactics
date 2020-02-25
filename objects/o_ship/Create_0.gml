@@ -34,6 +34,8 @@ companion_spell_manager = instance_create_layer(x, y, LAYER_EFFECTS_OVER, o_spel
 companion_spell_manager.origin_ship = self
 flyby_counter = 0
 abort_counter = 180
+battle_player_number = 0
+battle_manager = noone
 
 
 generate_shields = false

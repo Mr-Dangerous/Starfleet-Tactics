@@ -12,7 +12,9 @@
         "47145efd-5d6a-425e-b673-29b3353e1f9d",
         "86375358-9fbc-439c-a6d2-d922d37a9a98",
         "53594ff8-5d42-4424-a875-a9300b2f8a36",
-        "3b9885f7-b204-47c6-be0c-aaa7c408b6d1"
+        "3b9885f7-b204-47c6-be0c-aaa7c408b6d1",
+        "b5e42b15-64fa-4a9c-b822-c92918a14534",
+        "d792611f-b3db-48ec-96d9-6b8a9cd30815"
     ],
     "filterType": "GMTimeline",
     "folderName": "timelines",

@@ -634,14 +634,14 @@
       "Armor": 1200,
       "Starting Energy": 0,
       "Energy": 30,
-      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Projectile Speed": 15,
       "Basic Attack Projectile Duration": 150,
-      "Basic Attack Damage": 5,
-      "Basic Attack Thermal Unit Cost": 4,
+      "Basic Attack Damage": 20,
+      "Basic Attack Thermal Unit Cost": 7,
       "Basic Attack Speed Interval": 20,
       "Basic Attack Patterns": [
-        "tl_slow_overkill",
-        "tl_slow_overkill"
+        "tl_slow_snipe",
+        "tl_slow_snipe"
       ],
       "Spell Timeline Script": "null",
       "Sprite": "s_illum_red_02",
@@ -669,33 +669,15 @@
       ],
       "Exhaust Coordinate 4": "null",
       "Weapon Coordinate 1": [
-        138,
-        17,
+        0,
+        0,
         true,
-        "s_illum_laser_1",
-        0.2
+        "s_laser_huge_03",
+        1
       ],
-      "Weapon Coordinate 2": [
-        138,
-        184,
-        true,
-        "s_illum_laser_1",
-        0.2
-      ],
-      "Weapon Coordinate 3": [
-        144,
-        131,
-        true,
-        "s_illum_laser_1",
-        0.2
-      ],
-      "Weapon Coordinate 4": [
-        144,
-        70,
-        true,
-        "s_illum_laser_1",
-        0.2
-      ],
+      "Weapon Coordinate 2": "null",
+      "Weapon Coordinate 3": "null",
+      "Weapon Coordinate 4": "null",
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",

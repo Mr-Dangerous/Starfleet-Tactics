@@ -19,6 +19,13 @@ for (var _x = 0; _x < BATTLEGRID_WIDTH; _x++){
 			ds_list_add(player_1_squads, _squad)
 			_squad.x = _new_grid_entry[BATTLEFIELD_X_POSITION]
 			_squad.y = _new_grid_entry[BATTLEFIELD_Y_POSITION]
+			_squad.battle_manager = self
+			_squad.battle_player_number = 1
+			for (var i = 0; i < ds_list_size(_squad.ships_in_squad); i++){
+				var _ship = _squad.ships_in_squad[|i]
+				_ship.battle_player_number = 1
+				_ship.battle_manager = self
+			}
 		}
 		var _new_x = BATTLEGRID_WIDTH - _x - 1
 		var _new_y = BATTLEGRID_HEIGHT - _y - 1
@@ -31,9 +38,15 @@ for (var _x = 0; _x < BATTLEGRID_WIDTH; _x++){
 			ds_list_add(player_2_squads, _squad)
 			_squad.x = _new_grid_entry[BATTLEFIELD_X_POSITION]
 			_squad.y = _new_grid_entry[BATTLEFIELD_Y_POSITION]
-			
+			_squad.battle_manager = self
 			_squad.image_angle +=180
 			_squad.direction +=180
+			_squad.battle_player_number = 2
+			for (var i = 0; i < ds_list_size(_squad.ships_in_squad); i++){
+				var _ship = _squad.ships_in_squad[|i]
+				_ship.battle_player_number = 2
+				_ship.battle_manager = self
+			}
 		}
 	}
 }

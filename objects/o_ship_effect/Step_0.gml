@@ -15,6 +15,7 @@ if (rotate){
 		case 2:
 			rotate_effect +=-5
 		break;
+		
 	}
 }
 if (glow){
@@ -47,6 +48,6 @@ image_alpha = 1 - glow_effect
 image_xscale = image_scale
 image_yscale = image_scale
 
-var _networking_sprite_array = [sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha]
+/*var _networking_sprite_array = [sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha]
 ds_list_add(sprite_list, _networking_sprite_array)
-	
+*/	
