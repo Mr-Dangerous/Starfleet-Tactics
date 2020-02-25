@@ -98,7 +98,7 @@ var _turret_2_array = _ship_map[? "Turret Hardpoint 2"]
 
 if (_turret_1_array != "null"){
 	var _turret_offset_list = graphic_resource_array[TURRET_OFFSETS]
-	var _turret_offset_array = _turret_offset_list[|1]
+	var _turret_offset_array = _turret_offset_list[|0]
 	var _x = x + lengthdir_x(_turret_offset_array[GRAPHIC_LENGTH_OFFSET], _turret_offset_array[GRAPHIC_DIRECTION_OFFSET])
 	var _y = y + lengthdir_y(_turret_offset_array[GRAPHIC_LENGTH_OFFSET], _turret_offset_array[GRAPHIC_DIRECTION_OFFSET])
 	

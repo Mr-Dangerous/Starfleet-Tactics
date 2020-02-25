@@ -11,7 +11,9 @@
       "Units In Squad": 3,
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
-      "Turn Speed": 1,
+      "Turn Speed": 1.5,
+      "Ship Mass": 10,
+      "Steering Force": 15,
       "Shields": 200,
       "Armor": 400,
       "Starting Energy": 0,
@@ -75,7 +77,11 @@
         2
       ],
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Banshee 1",
@@ -87,7 +93,9 @@
       "Units In Squad": 3,
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
-      "Turn Speed": 1,
+      "Turn Speed": 1.5,
+      "Ship Mass": 10,
+      "Steering Force": 15,
       "Shields": 200,
       "Armor": 400,
       "Starting Energy": 0,
@@ -133,7 +141,11 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Chiron 1",
@@ -145,7 +157,9 @@
       "Units In Squad": 3,
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
-      "Turn Speed": 2,
+      "Turn Speed": 1.5,
+      "Ship Mass": 10,
+      "Steering Force": 15,
       "Shields": 200,
       "Armor": 400,
       "Starting Energy": 0,
@@ -201,7 +215,11 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Wraith 1",
@@ -213,7 +231,9 @@
       "Units In Squad": 3,
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
-      "Turn Speed": 1,
+      "Turn Speed": 1.5,
+      "Ship Mass": 10,
+      "Steering Force": 15,
       "Shields": 200,
       "Armor": 400,
       "Starting Energy": 0,
@@ -259,7 +279,11 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Raven 1",
@@ -272,6 +296,8 @@
       "Max Speed": 3,
       "Acceleration Rate": 0.1,
       "Turn Speed": 3,
+      "Ship Mass": 2,
+      "Steering Force": 6,
       "Shields": 200,
       "Armor": 200,
       "Starting Energy": 0,
@@ -318,7 +344,11 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Arc Carrier 1",
@@ -330,7 +360,9 @@
       "Units In Squad": 3,
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
-      "Turn Speed": 1,
+      "Turn Speed": 1.5,
+      "Ship Mass": 10,
+      "Steering Force": 15,
       "Shields": 175,
       "Armor": 350,
       "Starting Energy": 0,
@@ -381,7 +413,11 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Carapace 1",
@@ -393,7 +429,9 @@
       "Units In Squad": 3,
       "Max Speed": 2,
       "Acceleration Rate": 0.05,
-      "Turn Speed": 2,
+      "Turn Speed": 1.5,
+      "Ship Mass": 10,
+      "Steering Force": 15,
       "Shields": 175,
       "Armor": 350,
       "Starting Energy": 0,
@@ -443,7 +481,11 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Phantom 2",
@@ -455,7 +497,9 @@
       "Units In Squad": 5,
       "Max Speed": 3,
       "Acceleration Rate": 0.1,
-      "Turn Speed": 2,
+      "Turn Speed": 3,
+      "Ship Mass": 2,
+      "Steering Force": 6,
       "Shields": 100,
       "Armor": 200,
       "Starting Energy": 0,
@@ -502,7 +546,11 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Phantom 1",
@@ -514,7 +562,9 @@
       "Units In Squad": 5,
       "Max Speed": 3,
       "Acceleration Rate": 0.1,
-      "Turn Speed": 2,
+      "Turn Speed": 3,
+      "Ship Mass": 2,
+      "Steering Force": 6,
       "Shields": 100,
       "Armor": 200,
       "Starting Energy": 0,
@@ -561,7 +611,11 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Hammerhead 1",
@@ -573,7 +627,9 @@
       "Units In Squad": 1,
       "Max Speed": 1,
       "Acceleration Rate": 0.01,
-      "Turn Speed": 1,
+      "Turn Speed": 0.3,
+      "Ship Mass": 300,
+      "Steering Force": 90,
       "Shields": 600,
       "Armor": 1200,
       "Starting Energy": 0,
@@ -643,7 +699,25 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": [
+        71,
+        125,
+        0,
+        "s_illum_red_turret_1",
+        0.75,
+        "Hammerhead 1 Turret"
+      ],
+      "Turret Hardpoint 2": [
+        71,
+        76,
+        0,
+        "s_illum_red_turret_1",
+        0.75,
+        "Hammerhead 1 Turret"
+      ],
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
     },
     {
       "Name": "Overlord 1",
@@ -655,7 +729,9 @@
       "Units In Squad": 1,
       "Max Speed": 1,
       "Acceleration Rate": 0.01,
-      "Turn Speed": 1,
+      "Turn Speed": 0.3,
+      "Ship Mass": 200,
+      "Steering Force": 60,
       "Shields": 500,
       "Armor": 1200,
       "Starting Energy": 0,
@@ -705,7 +781,37 @@
       "Effect Coordinate 1": "null",
       "Effect Coordinate 2": "null",
       "Effect Coordinate 3": "null",
-      "Effect Coordinate 4": "null"
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null"
+    }
+  ],
+  "JSON_Turrets": [
+    {
+      "Name": "Hammerhead 1 Turret",
+      "Sprite": "s_illum_red_turret_1",
+      "Image Scale": 0.75,
+      "Is Under": 0,
+      "Weapon 1 Coordinate": [
+        52,
+        17
+      ],
+      "Weapon 2 Coordinate": [
+        52,
+        44
+      ],
+      "Weapon 3 Coordinate": "null",
+      "Weapon 4 Coordinate": "null",
+      "Turn Speed": 3,
+      "Projectile Speed": 7,
+      "Projectile Duration": 50,
+      "Projectile Damage": 10,
+      "Projectile Image Scale": 0.5,
+      "Projectile Thermal Unit Cost": 2,
+      "Projectile Attack Speed Interval": 20,
+      "Projectile Sprite": "s_illum_laser_3"
     }
   ]
 }

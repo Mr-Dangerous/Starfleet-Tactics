@@ -1,8 +1,9 @@
 /// @description INJECT VARIABLES
 
 var _turret_map = global.turrets[? name]
-var origin_x = sprite_get_xoffset(sprite_index)
-var origin_y = sprite_get_yoffset(sprite_index)
+var _sprite = asset_get_index(_turret_map[? "Sprite"])
+var origin_x = sprite_get_xoffset(_sprite)
+var origin_y = sprite_get_yoffset(_sprite)
 
 turn_speed = _turret_map[? "Turn Speed"]
 basic_attack_projectile_speed = _turret_map[? "Projectile Speed"]
@@ -27,13 +28,15 @@ for (var i = 1; i < 5; i++){
 	if (_weapon_coordinate != "null"){
 		var _x = _weapon_coordinate[|0]
 		var _y = _weapon_coordinate[|1]
-		turret_array[GRAPHIC_LENGTH_OFFSET] = point_distance(origin_x, origin_y, _x, _y)
-		turret_array[GRAPHIC_DIRECTION_OFFSET] = point_direction(origin_x, origin_y, _x, _y)
-		turret_array[ASSET_INDEX] = projectile_sprite
-		turret_array[SPRITE_IMAGE_SCALE] = projectile_image_scale
+		var _turret_array = array_create(4, 0)
+		_turret_array[GRAPHIC_LENGTH_OFFSET] = point_distance(origin_x, origin_y, _x, _y)
+		_turret_array[GRAPHIC_DIRECTION_OFFSET] = point_direction(origin_x, origin_y, _x, _y)
+		_turret_array[ASSET_INDEX] = projectile_sprite
+		_turret_array[SPRITE_IMAGE_SCALE] = projectile_image_scale
+		_turret_array[IS_UNDER] = _turret_map[? "Is Under"]
 		//TODO  add in effects
 		
-		ds_list_add(graphic_resource_array[WEAPON_OFFSETS], turret_array)
+		ds_list_add(graphic_resource_array[WEAPON_OFFSETS], _turret_array)
 	}
 	
 }

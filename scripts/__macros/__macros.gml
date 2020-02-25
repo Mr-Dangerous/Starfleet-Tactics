@@ -35,7 +35,7 @@
 #region layer macros
 #macro LAYER_GUI_HIGH "GUI_layer_high"
 #macro LAYER_GUI_LOW "GUI_layer_low"
-#macro LAYER_PROJECTILES_HIGH "Projetiles_Over"
+#macro LAYER_PROJECTILES_HIGH "Projectiles_Over"
 #macro LAYER_EFFECTS_OVER "Effects_Over"
 #macro LAYER_SHIPS "Ships"
 #macro LAYER_EFFECTS_UNDER "Effects_Under"
