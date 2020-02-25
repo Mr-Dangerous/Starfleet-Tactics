@@ -1,30 +1,30 @@
 ///@desc find target
 //get the enemy list
-_enemy_ship_list = ds_list_create()
+var _enemy_ship_list = ds_list_create()
 
 if (battle_player_number = 1){
 	
-	var _list = battle_manager.player_2_squads
-	var _list_size = ds_list_size(_list)
-	for (var iterator = 0; iterator < _list_size; iterator++){
-		var _squad = _list[|iterator]
-		for (var j = 0; j < ds_list_size(_squad); j++){
-			var _ship = _squad[j]
+	
+	_list_size = ds_list_size(battle_manager.player_2_squads)
+	for (iterator = 0; iterator < _list_size; iterator++){
+		_squad = battle_manager.player_2_squads[|iterator]
+		for (j = 0; j < ds_list_size(_squad.ships_in_squad); j++){
+			_ship = _squad.ships_in_squad[|j]
 			ds_list_add(_enemy_ship_list, _ship)
 		}
 	}
 }
 if (battle_player_number = 2){
 	
-	for (var i = 0; i < ds_list_size(battle_manager.player_1_squads); i++){
-		var _squad = battle_manager.player_1_squads[|i]
-		for (var j = 0; j < ds_list_size(_squad); j++){
-			var _ship = _squad[j]
+	for (i = 0; i < ds_list_size(battle_manager.player_1_squads); i++){
+		_squad = battle_manager.player_1_squads[|i]
+		for (j = 0; j < ds_list_size(_squad); j++){
+			_ship = _squad[j]
 			ds_list_add(_enemy_ship_list, _ship)
 		}
 	}
 }
-var _targeted_ship = _enemy_ship_list[|0]
+_targeted_ship = _enemy_ship_list[|0]
 var _distance_to_ship = point_distance(x, y, _targeted_ship.x, _targeted_ship.y)
 
 for (var i = 1; i < ds_list_size(_enemy_ship_list); i++){
