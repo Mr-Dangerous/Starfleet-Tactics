@@ -13,6 +13,7 @@ for (var i = 0; i < ds_list_size(_weapon_list); i++){
 		var _projectile = instance_create_layer(x+_x_offset, y+_y_offset, _layer, o_projectile)
 		_projectile.owner = owner
 		_projectile.damage = basic_attack_damage
+		_projectile.image_speed = 0
 		_projectile.sprite_index = _weapon[ASSET_INDEX]
 		_projectile.image_xscale = _weapon[SPRITE_IMAGE_SCALE]
 		_projectile.image_yscale = _weapon[SPRITE_IMAGE_SCALE]

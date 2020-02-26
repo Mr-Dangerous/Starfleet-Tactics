@@ -818,7 +818,7 @@
       "Projectile Speed": 7,
       "Projectile Duration": 50,
       "Projectile Damage": 50,
-      "Projectile Image Scale": 1,
+      "Projectile Image Scale": 0.75,
       "Projectile Thermal Unit Cost": 6,
       "Projectile Attack Speed Interval": 20,
       "Projectile Sprite": "s_laser_heavy_25"
