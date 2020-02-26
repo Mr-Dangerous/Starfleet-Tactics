@@ -2431,14 +2431,6 @@
             }
         },
         {
-            "Key": "42c8add3-00d0-458f-8a14-5ad7f5f1ee13",
-            "Value": {
-                "id": "e009c87a-fda2-419b-a980-ddd80343a389",
-                "resourcePath": "sprites\\s_laser_huge_03\\s_laser_huge_03.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "42d17796-4b99-49f1-9c8c-5d70f6983fab",
             "Value": {
                 "id": "c72a46d8-a526-41fc-9832-69c9bc8f651c",
@@ -7039,6 +7031,14 @@
             }
         },
         {
+            "Key": "bd8846e3-284a-4f20-acbe-a4a99ccb3e01",
+            "Value": {
+                "id": "a5fb8c23-2afd-4418-963d-66910795c5ac",
+                "resourcePath": "sprites\\s_laser_huge_03\\s_laser_huge_03.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bda7e6d6-f224-4157-b964-9f86be6fa84d",
             "Value": {
                 "id": "529cd60e-16e8-4b4f-aa8a-641f343c9cf8",
@@ -7531,6 +7531,14 @@
             "Value": {
                 "id": "9fbee0d4-aa20-4c57-86f7-9cd97e9d5bcc",
                 "resourcePath": "scripts\\gnet_get_my_socket\\gnet_get_my_socket.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c92e7e1c-5c5d-4dd7-aab1-a014d6fa6e25",
+            "Value": {
+                "id": "ec651955-96d9-43b2-87b3-06681c6c8229",
+                "resourcePath": "scripts\\scr_return_ship_target_furthest\\scr_return_ship_target_furthest.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -9680,6 +9688,7 @@
         "9f326bda-5bda-4877-a781-1842afd535f2",
         "d784a9f8-ff45-4ce7-894a-71c56666fecc",
         "2f1f6ddd-a945-4384-b387-85ecbf4dd751",
+        "c92e7e1c-5c5d-4dd7-aab1-a014d6fa6e25",
         "d75040d8-6cfe-42d4-af9c-7a3275ea3b96",
         "7205d704-c26e-4d9d-aa0b-20fc4e06a646",
         "9d8b78e1-68c0-48a6-82da-745fd3c5021c",
