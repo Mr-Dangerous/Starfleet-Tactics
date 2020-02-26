@@ -3783,14 +3783,6 @@
             }
         },
         {
-            "Key": "63be8345-334a-44ab-bc4a-c37852dd0f3b",
-            "Value": {
-                "id": "0f530732-92aa-486c-be37-10582b2ebfd9",
-                "resourcePath": "sprites\\s_illum_laser_1\\s_illum_laser_1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6482289e-75ac-4e62-bc5a-5395e561c9d3",
             "Value": {
                 "id": "d985aa69-7582-4893-80e6-7243b2635fb9",
@@ -3851,14 +3843,6 @@
             "Value": {
                 "id": "69c688f8-6ba5-4e69-8613-24e060f426b9",
                 "resourcePath": "sprites\\s_laser_huge_26\\s_laser_huge_26.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "65b61e49-f068-43bd-a7ec-fd53bc1c690e",
-            "Value": {
-                "id": "5b636d18-2062-4012-a5e0-9180fa6e4911",
-                "resourcePath": "sprites\\s_laser_heavy_25\\s_laser_heavy_25.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -6671,6 +6655,14 @@
             }
         },
         {
+            "Key": "b195fa07-29b8-4796-a75c-a60601f77115",
+            "Value": {
+                "id": "55bcba50-ec12-464a-96cf-c24916782229",
+                "resourcePath": "sprites\\s_illum_laser_1\\s_illum_laser_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b1a7ae07-0c37-437d-ba2d-cbb2ad985f31",
             "Value": {
                 "id": "366146ce-6058-429c-b6d9-86338dbddccf",
@@ -7035,6 +7027,14 @@
             "Value": {
                 "id": "17666482-a6af-4a8a-a238-c64418bdac55",
                 "resourcePath": "sprites\\s_laser_light_037\\s_laser_light_037.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bd42a864-98e3-41fa-9632-997dc70e8c6c",
+            "Value": {
+                "id": "449a9f24-dd14-4e64-a214-a14f0d60f1aa",
+                "resourcePath": "sprites\\s_laser_heavy_25\\s_laser_heavy_25.yy",
                 "resourceType": "GMSprite"
             }
         },

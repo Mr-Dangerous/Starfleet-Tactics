@@ -52,8 +52,8 @@
         "a006c59c-30d3-44fa-b024-27662613e447",
         "463af131-7e47-411e-80dd-a18c20789163",
         "901b08e1-cb01-4df9-8094-a47d9d5cf013",
-        "65b61e49-f068-43bd-a7ec-fd53bc1c690e",
-        "a6867cf2-574c-473e-a346-8f718daf61d2"
+        "a6867cf2-574c-473e-a346-8f718daf61d2",
+        "bd42a864-98e3-41fa-9632-997dc70e8c6c"
     ],
     "filterType": "GMSprite",
     "folderName": "Heavy Laset",
