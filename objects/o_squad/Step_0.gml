@@ -3,11 +3,15 @@
 switch(state){
 	case squad.locked:
 	if (mouse_check_button_pressed(mb_left)){
-		var _squad_reposition_clone = instance_create_layer(x, y, LAYER_GUI_LOW, o_squad_reposition_clone)
+		if (point_distance(x, y, mouse_x, mouse_y) < 30){
+			var _squad_reposition_clone = instance_create_layer(x, y, LAYER_GUI_LOW, o_squad_reposition_clone)
 
-		with (_squad_reposition_clone){
-			reference_squad  = other
-			owner = other.owner
+			with (_squad_reposition_clone){
+				reference_squad  = other
+				owner = other.owner
+				assigned_grid_x = other.assigned_grid_x
+				assigned_grid_y = other.assigned_grid_y
+			}
 		}
 	}
 	break;

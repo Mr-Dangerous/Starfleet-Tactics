@@ -1735,6 +1735,14 @@
             }
         },
         {
+            "Key": "2f1f6ddd-a945-4384-b387-85ecbf4dd751",
+            "Value": {
+                "id": "5963dcaa-4d0a-4143-9769-1d89e596928e",
+                "resourcePath": "scripts\\scr_return_enemy_squad_list\\scr_return_enemy_squad_list.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2f371738-7d73-4804-aae3-fb14812be8cd",
             "Value": {
                 "id": "06faeb96-ec33-431f-9f0c-5243f7b1f60d",
@@ -5951,6 +5959,14 @@
             }
         },
         {
+            "Key": "9f326bda-5bda-4877-a781-1842afd535f2",
+            "Value": {
+                "id": "3d31c05f-5da7-49be-8ff8-a9645e4d34a4",
+                "resourcePath": "scripts\\scr_assign_ship_target_nearest\\scr_assign_ship_target_nearest.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9fa83bc4-a4b1-4575-ad84-81bd4c0e2722",
             "Value": {
                 "id": "383abe2a-c846-48c9-ab3c-d860b5c5e62d",
@@ -9629,7 +9645,9 @@
         "0ab54466-1d44-4926-9ff6-34ae3dc91025",
         "f204fd1d-b4d4-41b5-bcca-0104bbe4e10e",
         "27f03287-c792-4b66-8136-92b946acb481",
+        "9f326bda-5bda-4877-a781-1842afd535f2",
         "d784a9f8-ff45-4ce7-894a-71c56666fecc",
+        "2f1f6ddd-a945-4384-b387-85ecbf4dd751",
         "d75040d8-6cfe-42d4-af9c-7a3275ea3b96",
         "7205d704-c26e-4d9d-aa0b-20fc4e06a646",
         "9d8b78e1-68c0-48a6-82da-745fd3c5021c",

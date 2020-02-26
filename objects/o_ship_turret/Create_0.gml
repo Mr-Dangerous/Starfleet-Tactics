@@ -7,6 +7,7 @@ graphic_length_offset_from_origin = 0
 graphic_direction_offset_from_origin = 0
 image_scale = 1
 weapon_effects = false
+ship_target = noone
 
 
 graphic_resource_array[WEAPON_OFFSETS] = ds_list_create()
@@ -25,5 +26,6 @@ basic_attack_speed_interval = 0
 
 owner = -1
 attack_counter = -40
+battle_player_number = -1
 
 state = ship.locked

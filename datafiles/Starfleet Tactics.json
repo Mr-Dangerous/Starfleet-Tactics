@@ -669,11 +669,11 @@
       ],
       "Exhaust Coordinate 4": "null",
       "Weapon Coordinate 1": [
-        0,
-        0,
+        167,
+        100,
         true,
         "s_laser_huge_03",
-        1
+        0.75
       ],
       "Weapon Coordinate 2": "null",
       "Weapon Coordinate 3": "null",

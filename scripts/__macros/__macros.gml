@@ -25,6 +25,8 @@
 #macro CREATE_SHIP 0					//User Event 0 in o_ship_spawner - deprecated
 #macro CREATE_SQUAD 0					//User Event 0 in o_squad
 #macro INJECT_VARIABLES 15				//User Event 15 for all objects that have variables injected
+#macro PREPARE_FOR_FIGHT 0
+				
 #endregion
 
 #region networkings
