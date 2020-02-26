@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(ready_to_draw){
-	for (var i = 0; array_height_2d(effect_array); i++){
+	for (var i = 0; array_length_2d(effect_array, 0); i++){
 		var _x = reference_ship.x + lengthdir_x(length_offset, reference_ship.image_angle + direction_offset)
 		var _y = reference_ship.y + lengthdir_y(length_offset, reference_ship.image_angle + direction_offset)
 		var _sprite = effect_array[EFFECT_SPRITE, i]
