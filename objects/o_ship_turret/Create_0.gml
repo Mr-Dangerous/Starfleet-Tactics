@@ -22,7 +22,10 @@ basic_attack_range = 0
 basic_attack_damage = 0
 basic_attack_thermal_unit_cost = 0
 basic_attack_speed_interval = 0
-
+basic_attack_base_thermal_capacity = 10
+basic_attack_coolant_counter = 0
+basic_attack_coolant_effectiveness = 180
+weapons_ready = false
 
 owner = -1
 attack_counter = -40

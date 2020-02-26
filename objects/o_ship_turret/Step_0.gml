@@ -14,15 +14,28 @@ switch(state){
 		x = reference_ship.x + lengthdir_x(graphic_length_offset_from_origin, _dir + graphic_direction_offset_from_origin)
 		y = reference_ship.y + lengthdir_y(graphic_length_offset_from_origin, _dir + graphic_direction_offset_from_origin)
 		//find the nearest target
+		basic_attack_coolant_counter++
+		if (basic_attack_coolant_counter >= basic_attack_coolant_effectiveness){
+			basic_attack_coolant_coutner = 0
+			weapons_ready = true
+		}
 		if (instance_exists(ship_target)){
 			if (point_distance(x, y, ship_target.x, ship_target.y) > basic_attack_range){
-				
-				ship_target = scr_assign_ship_target(self)
+				ship_target = scr_return_ship_target_nearest()
 			}
 			
 		} else {
 			
-			ship_target = scr_assign_ship_target(self)
+			ship_target = scr_return_ship_target_nearest()
+		}
+		if (instance_exists(ship_target)){
+			var _direction_to_target = point_direction(x, y, ship_target.x, ship_target.y)
+			scr_turn_to_face_direction(_direction_to_target)
+			if(weapons_ready){
+				timeline_index = tl_turret_fire_basic_attack
+				timeline_position = 0
+				timeline_running = true
+			}
 		}
 		
 	break;
