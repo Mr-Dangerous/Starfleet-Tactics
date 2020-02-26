@@ -81,7 +81,9 @@
       "Turret Hardpoint 1": "null",
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Banshee 1",
@@ -145,7 +147,9 @@
       "Turret Hardpoint 1": "null",
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Chiron 1",
@@ -219,7 +223,9 @@
       "Turret Hardpoint 1": "null",
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Wraith 1",
@@ -283,7 +289,9 @@
       "Turret Hardpoint 1": "null",
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Raven 1",
@@ -348,7 +356,9 @@
       "Turret Hardpoint 1": "null",
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Arc Carrier 1",
@@ -417,7 +427,9 @@
       "Turret Hardpoint 1": "null",
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Carapace 1",
@@ -485,7 +497,9 @@
       "Turret Hardpoint 1": "null",
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Phantom 2",
@@ -550,7 +564,9 @@
       "Turret Hardpoint 1": "null",
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Phantom 1",
@@ -615,7 +631,9 @@
       "Turret Hardpoint 1": "null",
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Hammerhead 1",
@@ -699,7 +717,9 @@
         "Hammerhead 1 Turret"
       ],
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     },
     {
       "Name": "Overlord 1",
@@ -774,7 +794,9 @@
       ],
       "Turret Hardpoint 2": "null",
       "Turret Hardpoint 3": "null",
-      "Turret Hardpoint 4": "null"
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "null",
+      "Basic Attack Sprite Destroyed": "null"
     }
   ],
   "JSON_Turrets": [
@@ -800,7 +822,8 @@
       "Projectile Image Scale": 0.5,
       "Projectile Thermal Unit Cost": 2,
       "Projectile Attack Speed Interval": 20,
-      "Projectile Sprite": "s_illum_laser_3"
+      "Projectile Sprite": "s_illum_laser_3",
+      "Projectile Sprite Destroyed": "null"
     },
     {
       "Name": "Overlord 1 Turret",
@@ -821,7 +844,8 @@
       "Projectile Image Scale": 0.75,
       "Projectile Thermal Unit Cost": 6,
       "Projectile Attack Speed Interval": 20,
-      "Projectile Sprite": "s_laser_heavy_25"
+      "Projectile Sprite": "s_laser_heavy_25",
+      "Projectile Sprite Destroyed": "s_laser_heavy_22_destroyed"
     }
   ]
 }
