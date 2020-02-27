@@ -2447,6 +2447,14 @@
             }
         },
         {
+            "Key": "42e7a6d7-11e4-4812-850e-ed1534028f0c",
+            "Value": {
+                "id": "d0704561-dfb6-41d6-afd2-4d4b7ac28eee",
+                "resourcePath": "objects\\o_point_defense_core\\o_point_defense_core.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "436475dd-0b67-45cb-9f3d-d62da0261d31",
             "Value": {
                 "id": "285f597a-cd6c-41e8-aeef-be948c0e7aca",
@@ -4276,6 +4284,14 @@
                 "id": "47193f20-8cb0-4e01-94b5-a1b01cf167d4",
                 "resourcePath": "sprites\\s_laser_mixed_012\\s_laser_mixed_012.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "70eee6df-1dec-42c2-a085-c18f09e84ce5",
+            "Value": {
+                "id": "d9cd4423-8105-49c0-bbaa-fa3760d665e6",
+                "resourcePath": "timelines\\tl_overlord_cast_point_defense_core\\tl_overlord_cast_point_defense_core.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -6583,6 +6599,14 @@
             }
         },
         {
+            "Key": "af1fec55-bde6-4ff5-8ebf-e543fd6c8138",
+            "Value": {
+                "id": "cb8e3311-aa0c-4b1c-aedf-25678b8fb893",
+                "resourcePath": "sprites\\s_illum_default_08_without_core\\s_illum_default_08_without_core.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af3233a4-429c-4a64-9441-36b6b801e535",
             "Value": {
                 "id": "4801df43-d041-4b1b-a687-43b18fd894d1",
@@ -8111,6 +8135,14 @@
             }
         },
         {
+            "Key": "d5598f9c-2206-4a07-9aad-f45bfd4cfb97",
+            "Value": {
+                "id": "7d92f50b-12b3-45ce-8d9a-178acb451d1e",
+                "resourcePath": "sprites\\s_illum_default_08_core\\s_illum_default_08_core.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d56de78d-c971-4e48-98a8-3e8b549e0d0e",
             "Value": {
                 "id": "00010df4-0d3c-4845-894f-556a42b8a748",
@@ -8364,6 +8396,14 @@
                 "id": "0acacd1f-2022-42b7-a58f-e7d919f20c85",
                 "resourcePath": "sprites\\s_illum_default_06\\s_illum_default_06.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dab091da-1725-442f-a88a-1d0b77859342",
+            "Value": {
+                "id": "1554f40e-277d-45ec-8520-5d85461a94b7",
+                "resourcePath": "objects\\o_point_defense_projectile\\o_point_defense_projectile.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -682,7 +682,7 @@
         "tl_slow_snipe"
       ],
       "Spell Timeline Script": "null",
-      "Sprite": "s_illum_default_02",
+      "Sprite": "s_illum_red_02",
       "Image Scale": 1,
       "Exhaust Coordinate 1": [
         19,
@@ -721,16 +721,16 @@
       "Effect Coordinate 3": "null",
       "Effect Coordinate 4": "null",
       "Turret Hardpoint 1": [
-        71,
-        125,
+        40,
+        140,
         0,
         "s_illum_red_turret_1",
         0.75,
         "Hammerhead 1 Turret"
       ],
       "Turret Hardpoint 2": [
-        71,
-        76,
+        40,
+        60,
         0,
         "s_illum_red_turret_1",
         0.75,
@@ -769,7 +769,7 @@
         "tl_fast_slide_attack",
         "tl_fast_slide_attack"
       ],
-      "Spell Timeline Script": "null",
+      "Spell Timeline Script": "tl_overlord_cast_point_defense_core",
       "Sprite": "s_illum_default_08",
       "Image Scale": 1,
       "Exhaust Coordinate 1": [
@@ -808,13 +808,20 @@
       "Effect Coordinate 4": "null",
       "Turret Hardpoint 1": [
         32,
-        99,
+        49,
         0,
         "s_illum_default_turret_1",
         1,
         "Overlord 1 Turret"
       ],
-      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 2": [
+        32,
+        149,
+        0,
+        "s_illum_default_turret_1",
+        1,
+        "Overlord 1 Turret"
+      ],
       "Turret Hardpoint 3": "null",
       "Turret Hardpoint 4": "null",
       "Basic Attack Sprite": "null",
@@ -854,7 +861,7 @@
       "Sprite": "s_illum_default_turret_1",
       "Basic Attack Targeting Behavior": "Nearest",
       "Basic Attack Targeting Behavior Squads": false,
-      "Image Scale": 1,
+      "Image Scale": 0.5,
       "Is Under": 0,
       "Weapon 1 Coordinate": [
         43,
@@ -867,7 +874,7 @@
       "Projectile Speed": 7,
       "Projectile Duration": 50,
       "Projectile Damage": 50,
-      "Projectile Image Scale": 0.75,
+      "Projectile Image Scale": 0.5,
       "Projectile Thermal Unit Cost": 6,
       "Projectile Attack Speed Interval": 20,
       "Projectile Sprite": "s_laser_heavy_25",
