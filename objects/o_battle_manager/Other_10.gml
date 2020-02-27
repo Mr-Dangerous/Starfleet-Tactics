@@ -25,6 +25,9 @@ for (var _x = 0; _x < BATTLEGRID_WIDTH; _x++){
 				var _ship = _squad.ships_in_squad[|i]
 				_ship.battle_player_number = 1
 				_ship.battle_manager = self
+				with(_ship){
+					event_user(PREPARE_FOR_FIGHT)
+				}
 			}
 		}
 		var _new_x = BATTLEGRID_WIDTH - _x - 1
@@ -46,6 +49,9 @@ for (var _x = 0; _x < BATTLEGRID_WIDTH; _x++){
 				var _ship = _squad.ships_in_squad[|i]
 				_ship.battle_player_number = 2
 				_ship.battle_manager = self
+				with(_ship){
+					event_user(PREPARE_FOR_FIGHT)
+				}
 			}
 		}
 	}

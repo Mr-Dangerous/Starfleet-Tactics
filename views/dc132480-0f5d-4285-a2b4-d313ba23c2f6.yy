@@ -6,7 +6,6 @@
     "children": [
         "06ad671c-45a4-45e5-8b19-274d0eaa9ef4",
         "bf3936c7-72dc-4c28-9526-5095f6d9b3e9",
-        "42c8add3-00d0-458f-8a14-5ad7f5f1ee13",
         "ee184057-000b-43ee-80a1-e2e5d99c14e9",
         "0114adf3-8d51-41b6-8c9a-cefe610010b0",
         "c9f2be4b-219c-48e9-890d-fe93fa1f2c7f",
@@ -34,7 +33,8 @@
         "0b1b0282-a882-4163-9bb2-95a165be4fc1",
         "ab9b7254-15b8-4f67-9a12-2a26cea63e0a",
         "c9b750e0-43fc-4c8c-b757-b01476bf57e0",
-        "e682e19b-e9d7-4b1a-8071-27fe41ef7391"
+        "e682e19b-e9d7-4b1a-8071-27fe41ef7391",
+        "bd8846e3-284a-4f20-acbe-a4a99ccb3e01"
     ],
     "filterType": "GMSprite",
     "folderName": "Huge Lasers",

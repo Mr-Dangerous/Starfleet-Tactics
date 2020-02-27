@@ -4,11 +4,13 @@
     "mvc": "1.1",
     "name": "42a140e9-d3ae-4e8b-9457-1c2a963efe3e",
     "children": [
-        "d784a9f8-ff45-4ce7-894a-71c56666fecc",
-        "26f11815-280b-451b-956c-73ad9c53829b"
+        "e079dcfd-58ca-4108-a348-40ced00bb0fb",
+        "8f7617d0-446f-496d-95bf-8644d3bf062a",
+        "f2077701-ccdf-444b-9fd4-daab54fc679f",
+        "9570116a-2612-40f9-a3b2-e0b05bdc3bed"
     ],
     "filterType": "GMScript",
-    "folderName": "AI",
+    "folderName": "AI (movement and spells)",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

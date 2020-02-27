@@ -17,6 +17,7 @@ if (point_distance(x, y, target_x, target_y) < 50){
 	timeline_index = scr_select_timeline()
 	max_speed = base_max_speed
 	acceleration_rate = base_acceleration_rate
+	ship_steering_force = base_ship_steering_force
 } else {
 	timeline_position = 2
 }

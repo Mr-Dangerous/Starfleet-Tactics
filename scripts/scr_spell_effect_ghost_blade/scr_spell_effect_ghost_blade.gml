@@ -10,11 +10,11 @@ var _base_damage = 0
 
 switch(_caster_level){
 	case 1:
-		_base_damage = 200
+		_base_damage = 20
 	break;
 	
 	case 2:
-		_base_damage = 300
+		_base_damage = 30
 	break;
 	
 	case 3:

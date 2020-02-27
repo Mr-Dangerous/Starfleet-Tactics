@@ -36,7 +36,7 @@ if (duration <= 0){
 
 
 
-//package it up for the netowrk draw event!
+//package it up for the network draw event!
 var _networking_sprite_array = [sprite_index, 0, x, y, image_xscale, image_yscale, image_angle, c_white, image_alpha]
 ds_list_add(sprite_list, _networking_sprite_array)
 

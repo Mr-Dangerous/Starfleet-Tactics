@@ -49,6 +49,7 @@ repeat(4){
 		
 			var _length = point_distance(0, 0, _relative_element_position_x, _relative_element_position_y)*_major_image_scale //needed this var because I'm a dummy
 			var _p_dir =  point_direction(0, 0, _relative_element_position_x, _relative_element_position_y)
+			
 			_element_offset_array[GRAPHIC_DIRECTION_OFFSET] = _p_dir
 			_element_offset_array[GRAPHIC_LENGTH_OFFSET] = _length
 			_element_offset_array[IS_UNDER] = ds_list_find_value(_element_data, 2)
@@ -56,8 +57,10 @@ repeat(4){
 			_element_offset_array[ASSET_INDEX] = _sprite
 			var _image_scale = ds_list_find_value(_element_data, 4)*_major_image_scale
 			_element_offset_array[SPRITE_IMAGE_SCALE] = _image_scale	
+			//
 			if (_accessor_string = "Effect Coordinate " and _element_data != "null"){
 				has_effects = true
+				
 				var _element_data_size = ds_list_size(_element_data)
 				//USING SPRITE IMAGE SCALE BECAUSE ITS THE LAST ONE IN THE ARRAY
 				if (_element_data_size > SPRITE_IMAGE_SCALE){

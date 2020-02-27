@@ -90,6 +90,13 @@ switch(state){
 			if (distance_to_point(ship_target.x, ship_target.y) < basic_attack_range){
 				combat_state = ship.executing_timeline_attack
 				timeline_index = scr_select_timeline()
+				//TODO:  This can eventually be some kind of loop
+				if (instance_exists(turret_1)){
+					turret_1.state = ship.battle
+				}
+				if (instance_exists(turret_2)){
+					turret_2.state = ship.battle
+				}
 			}
 				
 			break;
