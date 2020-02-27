@@ -8,6 +8,9 @@ graphic_direction_offset_from_origin = 0
 image_scale = 1
 weapon_effects = false
 ship_target = noone
+basic_attack_targeting_behavior = -1
+basic_attack_targets_squads = true
+squad_target = noone
 
 
 graphic_resource_array[WEAPON_OFFSETS] = ds_list_create()

@@ -24,7 +24,23 @@ switch (ship_type){
 	break;
 	
 	case SPEED_CLASS_SLOW:
-		_return_script = choose(tl_slow_reinforce_shields)
+		
+		var _direction_to_target = point_direction(x, y, ship_target.x, ship_target.y)
+		if (abs(angle_difference(image_angle, _direction_to_target)) > 180){
+			if (basic_attack_targets_squads){
+				ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, squad_target)
+			} else {
+				ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, IGNORE_SQUADS)
+			}
+		}
+		var _distance_to_target = point_distance(x, y, ship_target.x, ship_target.y)
+		if (_distance_to_target > basic_attack_range){
+			_return_script = tl_slow_match_distance
+		}
+		if (_distance_to_target < basic_attack_range){
+			_return_script = choose(tl_slow_reinforce_shields)
+		}
+		
 	break;
 }
 

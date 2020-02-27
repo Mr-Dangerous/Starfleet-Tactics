@@ -64,13 +64,14 @@ switch(state){
 		break;
 	}
 	if (!instance_exists(ship_target)){
-			ship_target = scr_assign_ship_target(self)
+		if (basic_attack_targets_squads){
+			ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, squad_target)
+		} else {
+			ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, IGNORE_SQUADS)
+		}
 	}
 	if (basic_attack_coolant_counter < basic_attack_coolant_effectiveness){
 		basic_attack_coolant_counter++
-		if (name = "Hammerhead 1"){
-			show_debug_message(basic_attack_coolant_counter)
-		}
 	}
 	
 	if (basic_attack_coolant_counter >= basic_attack_coolant_effectiveness){
@@ -105,6 +106,13 @@ switch(state){
 			if (timeline_running = false){
 				timeline_running = true
 				timeline_position = 0
+			}
+			if (!instance_exists(ship_target)){
+				timeline_index = -1
+				timeline_running = false
+				timeline_position = 0
+				state = ship.locked
+				combat_state = ship.out_of_combat
 			}
 			break;
 		}
@@ -205,7 +213,7 @@ switch(state){
 #region pre draw_self() - universal graphics that appear under the ship
 	
 //Thrusters
-if (speed > 0){
+if (speed > 0.1){
 		
 	thrust_length_multiplier = speed/max_speed
 	thrust_length_multiplier = clamp(thrust_length_multiplier, .15, 1)

@@ -14,6 +14,8 @@ basic_attack_thermal_unit_cost = _turret_map[? "Projectile Thermal Unit Cost"]
 basic_attack_speed_interval = _turret_map[? "Projectile Attack Speed Interval"]
 projectile_sprite = asset_get_index(_turret_map[?"Projectile Sprite"])
 projectile_image_scale = _turret_map[? "Projectile Image Scale"]
+basic_attack_targeting_behavior = scr_return_target_behavior_type(_turret_map[? "Basic Attack Targeting Behavior"])
+basic_attack_targets_squads = _turret_map[? "Basic Attack Targeting Behavior Squads"]
 
 image_scale = _turret_map[? "Image Scale"]
 image_xscale = image_scale

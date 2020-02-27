@@ -1,3 +1,11 @@
+///@param ship_target_opt
+
+var _ship_target = noone
+if (argument_count > 0){
+	_ship_target = argument[0]
+}
+
+
 var _weapon_list = graphic_resource_array[WEAPON_OFFSETS]
 
 for (var i = 0; i < ds_list_size(_weapon_list); i++){
@@ -19,6 +27,7 @@ for (var i = 0; i < ds_list_size(_weapon_list); i++){
 		_projectile.image_yscale = _weapon[SPRITE_IMAGE_SCALE]
 		_projectile.speed = basic_attack_projectile_speed
 		_projectile.duration = basic_attack_projectile_duration
+		_projectile.ship_target = _ship_target
 		var _convergence_angle = scr_calculate_convergence_angle(_x_offset, _y_offset)
 		_projectile.image_angle = _convergence_angle
 		_projectile.direction = _projectile.image_angle

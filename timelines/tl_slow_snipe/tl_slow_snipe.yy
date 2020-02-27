@@ -5,23 +5,6 @@
     "name": "tl_slow_snipe",
     "momentList": [
         {
-            "id": "2143e978-bf09-4a7e-a29f-09baa3b87803",
-            "modelName": "GMMoment",
-            "mvc": "1.0",
-            "name": "",
-            "evnt": {
-                "id": "e38b5896-a4d0-4b4a-b3c7-632f856d3298",
-                "modelName": "GMEvent",
-                "mvc": "1.0",
-                "IsDnD": false,
-                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 0,
-                "eventtype": 0,
-                "m_owner": "b5e42b15-64fa-4a9c-b822-c92918a14534"
-            },
-            "moment": 0
-        },
-        {
             "id": "d7c58f0f-3fdd-49cf-836e-8ba4b3467f81",
             "modelName": "GMMoment",
             "mvc": "1.0",

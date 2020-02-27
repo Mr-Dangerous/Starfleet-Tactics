@@ -42,13 +42,10 @@ switch(state){
 			for (var i = 0; i < ds_list_size(ships_in_squad); i++){
 				var _ship = ships_in_squad[|i]
 				if (instance_exists(_ship)){
-					if (!instance_exists(_ship.ship_target)){
-						var _ship_target = scr_assign_ship_target(_ship)
-						_ship.ship_target = _ship_target
-						if (_ship.state = ship.patrolling){
-							_ship.state = ship.battle
-						}
+					if (_ship.state = ship.patrolling){
+						_ship.state = ship.battle
 					}
+					
 				}
 			}
 		} else {

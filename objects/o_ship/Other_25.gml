@@ -70,6 +70,8 @@ ship_mass = _ship_map[? "Ship Mass"]
 base_ship_mass = ship_mass
 ship_steering_force = _ship_map[? "Steering Force"]
 base_ship_steering_force = ship_steering_force
+basic_attack_targeting_behavior = scr_return_target_behavior_type(_ship_map[? "Basic Attack Targeting Behavior"])
+basic_attack_targets_squads = _ship_map[? "Basic Attack Targeting Behavior Squads"]
 
 
 

@@ -19,14 +19,22 @@ switch(state){
 			basic_attack_coolant_coutner = 0
 			weapons_ready = true
 		}
+		squad_target = reference_ship.squad_target
 		if (instance_exists(ship_target)){
 			if (point_distance(x, y, ship_target.x, ship_target.y) > basic_attack_range){
-				ship_target = scr_return_ship_target_nearest()
+				if (!basic_attack_targets_squads){
+				ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, IGNORE_SQUADS)
+				} else {
+					ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, squad_target)
+				}
 			}
 			
 		} else {
-			
-			ship_target = scr_return_ship_target_nearest()
+			if (!basic_attack_targets_squads){
+				ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, IGNORE_SQUADS)
+			} else {
+				ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, squad_target)
+			}
 		}
 		if (instance_exists(ship_target)){
 			var _direction_to_target = point_direction(x, y, ship_target.x, ship_target.y)

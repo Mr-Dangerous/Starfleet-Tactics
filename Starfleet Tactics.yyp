@@ -2767,6 +2767,14 @@
             }
         },
         {
+            "Key": "4acfbebd-1445-46a9-975c-b8cb13c9afd8",
+            "Value": {
+                "id": "37490b60-ba80-481b-b6f9-3b7947646250",
+                "resourcePath": "timelines\\tl_fire_basic_attack_with_target\\tl_fire_basic_attack_with_target.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "4aee4ece-d230-40ed-b6b8-40c3c40f8f8a",
             "Value": {
                 "id": "12c4d2b2-d5fd-4806-a7e7-3158ecdc457d",
@@ -4316,6 +4324,14 @@
                 "id": "df8ed313-1671-4adf-8fe7-47027e95499e",
                 "resourcePath": "sprites\\s_laser_burst_08\\s_laser_burst_08.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71f2e447-dca7-47b5-9894-b66953acf370",
+            "Value": {
+                "id": "2ffb5870-474f-4086-82be-cd371ff887f3",
+                "resourcePath": "scripts\\scr_return_target_behavior_type\\scr_return_target_behavior_type.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -7007,6 +7023,14 @@
             }
         },
         {
+            "Key": "bcf863f1-3566-4773-9828-708c2f24603c",
+            "Value": {
+                "id": "56d139ab-38e9-457e-ab9e-eea53270213d",
+                "resourcePath": "timelines\\tl_slow_match_distance\\tl_slow_match_distance.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "bd1d90eb-c093-4f49-b8fa-231fdcdfeb7a",
             "Value": {
                 "id": "edc60226-db08-4c20-93bb-46f023c76013",
@@ -7316,6 +7340,14 @@
                 "id": "3f5c9c5e-1ff5-4e18-a09a-57cc6f849440",
                 "resourcePath": "sprites\\s_illum_blue_03\\s_illum_blue_03.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c480dc2d-3323-4986-a8c5-00c16b2267ef",
+            "Value": {
+                "id": "f49e564a-1d31-42f5-ab31-d6348b0a9129",
+                "resourcePath": "scripts\\scr_return_ship_target\\scr_return_ship_target.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -9689,6 +9721,8 @@
         "d784a9f8-ff45-4ce7-894a-71c56666fecc",
         "2f1f6ddd-a945-4384-b387-85ecbf4dd751",
         "c92e7e1c-5c5d-4dd7-aab1-a014d6fa6e25",
+        "c480dc2d-3323-4986-a8c5-00c16b2267ef",
+        "71f2e447-dca7-47b5-9894-b66953acf370",
         "d75040d8-6cfe-42d4-af9c-7a3275ea3b96",
         "7205d704-c26e-4d9d-aa0b-20fc4e06a646",
         "9d8b78e1-68c0-48a6-82da-745fd3c5021c",
