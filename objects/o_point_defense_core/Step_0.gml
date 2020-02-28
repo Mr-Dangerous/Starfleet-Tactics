@@ -4,13 +4,14 @@ if (deploy_counter > 0){
 	deploy_counter--
 	
 }
-if (deploy_counter <= 0){
+if (deploy_counter <= 0 and !returning){
 	deployed = true
 	desired_direction = 0
 	desired_motion = 0
 	speed = 0
 }
 if (deployed=true){
+	duration--
 	with (o_projectile){
 		if (owner != other.owner){
 			var projectile_index = ds_list_find_index(other.projectiles_shot_down, self)
@@ -37,16 +38,16 @@ if (deployed=true){
 	
 }
 if (returning = true){
-		_x = reference_ship.x+lengthdir_x(return_point_length_offset, return_point_direction_offset)
-		_y = reference_ship.y+lengthdir_y(return_point_length_offset, return_point_direction_offset)
-		desired_direction = point_direction(x, y, _x, _y)
-		desired_motion += 1
-		if (point_distance(x, y, _x, _y) < 3){
-			//TODO make this nicer
-			reference_ship.sprite_index = s_illum_default_08
-			instance_destroy()
-		}
+	_x = reference_ship.x+lengthdir_x(return_point_length_offset, return_point_direction_offset)
+	_y = reference_ship.y+lengthdir_y(return_point_length_offset, return_point_direction_offset)
+	desired_direction = point_direction(x, y, _x, _y)
+	desired_motion += 1
+	if (point_distance(x, y, _x, _y) < 3){
+		//TODO make this nicer
+		reference_ship.sprite_index = s_illum_default_08
+		instance_destroy()
 	}
+}
 motion_add(desired_direction, desired_motion)
 scr_limit_speed()
 scr_turn_to_face_direction(desired_direction)

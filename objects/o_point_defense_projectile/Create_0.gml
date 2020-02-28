@@ -2,3 +2,4 @@
 // You can write your code in this editor
 projectile_target = noone
 reference_object = noone
+duration = 60

@@ -7,3 +7,7 @@ if (other = projectile_target){
 	ds_list_delete(reference_object.projectiles_shot_down, index)
 	instance_destroy()
 }
+duration--
+if (duration <= 0){
+	instance_destroy()
+}
