@@ -1623,14 +1623,6 @@
             }
         },
         {
-            "Key": "2c440036-4f0b-4f6c-9265-862660f92e38",
-            "Value": {
-                "id": "be28c2cb-47fc-4525-9823-fc761c7b4e63",
-                "resourcePath": "sprites\\s_laser_huge_19\\s_laser_huge_19.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2c842028-cb94-414e-8cff-58dc8f702251",
             "Value": {
                 "id": "07aed8fe-41ec-4917-8b60-2b747f388965",
@@ -5131,6 +5123,14 @@
             "Value": {
                 "id": "9408a925-025f-4c7d-a268-bc58afc84b28",
                 "resourcePath": "sprites\\s_tox_gold_19\\s_tox_gold_19.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "86137ec6-00e1-4f9c-a276-e11c0acaed96",
+            "Value": {
+                "id": "6cacf124-35b0-427d-a713-3e234524a546",
+                "resourcePath": "sprites\\s_laser_huge_19\\s_laser_huge_19.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -21,7 +21,6 @@
         "3387b64b-7095-4257-8588-f9fd20fd97ca",
         "12757e35-dff8-4c6a-9724-bd1ffe50bae3",
         "7d32ac19-e1f6-431e-b4e4-da2f9d70aa27",
-        "2c440036-4f0b-4f6c-9265-862660f92e38",
         "a70337aa-8e2a-43cf-9c14-374772e99434",
         "5c3d2b61-12ce-4894-8b56-3bd04cfda7e8",
         "db72093e-89a2-45f8-bb85-6cdfa77a0c1e",
@@ -34,7 +33,8 @@
         "ab9b7254-15b8-4f67-9a12-2a26cea63e0a",
         "c9b750e0-43fc-4c8c-b757-b01476bf57e0",
         "e682e19b-e9d7-4b1a-8071-27fe41ef7391",
-        "bd8846e3-284a-4f20-acbe-a4a99ccb3e01"
+        "bd8846e3-284a-4f20-acbe-a4a99ccb3e01",
+        "86137ec6-00e1-4f9c-a276-e11c0acaed96"
     ],
     "filterType": "GMSprite",
     "folderName": "Huge Lasers",
