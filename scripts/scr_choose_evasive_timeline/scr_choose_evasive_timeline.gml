@@ -12,7 +12,7 @@ switch (ship_type){
 	if (_distance_to_target <= basic_attack_range * .7){
 		_return_script = choose(tl_fast_disengage,tl_fast_hard_turn_loop, tl_fast_zig_zag)
 	}
-	if (_distance_to_target <= 75){
+	if (_distance_to_target <= 200){
 		_return_script = choose(tl_fast_disengage)
 	}
 		
