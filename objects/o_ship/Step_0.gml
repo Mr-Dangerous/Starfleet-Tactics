@@ -2,6 +2,14 @@
 if (armor <= 0){
 	instance_destroy()
 }
+if (movement_override_counter > 0){
+	movement_override_counter--
+	if (movement_override_counter = 0){
+		override_timeline = -1
+		timeline_index = scr_select_timeline()
+	}
+}
+	
 
 turn_speed = ship_steering_force/ship_mass
 

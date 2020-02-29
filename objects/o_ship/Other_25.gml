@@ -9,8 +9,10 @@ client = scr_get_client_by_id(owner)
 }
 
 
-image_xscale = _ship_map[? "Image Scale"]
-image_yscale = _ship_map[? "Image Scale"]
+
+image_scale = _ship_map[? "Image Scale"]
+image_xscale = image_scale
+image_yscale = image_scale
 
 
 //check for effects

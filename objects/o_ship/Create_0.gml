@@ -97,6 +97,8 @@ weapons_ready = false
 basic_attack_coolant_counter = 0
 basic_attack_thermal_capacity_used = 0
 ship_mass = 0
+override_timeline = -1
+movement_override_counter = 0
 
 #endregion
 

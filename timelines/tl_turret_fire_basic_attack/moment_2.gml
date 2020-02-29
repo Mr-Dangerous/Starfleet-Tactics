@@ -19,7 +19,8 @@ if (basic_attack_thermal_capacity_used + basic_attack_thermal_unit_cost > basic_
 	weapons_ready = false
 	basic_attack_coolant_counter = 0
 	timeline_position = 0
-	timeline_running = false
+	timeline_running = true
+	
 } else {
 	timeline_position = 1
 }

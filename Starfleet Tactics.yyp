@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "0595e149-1459-48cf-9673-f409463a1c39",
+            "Value": {
+                "id": "7967b078-5422-479f-a986-c85c3a87191c",
+                "resourcePath": "timelines\\tl_banshee_cast_force_shield_spell\\tl_banshee_cast_force_shield_spell.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "059b1530-def3-46e1-8cd1-2f8bafaf7ad7",
             "Value": {
                 "id": "90b7122f-240b-4dc1-913e-ff67de3e8b15",
@@ -2127,6 +2135,14 @@
             }
         },
         {
+            "Key": "3ae356c9-0e8c-4cd0-842e-69c9348f1536",
+            "Value": {
+                "id": "9611a301-d8be-45fe-acd7-665edcb47bc6",
+                "resourcePath": "sprites\\s_force_shield_spell\\s_force_shield_spell.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3b15c9ef-eb0a-4633-a5d3-eb98d3769948",
             "Value": {
                 "id": "4bb65695-f1d8-482e-b3ba-8122e9db6cf6",
@@ -3292,6 +3308,14 @@
                 "id": "78589a03-efa2-4d56-8195-86e0f5eed813",
                 "resourcePath": "scripts\\scr_cb_send_sprite_data\\scr_cb_send_sprite_data.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5740dd35-ec08-49c3-b6e9-d0578a9f5895",
+            "Value": {
+                "id": "e98bd93f-8899-4a03-93c1-478ccfc08e3a",
+                "resourcePath": "objects\\o_force_shield\\o_force_shield.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -6679,6 +6703,14 @@
             }
         },
         {
+            "Key": "b1349c88-c502-43bc-9bc9-103da49cbf93",
+            "Value": {
+                "id": "7c3f0b84-f2f4-49f8-8d9e-113514acceb7",
+                "resourcePath": "views\\b1349c88-c502-43bc-9bc9-103da49cbf93.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b185b72b-3e05-45f3-a3cd-7cb535a0a814",
             "Value": {
                 "id": "bdd05a54-2acd-4aee-a831-6644f73d97de",
@@ -9060,6 +9092,14 @@
                 "id": "7cdc65e7-2361-4c6d-a034-2c0c268848e7",
                 "resourcePath": "sprites\\s_planetImpact1\\s_planetImpact1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eed4f594-e3b7-4b42-9120-e8e227cda3d7",
+            "Value": {
+                "id": "8b836129-c55d-4e64-b3b3-a592d9a0275e",
+                "resourcePath": "timelines\\tl_stationary_pivot_override\\tl_stationary_pivot_override.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {

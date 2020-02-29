@@ -11,7 +11,8 @@
         "32cba4ef-27b0-459d-b70e-1e6daa59f2ce",
         "a0b50d08-59cd-42e9-9846-f4494b7d788e",
         "42e7a6d7-11e4-4812-850e-ed1534028f0c",
-        "dab091da-1725-442f-a88a-1d0b77859342"
+        "dab091da-1725-442f-a88a-1d0b77859342",
+        "5740dd35-ec08-49c3-b6e9-d0578a9f5895"
     ],
     "filterType": "GMObject",
     "folderName": "Spell objects",

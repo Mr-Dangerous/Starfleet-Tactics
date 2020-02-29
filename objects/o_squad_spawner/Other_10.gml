@@ -4,6 +4,9 @@ if (ship_name != ""){
 	var _player_object = instance_find(o_player, owner_to_create_for)
 	var _battlefield_grid_to_attach_to = _player_object.battlefield
 	
+	//check to see if there are 2 other of the same unit - if there are, level up!
+	
+	
 	//find an empty slot - will eventually be click and drag.
 	var _squad_position = noone
 	var _assigned_grid_x = -1

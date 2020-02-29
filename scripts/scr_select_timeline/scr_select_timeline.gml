@@ -1,4 +1,11 @@
 abort_counter = 180
+timeline_position = 0
+if (override_timeline != -1){
+	timeline = override_timeline
+	timeline_position = 0
+	return timeline
+}
+
 var timeline = scr_choose_evasive_timeline(ship_speed_class)
 if (weapons_ready){
 	if (energy >= max_energy and spell_timeline_script != -1){

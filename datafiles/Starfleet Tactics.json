@@ -115,7 +115,7 @@
         "tl_fast_slide_attack",
         "tl_fast_slide_attack"
       ],
-      "Spell Timeline Script": "null",
+      "Spell Timeline Script": "tl_banshee_cast_force_shield_spell",
       "Sprite": "s_illum_default_11",
       "Image Scale": 0.6,
       "Exhaust Coordinate 1": [
@@ -710,7 +710,7 @@
         167,
         100,
         true,
-        "s_laser_huge_19",
+        "s_laser_huge_03",
         0.75
       ],
       "Weapon Coordinate 2": "null",

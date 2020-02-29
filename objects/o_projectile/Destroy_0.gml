@@ -2,7 +2,7 @@
 // You can write your code in this editor
 image_angle = direction
 
-if (image_number > 1){
+if (image_number > 1 and destroy_animation){
 	with(instance_create_layer(x, y, LAYER_PROJECTILES_HIGH, o_destroyed_projectile)){
 		
 		speed = random_range(3, 4)
