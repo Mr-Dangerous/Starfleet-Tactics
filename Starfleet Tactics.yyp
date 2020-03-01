@@ -5159,6 +5159,14 @@
             }
         },
         {
+            "Key": "860a608b-7709-40f8-b37a-35f7af8ed1c8",
+            "Value": {
+                "id": "c8ce0726-08bd-4d6d-a548-c89acfceddf8",
+                "resourcePath": "scripts\\scr_spell_effect_wraith_flare_gun\\scr_spell_effect_wraith_flare_gun.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "86137ec6-00e1-4f9c-a276-e11c0acaed96",
             "Value": {
                 "id": "6cacf124-35b0-427d-a713-3e234524a546",
@@ -9809,6 +9817,7 @@
         "740fa67f-b3bd-4fca-a6b8-65dda9ded4cf",
         "7dc6edab-2f0f-4f4f-9c21-bc3a8a4ea84d",
         "3fc32f62-964b-4207-8f7f-2f684cfdd13c",
+        "860a608b-7709-40f8-b37a-35f7af8ed1c8",
         "26f11815-280b-451b-956c-73ad9c53829b",
         "0ab54466-1d44-4926-9ff6-34ae3dc91025",
         "f204fd1d-b4d4-41b5-bcca-0104bbe4e10e",

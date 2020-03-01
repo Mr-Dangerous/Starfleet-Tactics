@@ -11,6 +11,12 @@ if (instance_exists(ship_target)){
 		_missile.ship_target = ship_target
 		_missile.duration = 1000
 		_missile.sprite_index = s_flareset1fx07
+		_missile.direction = image_angle
+		_missile.speed = speed
+		_missile.effect_script = scr_spell_effect_wraith_flare_gun
+		_missile.caster_level = caster_level
+		_missile.owner = owner
+	
 		
 		
 		

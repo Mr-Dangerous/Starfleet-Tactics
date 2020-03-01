@@ -7,9 +7,15 @@ if (instance_exists(ship_target)){
 	}
 }
 if (!instance_exists(ship_target)){
-	target_dead_false = true
+	target_dead_flag = true
 	instance_destroy()
 }
 scr_turn_to_face_direction(desired_direction)
 motion_add(desired_direction, acceleration_rate)
 scr_limit_speed()
+
+duration--
+if (duration <0){
+	post_duration_flag = true
+	instance_destroy()
+}
