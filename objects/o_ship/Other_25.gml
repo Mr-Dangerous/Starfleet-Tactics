@@ -65,7 +65,9 @@ base_acceleration_rate = acceleration_rate
 
 
 armor = _ship_map[? "Armor"]
+max_armor = armor
 shields = _ship_map[? "Shields"]
+max_shields = shields
 ship_speed_class = _ship_map[? "Ship Speed Class"]
 basic_attack_thermal_unit_cost = _ship_map[? "Basic Attack Thermal Unit Cost"]
 ship_mass = _ship_map[? "Ship Mass"]

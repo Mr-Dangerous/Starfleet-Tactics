@@ -11,4 +11,5 @@ if (count_down_timer = 1){
 			_ship.state = ship.patrolling
 		}
 	}
+	grids_visible = false
 }

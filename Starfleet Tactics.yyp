@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "11726259-9542-4c4b-b343-dfc700ce6614",
+            "Value": {
+                "id": "765d0954-6d30-4dce-b515-46a77a75987a",
+                "resourcePath": "objects\\o_damage_notification\\o_damage_notification.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1185999a-3f65-4a8d-b8fc-013603714225",
             "Value": {
                 "id": "81c63b8a-9474-43b8-9e35-cdcaefcab91c",

@@ -29,6 +29,8 @@ paired_effects = ds_list_create()
 generate_shields = false
 generate_physical_damage = false
 thrust_counter = 0
+blind_effect = false
+display_timeline = false
 #endregion
 
 #region Networking vars
@@ -75,7 +77,10 @@ gimbal_fire_angle = 3
 max_speed = 0
 acceleration_rate = 0
 turn_speed = 0
+shields = 1
+max_shields = 1
 armor = 1
+max_armor = 1
 caster_level = 0
 basic_attack_projectile_speed = 5
 basic_attack_projectile_duration = 50

@@ -9,7 +9,8 @@ if (movement_override_counter > 0){
 		timeline_index = scr_select_timeline()
 	}
 }
-	
+
+
 
 turn_speed = ship_steering_force/ship_mass
 
@@ -36,6 +37,25 @@ if (generate_physical_damage){
 
 if (energy <= max_energy){
 	energy+=.03
+}
+
+if (blind_counter > 0){
+	blind_counter--
+	basic_attack_coolant_counter--
+	if (instance_exists(turret_1)){
+		turret_1.basic_attack_coolant_counter--
+	}
+	if (instance_exists(turret_1)){
+		turret_2.basic_attack_coolant_counter--
+		
+	}
+	
+	blind_effect = true
+	if (blind_counter = 1){
+		blind_effect = false
+		blind_counter--
+		
+	}
 }
 
 switch(state){

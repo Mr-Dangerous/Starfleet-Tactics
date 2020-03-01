@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 count_down_timer = 300
-
+grids_visible = true
 player_1 = noone
 player_2 = noone
 

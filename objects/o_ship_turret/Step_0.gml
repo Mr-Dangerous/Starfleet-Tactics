@@ -16,7 +16,7 @@ switch(state){
 		//find the nearest target
 		basic_attack_coolant_counter++
 		if (basic_attack_coolant_counter >= basic_attack_coolant_effectiveness){
-			basic_attack_coolant_coutner = 0
+			basic_attack_coolant_counter = 0
 			weapons_ready = true
 		}
 		squad_target = reference_ship.squad_target
