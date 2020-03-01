@@ -1495,6 +1495,14 @@
             }
         },
         {
+            "Key": "28ab7ae1-efe4-4e4f-bbd4-19bbc88775f0",
+            "Value": {
+                "id": "39b5e169-ee05-49c8-80ef-caa54c554e4d",
+                "resourcePath": "objects\\o_homing_projectile\\o_homing_projectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28bb5e41-77f2-4a3b-acd0-482eb512d8ee",
             "Value": {
                 "id": "395100cb-7ece-43a2-8d2f-e6ea5aef17f9",
@@ -9580,6 +9588,14 @@
                 "id": "be7ff8d3-e773-4303-a434-3b7d9bfa9c60",
                 "resourcePath": "views\\fb82d81e-56ae-480c-a552-2f1296c13dfc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc0a3e1a-46df-4d69-b501-4e53815e9937",
+            "Value": {
+                "id": "ff28670d-d0ea-4dfe-a3e7-45c049f94b9c",
+                "resourcePath": "timelines\\tl_wraith_cast_flare_missile\\tl_wraith_cast_flare_missile.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
