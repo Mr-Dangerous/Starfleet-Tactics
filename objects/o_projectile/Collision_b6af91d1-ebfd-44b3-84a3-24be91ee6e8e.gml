@@ -1,21 +1,35 @@
 /// @description
-if (ship_target != noone){
+if (ship_target != noone and active){
 	if (ship_target = other){
+		if (fire_through_flag){
+			image_alpha = .5
+			active = false
+		}
 		with(other){
 			scr_calculate_basic_attack_damage(other.damage)
-			instance_destroy(other)
+			
+			if (!other.fire_through_flag){
+				instance_destroy(other)
+			}
 		}
 	}
 } else {
-	
-	with(other){
-		if (owner != other.owner){
+	if (active){
 		
-			scr_calculate_basic_attack_damage(other.damage)
-			instance_destroy(other)
+		with(other){
+			if (owner != other.owner){
+				if (other.fire_through_flag){
+					other.image_alpha = .5
+					other.active = false
+				}
+				scr_calculate_basic_attack_damage(other.damage)
+				if (!other.fire_through_flag){
+					instance_destroy(other)
+				}
+	
+			}
 	
 		}
-	
 	}
 }
 

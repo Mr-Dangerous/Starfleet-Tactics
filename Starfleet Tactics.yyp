@@ -4431,6 +4431,14 @@
             }
         },
         {
+            "Key": "737271d5-4c44-472d-9d82-44ebb23362ed",
+            "Value": {
+                "id": "68183189-bd86-4b0b-a70e-5bfddffd4202",
+                "resourcePath": "timelines\\tl_hammerhead_overkill\\tl_hammerhead_overkill.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "7372b69c-ca72-4a7a-a689-8bfb96f9a749",
             "Value": {
                 "id": "1fd7716c-5080-4838-b7cd-9b0279132278",
@@ -9631,6 +9639,14 @@
             }
         },
         {
+            "Key": "fc794951-a798-46f4-a3b2-de9d5e098677",
+            "Value": {
+                "id": "d9ce7bcd-a3bf-432e-971a-438db1860eb9",
+                "resourcePath": "scripts\\scr_spell_effect_hammerhead_overkill\\scr_spell_effect_hammerhead_overkill.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fca7d755-8baf-472e-b6d5-2eeba185e095",
             "Value": {
                 "id": "3de71569-fa14-4f83-99cd-54ec9efc8d52",
@@ -9826,6 +9842,7 @@
         "7dc6edab-2f0f-4f4f-9c21-bc3a8a4ea84d",
         "3fc32f62-964b-4207-8f7f-2f684cfdd13c",
         "860a608b-7709-40f8-b37a-35f7af8ed1c8",
+        "fc794951-a798-46f4-a3b2-de9d5e098677",
         "26f11815-280b-451b-956c-73ad9c53829b",
         "0ab54466-1d44-4926-9ff6-34ae3dc91025",
         "f204fd1d-b4d4-41b5-bcca-0104bbe4e10e",

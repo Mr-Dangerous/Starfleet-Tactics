@@ -681,7 +681,7 @@
         "tl_slow_snipe",
         "tl_slow_snipe"
       ],
-      "Spell Timeline Script": "null",
+      "Spell Timeline Script": "tl_hammerhead_overkill",
       "Sprite": "s_illum_red_02",
       "Image Scale": 1,
       "Exhaust Coordinate 1": [

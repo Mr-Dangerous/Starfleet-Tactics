@@ -1,0 +1,1 @@
+scr_spell_effect_hammerhead_overkill()
