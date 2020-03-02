@@ -43,4 +43,4 @@ if ( display_timeline = true){
 	}
 	draw_text(x, y, _timeline_string)
 }
-
+ds_map_add_list()
