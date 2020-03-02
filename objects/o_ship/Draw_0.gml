@@ -18,12 +18,14 @@ if (instance_exists(ship_target)){
 var total_hp = armor + shields
 var _max_hp = max_armor + max_shields
 var _display_string = string_build("{}/{}", total_hp, max_armor)
+var _energy_string = string_build("{}/{}", energy, max_energy)
 var _text_color = c_blue
 if (total_hp < armor){
 	_text_color = c_white
 }
 draw_set_halign(fa_center)
 draw_text_ext_color(x, y+(70*image_scale), _display_string, 0, 20, _text_color, _text_color, _text_color, _text_color, 1)
+draw_text_ext_color(x, y+(90*image_scale), _energy_string, 0, 20, c_purple, c_purple, c_purple, c_purple, 1) 
 draw_set_halign(fa_left)
 
 
@@ -43,4 +45,4 @@ if ( display_timeline = true){
 	}
 	draw_text(x, y, _timeline_string)
 }
-ds_map_add_list()
+

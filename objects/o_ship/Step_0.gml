@@ -35,9 +35,7 @@ if (generate_physical_damage){
 	_damage.image_scale = image_scale
 }
 
-if (energy <= max_energy){
-	energy+=.03
-}
+
 
 if (blind_counter > 0){
 	blind_counter--
@@ -106,6 +104,11 @@ switch(state){
 		weapons_ready = true
 	} else { 
 		weapons_ready = false 
+	}
+	
+	if (energy <= max_energy){
+		energy+=.03
+		if (energy > max_energy) energy = max_energy 
 	}
 	
 	

@@ -10,15 +10,15 @@ var _base_damage = 0
 
 switch(_caster_level){
 	case 1:
-		_base_damage = 20
+		_base_damage = 100
 	break;
 	
 	case 2:
-		_base_damage = 30
+		_base_damage = 175
 	break;
 	
 	case 3:
-		_base_damage = 400
+		_base_damage = 225
 	break;
 }
 
@@ -28,7 +28,6 @@ for (var i = 0; i < ds_list_size(_spell_targets); i++){
 	var _ship = ds_list_find_value(_spell_targets, i)
 	with(_ship){
 		scr_calculate_basic_attack_damage(_base_damage)
-		show_debug_message("200 damage dealt!")
 	}
 	
 }
