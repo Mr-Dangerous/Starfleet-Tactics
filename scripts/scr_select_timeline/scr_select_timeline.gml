@@ -6,12 +6,14 @@ if (override_timeline != -1){
 	return timeline
 }
 
+
 var timeline = scr_choose_evasive_timeline(ship_speed_class)
 if (weapons_ready){
-	if (energy >= max_energy and spell_timeline_script != -1){
+	if (energy >= max_energy and spell_timeline_script != -1 and hold_spell = false){
 	timeline = spell_timeline_script
 	timeline_position = 0
 	energy = 0
+	
 	
 	} else {
 		timeline = scr_choose_timeline_random(basic_attack_patterns)
@@ -19,6 +21,7 @@ if (weapons_ready){
 	}
 	weapons_ready = false
 	basic_attack_coolant_counter = 0
+	hold_spell = false
 } 
 return timeline
 	

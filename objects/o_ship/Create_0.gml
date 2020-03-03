@@ -107,6 +107,9 @@ ship_mass = 0
 override_timeline = -1
 movement_override_counter = 0
 blind_counter = 0
+cloak = false
+tracking_spike = false
+hold_spell = false
 
 #endregion
 

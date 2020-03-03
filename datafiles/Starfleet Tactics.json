@@ -613,7 +613,7 @@
         "tl_fast_joust",
         "tl_fast_pause_turn"
       ],
-      "Spell Timeline Script": "null",
+      "Spell Timeline Script": "tl_phantom_tracking_spike",
       "Sprite": "s_illum_default_10",
       "Image Scale": 0.4,
       "Exhaust Coordinate 1": [
