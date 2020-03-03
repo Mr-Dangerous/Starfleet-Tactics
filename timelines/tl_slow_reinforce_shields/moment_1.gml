@@ -1,7 +1,7 @@
 reinforce_shields_counter--
 desired_motion -= acceleration_rate
 desired_direction = point_direction(x, y, ship_target.x, ship_target.y)
-
+ship_steering_force = base_ship_steering_force/3
 if (reinforce_shields_counter%10 = 0){
 	var  notification_amount = shield_regen_amount
 	if (shields + shield_regen_amount >= max_shields){

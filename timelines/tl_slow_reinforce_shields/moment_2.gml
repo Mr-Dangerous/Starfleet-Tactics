@@ -1,7 +1,7 @@
 reinforce_shields_counter--
 desired_motion -= acceleration_rate
 desired_direction = point_direction(x, y, ship_target.x, ship_target.y)
-
+ship_steering_force = base_ship_steering_force/3
 if (reinforce_shields_counter%10 = 0){
 	var  notification_amount = shield_regen_amount
 	if (shields + shield_regen_amount >= max_shields){
@@ -20,6 +20,7 @@ if (reinforce_shields_counter%10 = 0){
 if (reinforce_shields_counter <= 0){
 	reinforce_shields = false
 	companion_shield_object.reinforce_shields = false
+	ship_steering_force = base_ship_steering_force
 	timeline_index = scr_select_timeline()
 	timeline_position = 0
 } else {
