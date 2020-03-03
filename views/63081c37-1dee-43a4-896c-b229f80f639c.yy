@@ -11,12 +11,7 @@
         "390d2c0f-bb23-4054-b8c9-91597e3bae93",
         "47145efd-5d6a-425e-b673-29b3353e1f9d",
         "d792611f-b3db-48ec-96d9-6b8a9cd30815",
-        "28f06035-e817-48dc-9e73-c2d17de430d6",
-        "70eee6df-1dec-42c2-a085-c18f09e84ce5",
-        "0595e149-1459-48cf-9673-f409463a1c39",
-        "fc0a3e1a-46df-4d69-b501-4e53815e9937",
-        "737271d5-4c44-472d-9d82-44ebb23362ed",
-        "7eee9272-9be9-4070-ac9e-f7497da4968e"
+        "28f06035-e817-48dc-9e73-c2d17de430d6"
     ],
     "filterType": "GMTimeline",
     "folderName": "timelines",

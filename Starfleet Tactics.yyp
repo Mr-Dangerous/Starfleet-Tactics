@@ -8079,6 +8079,14 @@
             }
         },
         {
+            "Key": "d25cac92-056c-425a-b133-628d8f7afaa2",
+            "Value": {
+                "id": "a88ac352-f63e-4056-a912-f224c701ed89",
+                "resourcePath": "objects\\o_healing_notification\\o_healing_notification.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d28927aa-8c29-4480-b6c7-f508f2085855",
             "Value": {
                 "id": "34063852-99bc-475d-97c2-e84df9528def",

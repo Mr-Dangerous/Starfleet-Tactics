@@ -19,8 +19,8 @@ var total_hp = armor + shields
 var _max_hp = max_armor + max_shields
 var _display_string = string_build("{}/{}", total_hp, max_armor)
 var _energy_string = string_build("{}/{}", energy, max_energy)
-var _text_color = c_blue
-if (total_hp < armor){
+var _text_color = c_aqua
+if (total_hp < max_armor){
 	_text_color = c_white
 }
 draw_set_halign(fa_center)
