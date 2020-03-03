@@ -119,6 +119,8 @@
 #macro TARGET_LOWEST_THREAT 7
 #macro IGNORE_SQUADS true
 
+#macro ON_HIT_DISRUPTOR_CANNON "disruptor cannon"
+
 
 
 

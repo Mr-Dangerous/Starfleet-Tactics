@@ -21,6 +21,7 @@ for (var i = 0; i < ds_list_size(_weapon_list); i++){
 		var _projectile = instance_create_layer(x+_x_offset, y+_y_offset, _layer, o_projectile)
 		_projectile.owner = owner
 		_projectile.damage = basic_attack_damage
+		_projectile.origin_ship = self
 		_projectile.image_speed = 0
 		_projectile.sprite_index = _weapon[ASSET_INDEX]
 		_projectile.image_xscale = _weapon[SPRITE_IMAGE_SCALE]
@@ -31,6 +32,9 @@ for (var i = 0; i < ds_list_size(_weapon_list); i++){
 		var _convergence_angle = scr_calculate_convergence_angle(_x_offset, _y_offset)
 		_projectile.image_angle = _convergence_angle
 		_projectile.direction = _projectile.image_angle
+		if (ds_list_size(on_hit_list) > 0){
+			_projectile.on_hit_list = on_hit_list
+		}
 		if (weapon_effects){
 			var _number_of_effects = array_length_1d(_weapon)
 			for (var k = SPRITE_IMAGE_SCALE+1; k < _number_of_effects; k+=2){

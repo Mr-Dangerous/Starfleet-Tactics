@@ -110,6 +110,9 @@ blind_counter = 0
 cloak = false
 tracking_spike = false
 hold_spell = false
+disruptor_cannon = false
+on_hit_list = ds_list_create()
+do_not_cast_spell = false
 
 #endregion
 

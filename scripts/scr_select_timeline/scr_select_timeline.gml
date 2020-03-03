@@ -9,7 +9,7 @@ if (override_timeline != -1){
 
 var timeline = scr_choose_evasive_timeline(ship_speed_class)
 if (weapons_ready){
-	if (energy >= max_energy and spell_timeline_script != -1 and hold_spell = false){
+	if (energy >= max_energy and spell_timeline_script != -1 and hold_spell = false and do_not_cast_spell = false){
 	timeline = spell_timeline_script
 	timeline_position = 0
 	energy = 0

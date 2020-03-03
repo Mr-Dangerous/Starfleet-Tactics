@@ -11,7 +11,6 @@ if (movement_override_counter > 0){
 }
 
 
-
 turn_speed = ship_steering_force/ship_mass
 
 if (generate_shields){

@@ -20,8 +20,17 @@ switch (ship_type){
 	break;
 	
 	case SPEED_CLASS_MEDIUM:
-		_return_script = choose(tl_fast_disengage,tl_fast_hard_turn_loop)
-	break;
+		var _distance_to_target = point_distance(x, y, ship_target.x, ship_target.y)
+		if (_distance_to_target > basic_attack_range * .7){
+			_return_script = choose (tl_fast_flyby)
+		}
+		if (_distance_to_target <= basic_attack_range * .7){
+			_return_script = choose(tl_fast_disengage, tl_medium_orbit)
+		}
+		if (_distance_to_target <= 200){
+			_return_script = choose(tl_fast_disengage)
+		}
+		break;
 	
 	case SPEED_CLASS_SLOW:
 		

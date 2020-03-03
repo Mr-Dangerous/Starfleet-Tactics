@@ -6,6 +6,7 @@ cloud_shield_sprite = s_shield_cloud_1
 hard_sprite_alpha = 0
 cloud_sprite_alpha = 0
 soft_sprite_alpha = 0
+reinforce_shields = false
 timeline_index=tl_draw_shields
 timeline_running = false
 image_scale = 0

@@ -8,6 +8,10 @@ if (!attached){
 	}
 }
 if (attached){
+	if (!instance_exists(ship_target)){
+		instance_destroy()
+		exit
+	}
 	if (spell_duration%60 = 0){
 		with (ship_target){
 			 scr_calculate_basic_attack_damage(other.spell_damage)
@@ -19,6 +23,7 @@ if (attached){
 	image_angle = base_image_angle + ship_target.image_angle
 	spell_duration--
 	if (spell_duration <=0){
+		ship_target.tracking_spike = false
 		instance_destroy()
 	}
 	

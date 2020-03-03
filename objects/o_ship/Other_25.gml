@@ -91,6 +91,8 @@ starting_energy = _ship_map[? "Starting Energy"]
 spell_script_string = _ship_map[? "Spell Timeline Script"]
 caster_level = _ship_map[? "Level"]
 
+energy = starting_energy
+
 if (spell_script_string != "null"){
 	
 	spell_timeline_script = asset_get_index(spell_script_string)

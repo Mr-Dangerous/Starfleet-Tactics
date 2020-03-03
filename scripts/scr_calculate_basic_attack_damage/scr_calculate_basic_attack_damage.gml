@@ -7,6 +7,7 @@ var damage_notification = instance_create_layer(x, y, LAYER_EFFECTS_OVER, o_dama
 damage_notification.string_to_display = string(_base_damage)
 
 if (shields > 0){
+	
 	shields -= _base_damage
 	_base_damage = 0
 	
