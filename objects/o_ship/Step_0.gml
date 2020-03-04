@@ -1,7 +1,5 @@
 /// @description 
-if (armor <= 0){
-	instance_destroy()
-}
+
 if (movement_override_counter > 0){
 	movement_override_counter--
 	if (movement_override_counter = 0){
@@ -304,3 +302,8 @@ if (double_click_timer > 0){
 	show_debug_message(double_click_timer)
 }
 #endregion
+
+//post checks
+if (armor <= 0){
+	instance_destroy()
+}

@@ -25,6 +25,8 @@
       "Basic Attack Damage": 8,
       "Basic Attack Thermal Unit Cost": 4,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 32,
+      "Basic Attack Damage Per Attack per squad": 160,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_joust",
@@ -94,6 +96,8 @@
       "Basic Attack Damage": 10,
       "Basic Attack Thermal Unit Cost": 3,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 60,
+      "Basic Attack Damage Per Attack per squad": "",
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_joust",
@@ -163,6 +167,8 @@
       "Basic Attack Damage": 8,
       "Basic Attack Thermal Unit Cost": 3,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 48,
+      "Basic Attack Damage Per Attack per squad": 240,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_joust",
@@ -232,6 +238,8 @@
       "Basic Attack Damage": 15,
       "Basic Attack Thermal Unit Cost": 6,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 30,
+      "Basic Attack Damage Per Attack per squad": 90,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_slide_attack"
@@ -318,6 +326,8 @@
       "Basic Attack Damage": 15,
       "Basic Attack Thermal Unit Cost": 4,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 60,
+      "Basic Attack Damage Per Attack per squad": 180,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_slide_attack"
@@ -386,6 +396,8 @@
       "Basic Attack Damage": 15,
       "Basic Attack Thermal Unit Cost": 6,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 30,
+      "Basic Attack Damage Per Attack per squad": 90,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_slide_attack"
@@ -464,6 +476,8 @@
       "Basic Attack Damage": 20,
       "Basic Attack Thermal Unit Cost": 3,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 120,
+      "Basic Attack Damage Per Attack per squad": 360,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_slide_attack"
@@ -532,6 +546,8 @@
       "Basic Attack Damage": 6,
       "Basic Attack Thermal Unit Cost": 7,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 12,
+      "Basic Attack Damage Per Attack per squad": 36,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_joust",
@@ -605,6 +621,8 @@
       "Basic Attack Damage": 18,
       "Basic Attack Thermal Unit Cost": 4,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 72,
+      "Basic Attack Damage Per Attack per squad": 216,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_slide_attack"
@@ -677,6 +695,8 @@
       "Basic Attack Damage": 50,
       "Basic Attack Thermal Unit Cost": 7,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 100,
+      "Basic Attack Damage Per Attack per squad": 100,
       "Basic Attack Patterns": [
         "tl_slow_snipe",
         "tl_slow_snipe"
@@ -765,6 +785,8 @@
       "Basic Attack Damage": 30,
       "Basic Attack Thermal Unit Cost": 6,
       "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 60,
+      "Basic Attack Damage Per Attack per squad": 60,
       "Basic Attack Patterns": [
         "tl_slow_overkill",
         "tl_slow_snipe"
@@ -826,6 +848,77 @@
       "Turret Hardpoint 4": "null",
       "Basic Attack Sprite": "null",
       "Basic Attack Sprite Destroyed": "null"
+    },
+    {
+      "Name": "Pincer 1",
+      "Level": 1,
+      "Manufacturer": "Anvil Industries",
+      "Ship Speed Class": "Fast",
+      "Tactical Class": "Interceptor",
+      "Specifcation": "Cutter",
+      "Units In Squad": 5,
+      "Max Speed": 4,
+      "Acceleration Rate": 1,
+      "Turn Speed": 5,
+      "Ship Mass": 2,
+      "Steering Force": 12,
+      "Shields": 100,
+      "Armor": 200,
+      "Starting Energy": 10,
+      "Energy": 40,
+      "Basic Attack Targeting Behavior": "Nearest",
+      "Basic Attack Targeting Behavior Squads": true,
+      "Basic Attack Projectile Speed": 7,
+      "Basic Attack Projectile Duration": 25,
+      "Basic Attack Damage": 5,
+      "Basic Attack Thermal Unit Cost": 1,
+      "Basic Attack Speed Interval": 20,
+      "Basic Attack Damage Per Attack per ship": 100,
+      "Basic Attack Damage Per Attack per squad": 500,
+      "Basic Attack Patterns": [
+        "tl_fast_slide_attack",
+        "tl_fast_joust",
+        "tl_fast_pause_turn"
+      ],
+      "Spell Timeline Script": "tl_pincer_hyper_boost",
+      "Sprite": "s_illum_default_13",
+      "Image Scale": 0.4,
+      "Exhaust Coordinate 1": [
+        6,
+        39,
+        true,
+        "s_normal_double_exhaust",
+        0.4
+      ],
+      "Exhaust Coordinate 2": "null",
+      "Exhaust Coordinate 3": "null",
+      "Exhaust Coordinate 4": "null",
+      "Weapon Coordinate 1": [
+        27,
+        50,
+        true,
+        "s_illum_laser_1",
+        0.1
+      ],
+      "Weapon Coordinate 2": [
+        27,
+        29,
+        true,
+        "s_illum_laser_1",
+        0.1
+      ],
+      "Weapon Coordinate 3": "null",
+      "Weapon Coordinate 4": "null",
+      "Effect Coordinate 1": "null",
+      "Effect Coordinate 2": "null",
+      "Effect Coordinate 3": "null",
+      "Effect Coordinate 4": "null",
+      "Turret Hardpoint 1": "null",
+      "Turret Hardpoint 2": "null",
+      "Turret Hardpoint 3": "null",
+      "Turret Hardpoint 4": "null",
+      "Basic Attack Sprite": "",
+      "Basic Attack Sprite Destroyed": ""
     }
   ],
   "JSON_Turrets": [

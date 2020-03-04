@@ -11,3 +11,4 @@ explode_flag = false
 caster_level = 0
 owner = -1
 effect_script = -1
+speed_limiter = true
