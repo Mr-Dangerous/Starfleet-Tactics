@@ -18,6 +18,8 @@ if (owner != other.owner){
 						var _effect = instance_create_layer(_x, _y, LAYER_EFFECTS_OVER, o_graphic_on_hit_effect)
 						_effect.sprite_index = s_flareset2fx03
 						_effect.image_angle = image_angle+ irandom_range(-32, 32)
+						_effect.image_xscale = other.image_xscale
+						_effect.image_yscale = other.image_yscale
 						_effect.duration = 15
 					}
 				break;

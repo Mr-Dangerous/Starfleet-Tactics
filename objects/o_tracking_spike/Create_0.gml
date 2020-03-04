@@ -10,4 +10,6 @@ attached = false
 length_offset = 0
 direction_offset = 0
 base_image_angle = 0
+image_xscale = .3
+image_yscale = .3
 
