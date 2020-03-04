@@ -192,14 +192,14 @@
         55,
         true,
         "s_illum_laser_1",
-        0.1
+        0.3
       ],
       "Weapon Coordinate 2": [
         48,
         84,
         true,
         "s_illum_laser_1",
-        0.1
+        0.3
       ],
       "Weapon Coordinate 3": "null",
       "Weapon Coordinate 4": "null",
@@ -350,14 +350,14 @@
         87,
         true,
         "s_illum_laser_1",
-        0.1
+        0.5
       ],
       "Weapon Coordinate 2": [
         47,
         48,
         true,
         "s_illum_laser_1",
-        0.1
+        0.5
       ],
       "Weapon Coordinate 3": "null",
       "Weapon Coordinate 4": "null",
@@ -474,10 +474,10 @@
       "Basic Attack Projectile Speed": 7,
       "Basic Attack Projectile Duration": 100,
       "Basic Attack Damage": 20,
-      "Basic Attack Thermal Unit Cost": 3,
+      "Basic Attack Thermal Unit Cost": 4,
       "Basic Attack Speed Interval": 20,
-      "Basic Attack Damage Per Attack per ship": 120,
-      "Basic Attack Damage Per Attack per squad": 360,
+      "Basic Attack Damage Per Attack per ship": 80,
+      "Basic Attack Damage Per Attack per squad": 240,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_slide_attack"
@@ -500,14 +500,14 @@
         52,
         true,
         "s_illum_laser_1",
-        0.1
+        0.5
       ],
       "Weapon Coordinate 2": [
         52,
         82,
         true,
         "s_illum_laser_1",
-        0.1
+        0.5
       ],
       "Weapon Coordinate 3": "null",
       "Weapon Coordinate 4": "null",
@@ -858,23 +858,23 @@
       "Specifcation": "Cutter",
       "Units In Squad": 5,
       "Max Speed": 4,
-      "Acceleration Rate": 1,
-      "Turn Speed": 5,
+      "Acceleration Rate": 0.2,
+      "Turn Speed": 4,
       "Ship Mass": 2,
-      "Steering Force": 12,
+      "Steering Force": 8,
       "Shields": 100,
       "Armor": 200,
-      "Starting Energy": 10,
-      "Energy": 40,
+      "Starting Energy": 40,
+      "Energy": 50,
       "Basic Attack Targeting Behavior": "Nearest",
       "Basic Attack Targeting Behavior Squads": true,
       "Basic Attack Projectile Speed": 7,
-      "Basic Attack Projectile Duration": 25,
-      "Basic Attack Damage": 5,
+      "Basic Attack Projectile Duration": 30,
+      "Basic Attack Damage": 2,
       "Basic Attack Thermal Unit Cost": 1,
       "Basic Attack Speed Interval": 20,
-      "Basic Attack Damage Per Attack per ship": 100,
-      "Basic Attack Damage Per Attack per squad": 500,
+      "Basic Attack Damage Per Attack per ship": 40,
+      "Basic Attack Damage Per Attack per squad": 200,
       "Basic Attack Patterns": [
         "tl_fast_slide_attack",
         "tl_fast_joust",
@@ -898,14 +898,14 @@
         50,
         true,
         "s_illum_laser_1",
-        0.1
+        0.2
       ],
       "Weapon Coordinate 2": [
         27,
         29,
         true,
         "s_illum_laser_1",
-        0.1
+        0.2
       ],
       "Weapon Coordinate 3": "null",
       "Weapon Coordinate 4": "null",
