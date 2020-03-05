@@ -15,6 +15,7 @@ projectile_sprite = s_laser_light_079
 max_speed = 3
 turn_speed = 5
 returning = false
+speed_limiter = true
 
 desired_motion = 0
 desired_direction = 0

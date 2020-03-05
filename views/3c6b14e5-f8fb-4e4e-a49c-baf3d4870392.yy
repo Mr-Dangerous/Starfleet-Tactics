@@ -11,7 +11,8 @@
         "fc0a3e1a-46df-4d69-b501-4e53815e9937",
         "737271d5-4c44-472d-9d82-44ebb23362ed",
         "7eee9272-9be9-4070-ac9e-f7497da4968e",
-        "b94625d5-7dd1-4ba6-a33c-b036249b6959"
+        "b94625d5-7dd1-4ba6-a33c-b036249b6959",
+        "74db4e06-b460-440d-99e1-a008707562b5"
     ],
     "filterType": "GMTimeline",
     "folderName": "Spell Casting",

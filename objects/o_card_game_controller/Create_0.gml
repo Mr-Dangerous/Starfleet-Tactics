@@ -2,7 +2,7 @@
 __global_init()
 // You can write your code in this editor
 //JSON funny business
-var _buffer = buffer_load("Starfleet Tactics.json");
+var _buffer = buffer_load("Starforce Tactics.json");
 var _json_string = buffer_read(_buffer, buffer_string)
 buffer_delete(_buffer)
 root_map = json_decode(_json_string)

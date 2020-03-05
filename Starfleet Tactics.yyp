@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "06494d64-4318-4392-9523-4567adbd4620",
+            "Value": {
+                "id": "9ca077eb-3438-4d5c-80d9-aeacfaf2eea1",
+                "resourcePath": "objects\\o_ion_cannon_projectile\\o_ion_cannon_projectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "06785494-96a7-4f27-90bf-6ca7023ad8da",
             "Value": {
                 "id": "18f4da3d-5aca-4a2a-ac66-01e65007ac95",
@@ -4572,6 +4580,14 @@
                 "id": "d9576b93-aa0f-4b0b-92e9-0e9f54add1ec",
                 "resourcePath": "sprites\\s_laser_light_035\\s_laser_light_035.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "74db4e06-b460-440d-99e1-a008707562b5",
+            "Value": {
+                "id": "1952916a-2587-4561-9cc7-5438df991adc",
+                "resourcePath": "timelines\\tl_raven_ion_cannon\\tl_raven_ion_cannon.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -9018,7 +9034,7 @@
             "Key": "ea2c53b5-deaa-40b5-bd2f-a9a50c2abc48",
             "Value": {
                 "id": "485c1461-7175-4fdd-b01e-02019951eb3a",
-                "resourcePath": "datafiles_yy\\Starfleet Tactics.json.yy",
+                "resourcePath": "datafiles_yy\\Starforce Tactics.json.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
