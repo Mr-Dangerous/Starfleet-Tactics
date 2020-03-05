@@ -58,6 +58,7 @@ double_click_timer = 0
 
 #region Combat vars
 ship_target = noone
+secondary_ship_target = noone
 enemy_ships_targeting = ds_list_create()
 evasion_counter = 0
 evade_direction = 0

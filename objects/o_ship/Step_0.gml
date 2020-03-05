@@ -86,13 +86,7 @@ switch(state){
 		combat_state = ship.out_of_combat
 		break;
 	}
-	if (!instance_exists(ship_target)){
-		if (basic_attack_targets_squads){
-			ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, squad_target)
-		} else {
-			ship_target = scr_return_ship_target(basic_attack_targeting_behavior, TARGET_LOWEST_ARMOR, IGNORE_SQUADS)
-		}
-	}
+	
 	if (basic_attack_coolant_counter < basic_attack_coolant_effectiveness){
 		basic_attack_coolant_counter++
 	}
