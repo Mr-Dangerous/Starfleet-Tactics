@@ -10,11 +10,7 @@ var _lead_target_y = ship_target.y
 desired_direction = point_direction(x, y, _lead_target_x, _lead_target_y)
 basic_attack_speed_counter--
 
-if (basic_attack_speed_counter <= 0){
-	basic_attack_speed_counter = basic_attack_speed_interval
-	basic_attack_thermal_capacity_used += basic_attack_thermal_unit_cost
-	scr_fire_basic_attack(ship_target)
-}
+scr_prepare_basic_attack(ship_target)
 
 if (basic_attack_thermal_capacity_used + basic_attack_thermal_unit_cost > basic_attack_base_thermal_capacity){
 	

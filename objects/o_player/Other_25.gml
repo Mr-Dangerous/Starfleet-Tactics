@@ -19,7 +19,7 @@ if (owner = 3){
 }
 
 #region battlefield
-var _x_offset = 270
+var _x_offset = 330
 var _y_offset = 180
 var _spacing = BATTLEGRID_SPACING
 grid_square_size = _spacing-10

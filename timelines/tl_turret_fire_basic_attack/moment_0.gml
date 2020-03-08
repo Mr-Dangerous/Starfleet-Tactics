@@ -3,3 +3,4 @@ basic_attack_speed_counter = 0
 basic_attack_coolant_counter = 0
 weapons_ready = false
 commit_to_attack = false
+first_attack = true

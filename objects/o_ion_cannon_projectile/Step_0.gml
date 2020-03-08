@@ -22,6 +22,8 @@ if (send_out_duration <= 0){
 	}
 	if (send_out_duration = -20){
 		ds_list_clear(ships_hit)
+		turn_speed = 100
+		acceleration_rate = 30
 	}
 	desired_direction = point_direction(x, y, target_x, target_y)
 	if (point_distance(x, y, target_x, target_y) < 50){

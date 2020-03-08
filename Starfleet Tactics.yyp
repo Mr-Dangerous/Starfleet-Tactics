@@ -1431,6 +1431,14 @@
             }
         },
         {
+            "Key": "26c20adf-ec1c-4ec0-a93f-20a036064783",
+            "Value": {
+                "id": "9fbda768-b7af-480b-91b3-046932bba58d",
+                "resourcePath": "scripts\\scr_load_thermal_regulator_1\\scr_load_thermal_regulator_1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "26f11815-280b-451b-956c-73ad9c53829b",
             "Value": {
                 "id": "886f8c06-1d90-4c3e-83ce-b55e230fdd71",
@@ -1596,6 +1604,14 @@
                 "id": "78fef67d-ac6b-4e38-ad62-b7cb55296383",
                 "resourcePath": "sprites\\s_laser_light_010\\s_laser_light_010.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2abda3b8-1ab5-460a-a948-b0043a5ef626",
+            "Value": {
+                "id": "301297ea-f2e1-4af8-9fe2-e81af4823e59",
+                "resourcePath": "scripts\\scr_prepare_basic_attack\\scr_prepare_basic_attack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2420,6 +2436,14 @@
                 "id": "f5209d6e-bc70-44a4-a9c2-192692265e59",
                 "resourcePath": "views\\404bfd1c-70bd-439d-b996-3dd4b3bb3aa1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40c06f9b-03fd-4460-9156-2d73cb229f21",
+            "Value": {
+                "id": "048f6fe3-4316-4aed-8f08-bdcc4dde6f93",
+                "resourcePath": "objects\\o_module_spawner\\o_module_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4460,6 +4484,14 @@
                 "id": "bcf9429a-ad5b-4d1c-8068-a439fa9309fa",
                 "resourcePath": "sprites\\s_laser_mixed_011\\s_laser_mixed_011.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "735e7b8c-ad6c-492d-ab10-ade601785418",
+            "Value": {
+                "id": "75e76e16-3bb8-4f00-bae7-2b5e517f451b",
+                "resourcePath": "rooms\\r_card_game\\r_card_game.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -8551,6 +8583,14 @@
             }
         },
         {
+            "Key": "db349ba6-14a7-423f-babe-e3a2d292df1f",
+            "Value": {
+                "id": "b6cc706a-0a98-42e2-8811-cd8d0bd81473",
+                "resourcePath": "objects\\o_module\\o_module.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "db72093e-89a2-45f8-bb85-6cdfa77a0c1e",
             "Value": {
                 "id": "4f4e3bdc-f3e4-465f-a03c-cc0c8a6ed1e1",
@@ -9799,6 +9839,14 @@
             }
         },
         {
+            "Key": "ff239d1b-1cb2-4a13-8de6-067af13eb501",
+            "Value": {
+                "id": "90a8c4e8-d0a2-4c7e-93f3-05f7b3b5c1ea",
+                "resourcePath": "scripts\\scr_load_weapon_heatsink_1\\scr_load_weapon_heatsink_1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ff581894-0717-4114-9124-c12d9b4d9714",
             "Value": {
                 "id": "de2cabd3-ce42-4859-81d5-750e6319a4dd",
@@ -9956,7 +10004,10 @@
         "ad92d492-1ba2-4f41-8188-ba394a434c36",
         "6979dfff-816b-4961-a0dc-d0e456cf9499",
         "c9ef2ea0-60ac-4a86-9b7a-16d454384971",
-        "3b56456c-09e4-4ea4-95bd-f47e9f66b15c"
+        "3b56456c-09e4-4ea4-95bd-f47e9f66b15c",
+        "ff239d1b-1cb2-4a13-8de6-067af13eb501",
+        "26c20adf-ec1c-4ec0-a93f-20a036064783",
+        "2abda3b8-1ab5-460a-a948-b0043a5ef626"
     ],
     "tutorial": ""
 }

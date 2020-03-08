@@ -12,6 +12,7 @@ basic_attack_targeting_behavior = -1
 basic_attack_targets_squads = true
 squad_target = noone
 on_hit_list = ds_list_create()
+weapon_heatsink = 0
 
 
 graphic_resource_array[WEAPON_OFFSETS] = ds_list_create()

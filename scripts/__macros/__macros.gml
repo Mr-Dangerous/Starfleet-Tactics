@@ -79,7 +79,7 @@
 
 #macro PREPARE_FIGHT 0
 
-#macro BATTLEGRID_WIDTH 7
+#macro BATTLEGRID_WIDTH 8
 #macro BATTLEGRID_HEIGHT 4
 #macro BATTLEGRID_SPACING 180
 
@@ -120,6 +120,11 @@
 #macro IGNORE_SQUADS true
 
 #macro ON_HIT_DISRUPTOR_CANNON "disruptor cannon"
+
+#macro LOAD_MODULE "load module"
+#macro UNLOAD_MODULE "unload module"
+
+#macro TARGET_ANY 0
 
 
 

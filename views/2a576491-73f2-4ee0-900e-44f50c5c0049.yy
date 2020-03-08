@@ -10,7 +10,8 @@
         "3901fb49-fbea-44a5-8d5d-b46f195e13a1",
         "04abaa80-0d27-4ab5-b71c-84711e4b18e5",
         "7d62c38e-2901-4df2-902a-a8e79b0597ec",
-        "461b6e81-e38d-488c-9a56-34dd331320d1"
+        "461b6e81-e38d-488c-9a56-34dd331320d1",
+        "40c06f9b-03fd-4460-9156-2d73cb229f21"
     ],
     "filterType": "GMObject",
     "folderName": "Controllers and spawners",
