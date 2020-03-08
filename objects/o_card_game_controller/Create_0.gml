@@ -39,6 +39,13 @@ for (var i =0; i <ds_list_size(turret_list); i++){
 	ds_map_add(global.turrets, _turret_map_key, _turret_map)	
 }
 
+module_list = root_map[? "JSON_Modules"]
+for (var i = 0; i < ds_list_size(module_list); i++){
+	var _module_map = ds_list_find_value(module_list, i)
+	var _module_map_key = _module_map[? "Name"]
+	ds_map_add(global.modules, _module_map_key, _module_map)
+}
+
 
 
 

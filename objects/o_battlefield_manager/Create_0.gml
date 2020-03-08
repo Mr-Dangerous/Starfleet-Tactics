@@ -133,6 +133,94 @@ fight_button[BUTTON_DISPLAY_STRING] = "Fight!"
 
 #endregion
 
+#region module buttons
+module_spawn_button_position_list = ds_list_create()
+module_spawn_button_zone = []
+module_button_ui_position_list = ds_list_create()
+module_button_ui_zone = []
+module_spawn_button_width = 136
+module_spawn_button_height = 36
+max_module_spawn_buttons_in_row = 2
+max_module_spawn_buttons_in_column = 2
+max_modules_per_page = max_module_spawn_buttons_in_row*max_module_spawn_buttons_in_column
+module_pages = ds_list_create()
+current_module_page = 0
+number_of_module_pages = floor(ds_map_size(global.modules)/max_modules_per_page)
+
+var _spawn_button_x_offset = view_wport[0] - 296
+var _spawn_button_y_offset = view_hport[0] - 140
+_horizontal_spacing = 144
+_vertical_spacing = 44
+
+_current_row = 0
+_current_column = 0
+
+for (var i = 0; i < max_module_spawn_buttons_in_row; i++){
+	for (var j = 0; j < max_module_spawn_buttons_in_column; j++){
+		var _button_position_array = []
+		_button_position_array[BUTTON_X] = _spawn_button_x_offset + (i*_horizontal_spacing)
+		_button_position_array[BUTTON_Y] = _spawn_button_y_offset + (j*_vertical_spacing)
+		_button_position_array[BUTTON_DISPLAY_STRING] = ""
+		_button_position_array[BUTTON_SCRIPT] = scr_on_spawn_module_clicked()
+		_button_position_array[BUTTON_COLOR] = c_gray
+		_button_position_array[BUTTON_HOVER] = false
+		ds_list_add(module_spawn_button_position_list, _button_position_array)
+		
+		if (i = 0 and j = 0){
+			module_spawn_button_zone[ZONE_X] = _button_position_array[BUTTON_X] 
+			module_spawn_button_zone[ZONE_Y] = _button_position_array[BUTTON_Y]
+		}
+		if (i = max_module_spawn_buttons_in_row-1 and j = max_module_spawn_buttons_in_column-1){
+			module_spawn_button_zone[ZONE_XX] = _button_position_array[BUTTON_X] + module_spawn_button_width
+			module_spawn_button_zone[ZONE_YY] = _button_position_array[BUTTON_Y] + module_spawn_button_height
+		}
+		
+	}
+}
+
+var _previous_module_button_array = []
+var reference_button = module_spawn_button_position_list[|0]
+_previous_module_button_array[BUTTON_X] = reference_button[BUTTON_X]
+module_button_ui_zone[ZONE_X] = _previous_module_button_array[BUTTON_X]
+_previous_module_button_array[BUTTON_Y] = reference_button[BUTTON_Y] - module_spawn_button_height - 16
+module_button_ui_zone[ZONE_Y] = _previous_module_button_array[BUTTON_Y]
+_previous_module_button_array[BUTTON_DISPLAY_STRING] = "Previous Page"
+_previous_module_button_array[BUTTON_SCRIPT] = scr_on_module_ui_clicked
+_previous_module_button_array[BUTTON_HOVER] = false
+_previous_module_button_array[BUTTON_COLOR] = c_gray
+ds_list_add(module_button_ui_position_list, _previous_module_button_array)
+var _next_module_button_array = []
+reference_button = module_spawn_button_position_list[|1]
+_next_module_button_array[BUTTON_X] = reference_button[BUTTON_X] + module_spawn_button_width + 8
+module_button_ui_zone[ZONE_XX] = _next_module_button_array[BUTTON_X] + module_spawn_button_width
+_next_module_button_array[BUTTON_Y] = _previous_module_button_array[BUTTON_Y]
+module_button_ui_zone[ZONE_YY] = _next_module_button_array[BUTTON_Y] + module_spawn_button_height
+_next_module_button_array[BUTTON_DISPLAY_STRING] = "Next Page"
+_next_module_button_array[BUTTON_SCRIPT] = scr_on_module_ui_clicked
+_next_module_button_array[BUTTON_HOVER] = false
+_next_module_button_array[BUTTON_COLOR] = c_gray
+ds_list_add(module_button_ui_position_list, _next_module_button_array)
+
+
+
+var _current_map = ds_map_find_first(global.modules)
+for (var j = 0; j < number_of_module_pages; j++){
+	var module_page = ds_list_create()
+	for (var i = 0; i <max_modules_per_page; i++){
+		ds_list_add(module_page, _current_map)
+		_current_map = ds_map_find_next(global.modules, _current_map)
+		if (_current_map = undefined){
+			j = 10000
+			break;
+		}
+		
+	}
+	ds_list_add(module_pages, module_page)
+}
+
+
+
+#endregion
 
 
 
