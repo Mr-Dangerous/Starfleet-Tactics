@@ -2,6 +2,7 @@ battle_player_number = 0 //for battle purposes, player is either 1 or 2
 battle_manager = noone
 ship_name = ""
 owner = 0
+attached_module_list = ds_list_create()
 
 unit_offset=[]
 

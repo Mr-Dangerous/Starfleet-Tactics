@@ -16,5 +16,6 @@ _module.name = _module_name
 _module.sprite_index = scr_return_module_sprite_by_rank(_module_map[? "Rank"])
 _module.image_xscale = .25
 _module.image_yscale = .25
+_module.loading_script = asset_get_index(_module_map[? "Loading Script"])
 //_module.type = _module_map[? "Type"]
 show_debug_message("Module spawned!")

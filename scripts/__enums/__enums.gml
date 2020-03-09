@@ -20,6 +20,11 @@ enum camera_state{
 	battle
 }
 
+enum module_state{
+	collecting,
+	attached,
+	unattached
+}
 //enum game_packet_type is in gnet_packet_layouts
 
 
