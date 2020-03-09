@@ -62,6 +62,7 @@ switch(state){
 		y = _y
 		image_angle = reference_squad.image_angle
 		direction = reference_squad.direction
+		speed = 0
 		
 	break;
 	

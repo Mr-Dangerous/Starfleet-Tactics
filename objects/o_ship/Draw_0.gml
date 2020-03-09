@@ -44,5 +44,8 @@ if ( display_timeline = true){
 	
 	}
 	draw_text(x, y, _timeline_string)
+	
+	var _distance_to_center = distance_to_object(battle_manager)
+	draw_text(x, y + 30, _distance_to_center)
 }
 

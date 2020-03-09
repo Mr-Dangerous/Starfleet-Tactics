@@ -4,6 +4,11 @@ if (deploy_counter > 0){
 	deploy_counter--
 	
 }
+
+if (!instance_exists(reference_ship)){
+	instance_destroy()
+}
+
 if (deploy_counter <= 0 and !returning){
 	deployed = true
 	desired_direction = 0
