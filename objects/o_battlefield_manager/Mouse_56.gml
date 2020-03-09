@@ -16,6 +16,15 @@ var fight_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y,
 	fight_button_zone[ZONE_X], fight_button_zone[ZONE_Y],
 	fight_button_zone[ZONE_XX], fight_button_zone[ZONE_YY])
 	
+	
+var module_ui_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y,
+	module_button_ui_zone[ZONE_X], module_button_ui_zone[ZONE_Y],
+	module_button_ui_zone[ZONE_XX], module_button_ui_zone[ZONE_YY])
+	
+var module_spawn_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y,
+	module_spawn_button_zone[ZONE_X], module_spawn_button_zone[ZONE_Y],
+	module_spawn_button_zone[ZONE_XX], module_spawn_button_zone[ZONE_YY])
+	
 if (fight_button_zone_clicked and fight_button[@ BUTTON_HOVER] = true){
 	scr_start_fight()
 	
@@ -37,6 +46,45 @@ if(ship_spawn_button_zone_clicked){
 		
 	}
 }
+if (module_spawn_button_zone_clicked){
+	for (var i = 0; i < ds_list_size(module_spawn_button_position_list); i++){
+		var _module_button = ds_list_find_value(module_spawn_button_position_list, i)
+		
+		if (_module_button[BUTTON_HOVER]= true and point_in_rectangle(_mouse_x, _mouse_y, _module_button[BUTTON_X],
+		_module_button[BUTTON_Y], _module_button[BUTTON_X] + module_spawn_button_width,
+		_module_button[BUTTON_Y] + module_spawn_button_height)){
+			var _module_page = module_pages[|current_module_page]
+			var _module_name = _module_page[|i]
+			if (_module_name != undefined){
+				scr_spawn_module_from_name(_module_name, currently_selected_player)
+			}
+		}
+	}
+}
+if (module_ui_button_zone_clicked){
+	for (var i = 0;  i < ds_list_size(module_button_ui_position_list); i++){
+		var _module_ui_button = ds_list_find_value(module_button_ui_position_list, i)
+		
+		if (_module_ui_button[BUTTON_HOVER]	= true and point_in_rectangle(_mouse_x, _mouse_y, _module_ui_button[BUTTON_X],
+		_module_ui_button[BUTTON_Y], _module_ui_button[BUTTON_X] + module_spawn_button_width,
+		_module_ui_button[BUTTON_Y] + module_spawn_button_height)){
+			if (_module_ui_button[BUTTON_DISPLAY_STRING] = "Previous Page"){
+				current_module_page--
+				if (current_module_page < 0){
+					current_module_page = 0
+				}
+				show_debug_message(current_module_page)
+			}
+			if (_module_ui_button[BUTTON_DISPLAY_STRING] = "Next Page"){
+				current_module_page++
+				if (current_module_page > number_of_module_pages-1){
+					current_module_page = number_of_module_pages-1
+				}
+				show_debug_message(current_module_page)
+			}
+		}
+	}
+}
 
 if(player_button_zone_clicked){
 	for (var i = 0; i < ds_list_size(select_player_buttons_list); i++){
@@ -55,15 +103,16 @@ if(player_button_zone_clicked){
 			
 			show_debug_message(string_build("Player set to {}", _squad_spawner.owner_to_create_for))
 		}
-		if (_button[BUTTON_HOVER] = true){
-			_button[@ BUTTON_COLOR] = c_olive
-			_button[@ BUTTON_HOVER] = false
-		} else {
-			_button[@ BUTTON_HOVER] = false
-			_button[@ BUTTON_COLOR] = c_gray
-		}
-		
-		
+	}
+}
+
+//should change all button colors and hovers to false
+for (var i = 0; i < ds_list_size(list_of_all_ui_buttons); i++){
+	var _button_list = list_of_all_ui_buttons[|i]
+	for (var j = 0; j < ds_list_size(_button_list); j++){
+		var _button = _button_list[|j]
+		_button[@ BUTTON_HOVER] = false
+		_button[@ BUTTON_COLOR] = c_gray //TODO:  buttons shoudl have a default color stored in the array
 	}
 }
 

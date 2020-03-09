@@ -222,6 +222,12 @@ for (var j = 0; j < number_of_module_pages; j++){
 
 #endregion
 
+list_of_all_ui_buttons = ds_list_create()
+ds_list_add(list_of_all_ui_buttons, select_player_buttons_list)
+ds_list_add(list_of_all_ui_buttons, ship_spawn_button_position_list)
+ds_list_add(list_of_all_ui_buttons, module_button_ui_position_list)
+ds_list_add(list_of_all_ui_buttons, module_spawn_button_position_list)
+
 
 
 

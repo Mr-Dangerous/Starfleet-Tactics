@@ -921,6 +921,87 @@
       "Basic Attack Sprite Destroyed": ""
     }
   ],
+  "JSON_Modules": [
+    {
+      "Name": "Thermal Regulator I",
+      "Manufacturer": "generic",
+      "Rank": 1,
+      "Type": "F",
+      "Loading Script": "scr_load_thermal_regulator_1",
+      "Written Effect": [
+        "All ships in the squad gain +1 thermal unit capacity",
+        "which enables them to fire more attacks before their weapons need to cool down."
+      ]
+    },
+    {
+      "Name": "Thermal Regulator II",
+      "Manufacturer": "generic",
+      "Rank": 2,
+      "Type": "F",
+      "Loading Script": "scr_load_thermal_regulator_1",
+      "Written Effect": [
+        "All ships in the squad gain +2 thermal unit capacity",
+        "which enables them to fire more attacks before their weapons need to cool down."
+      ]
+    },
+    {
+      "Name": "Thermal Regulator III",
+      "Manufacturer": "generic",
+      "Rank": 3,
+      "Type": "F",
+      "Loading Script": "scr_load_thermal_regulator_1",
+      "Written Effect": [
+        "All ships in the squad gain +3 thermal unit capacity",
+        "which enables them to fire more attacks before their weapons need to cool down."
+      ]
+    },
+    {
+      "Name": "Thermal Regulator IV",
+      "Manufacturer": "generic",
+      "Rank": 4,
+      "Type": "F",
+      "Loading Script": "scr_load_thermal_regulator_1",
+      "Written Effect": [
+        "All ships in the squad gain +4 thermal unit capacity",
+        "which enables them to fire more attacks before their weapons need to cool down."
+      ]
+    },
+    {
+      "Name": "Thermal Regulator V",
+      "Manufacturer": "generic",
+      "Rank": 5,
+      "Type": "F",
+      "Loading Script": "scr_load_thermal_regulator_1",
+      "Written Effect": [
+        "All ships in the squad gain +5 thermal unit capacity",
+        "which enables them to fire more attacks before their weapons need to cool down."
+      ]
+    },
+    {
+      "Name": "Weapon  Heatsink I",
+      "Manufacturer": "generic",
+      "Rank": 1,
+      "Type": "F",
+      "Loading Script": "scr_load_weapon_heatsink_1",
+      "Written Effect": "The first attack of an attack costs 1 less thermal unit"
+    },
+    {
+      "Name": "Weapon Heatsink II",
+      "Manufacturer": "generic",
+      "Rank": 3,
+      "Type": "F",
+      "Loading Script": "scr_load_weapon_heatsink_1",
+      "Written Effect": "The first attack of an attack costs 2 less thermal units"
+    },
+    {
+      "Name": "Weapon Heatsink III",
+      "Manufacturer": "generic",
+      "Rank": 5,
+      "Type": "F",
+      "Loading Script": "scr_load_weapon_heatsink_1",
+      "Written Effect": "The first attack of an attack costs 3 less thermal units"
+    }
+  ],
   "JSON_Turrets": [
     {
       "Name": "Hammerhead 1 Turret",

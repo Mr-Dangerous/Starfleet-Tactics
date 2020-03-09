@@ -18,6 +18,15 @@ var fight_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y,
 	fight_button_zone[ZONE_X], fight_button_zone[ZONE_Y],
 	fight_button_zone[ZONE_XX], fight_button_zone[ZONE_YY])
 	
+var module_ui_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y,
+	module_button_ui_zone[ZONE_X], module_button_ui_zone[ZONE_Y],
+	module_button_ui_zone[ZONE_XX], module_button_ui_zone[ZONE_YY])
+	
+var module_spawn_button_zone_clicked = point_in_rectangle(_mouse_x, _mouse_y,
+	module_spawn_button_zone[ZONE_X], module_spawn_button_zone[ZONE_Y],
+	module_spawn_button_zone[ZONE_XX], module_spawn_button_zone[ZONE_YY])
+	
+	
 if (fight_button_zone_clicked){
 	fight_button[@ BUTTON_HOVER] = true
 }
@@ -36,6 +45,33 @@ if(ship_spawn_button_zone_clicked){
 	}
 }
 
+if (module_spawn_button_zone_clicked){
+	
+}
+
+if (module_ui_button_zone_clicked){
+	for (var i = 0; i < ds_list_size(module_button_ui_position_list); i++){
+		var _module_button = ds_list_find_value(module_button_ui_position_list, i)
+		
+		if (point_in_rectangle(_mouse_x, _mouse_y, _module_button[BUTTON_X], _module_button[BUTTON_Y],
+		_module_button[BUTTON_X] + module_spawn_button_width, _module_button[BUTTON_Y] + module_spawn_button_height)){
+			_module_button[@ BUTTON_HOVER] = true
+			_module_button[@ BUTTON_COLOR] = c_red
+		}
+	}
+}
+
+if (module_spawn_button_zone_clicked){
+	for (var i = 0; i < ds_list_size(module_spawn_button_position_list); i++){
+		var _module_button = ds_list_find_value(module_spawn_button_position_list, i)
+		
+		if (point_in_rectangle(_mouse_x, _mouse_y, _module_button[BUTTON_X], _module_button[BUTTON_Y],
+		_module_button[BUTTON_X] + module_spawn_button_width, _module_button[BUTTON_Y] + module_spawn_button_height)){
+			_module_button[@ BUTTON_HOVER] = true
+			_module_button[@ BUTTON_COLOR] = c_red
+		}
+	}
+}
 
 if(player_button_zone_clicked){
 	for (var i = 0; i < ds_list_size(select_player_buttons_list); i++){
