@@ -1000,6 +1000,14 @@
       "Type": "F",
       "Loading Script": "scr_load_weapon_heatsink_1",
       "Written Effect": "The first attack of an attack costs 3 less thermal units"
+    },
+    {
+      "Name": "Kinetic Driver I",
+      "Manufacturer": "generic",
+      "Rank": 2,
+      "Type": "F",
+      "Loading Script": "scr_load_weapon_heatsink_1",
+      "Written Effect": "Increase the damage of an attack by 10"
     }
   ],
   "JSON_Turrets": [

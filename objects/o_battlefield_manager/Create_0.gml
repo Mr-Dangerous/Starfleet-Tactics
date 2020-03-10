@@ -141,11 +141,11 @@ module_button_ui_zone = []
 module_spawn_button_width = 136
 module_spawn_button_height = 36
 max_module_spawn_buttons_in_row = 2
-max_module_spawn_buttons_in_column = 2
+max_module_spawn_buttons_in_column = 3
 max_modules_per_page = max_module_spawn_buttons_in_row*max_module_spawn_buttons_in_column
 module_pages = ds_list_create()
 current_module_page = 0
-number_of_module_pages = floor(ds_map_size(global.modules)/max_modules_per_page)
+number_of_module_pages = ceil(ds_map_size(global.modules)/max_modules_per_page)
 
 var _spawn_button_x_offset = view_wport[0] - 296
 var _spawn_button_y_offset = view_hport[0] - 140
