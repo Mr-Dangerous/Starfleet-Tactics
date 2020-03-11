@@ -91,3 +91,19 @@ draw_text(_button[BUTTON_X]+(fight_button_width/2), _button[BUTTON_Y], _button[B
 
 draw_set_halign(fa_left)
 #endregion
+
+//draw squad information
+if (instance_exists(currently_selected_player_object)){
+	var _squad_list = currently_selected_player_object.squads_in_field
+	for (var i = 0; i < ds_list_size(_squad_list); i++){
+		var _position_list = squad_information_position_list[|i]
+		var _x = _position_list[SQUAD_GUI_X]
+		var _y = _position_list[SQUAD_GUI_Y]
+		var _currently_selected_squad = _squad_list[|i]
+		var _squad_name = _currently_selected_squad.ship_name
+		
+		
+		draw_text(_x, _y, _squad_name)
+		//will have offsets later for armor and shields and what not.
+	}
+}

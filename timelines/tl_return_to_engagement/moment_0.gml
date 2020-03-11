@@ -1,8 +1,6 @@
 ///@desc delay for 10 frames.  intialize vars
 
-
-delay_counter = 10
-
+return_timer = (1/base_max_speed) * 180
 desired_motion = -acceleration_rate
 
 

@@ -5,7 +5,7 @@ if (return_timer <= 0){
 	timeline_index = scr_select_timeline()
 	timeline_position = 0
 } else {
-	timeline_index = 1
+	timeline_position = 1
 }
 
 draw_line(x, y, battle_manager.x, battle_manager.y)

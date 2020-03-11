@@ -126,6 +126,9 @@
 
 #macro TARGET_ANY 0
 
+#macro SQUAD_GUI_X 0
+#macro SQUAD_GUI_Y 1
+
 
 
 

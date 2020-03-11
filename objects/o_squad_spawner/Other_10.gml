@@ -28,6 +28,7 @@ if (ship_name != ""){
 
 	var _deployed_squad = instance_create_layer(400, 400, LAYER_SHIPS, o_squad)
 	_squad_position[@ BATTLEFIELD_SQUAD_CONTAINED] = _deployed_squad
+	ds_list_add(_player_object.squads_in_field, _deployed_squad)
 	
 	var _starting_x = _squad_position[BATTLEFIELD_X_POSITION]
 	var _starting_y = _squad_position[BATTLEFIELD_Y_POSITION]

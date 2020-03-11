@@ -2,6 +2,7 @@
 //Eventaully, this object may be folded into the card game manager
 player_list = ds_list_create()
 currently_selected_player = 0
+currently_selected_player_object = 0
 var _number_of_players = 4
 for (var i = 0; i < _number_of_players; i++){
 	var _player = instance_create_layer(0, 0, LAYER_GUI_HIGH, o_player)
@@ -227,6 +228,20 @@ ds_list_add(list_of_all_ui_buttons, select_player_buttons_list)
 ds_list_add(list_of_all_ui_buttons, ship_spawn_button_position_list)
 ds_list_add(list_of_all_ui_buttons, module_button_ui_position_list)
 ds_list_add(list_of_all_ui_buttons, module_spawn_button_position_list)
+
+
+//squad information display
+squad_information_position_list = ds_list_create()
+var _squad_gui_x_offset = view_wport[0] - 200
+var _squad_gui_y_offset = 100
+var _vertical_spacing = 40
+for (var  i = 0; i < 10; i++){
+	var _position_array = array_create(2, 0)
+	_position_array[SQUAD_GUI_X] = _squad_gui_x_offset
+	_position_array[SQUAD_GUI_Y] = _squad_gui_y_offset + (i*_vertical_spacing)
+	ds_list_add(squad_information_position_list, _position_array)
+}
+
 
 
 
