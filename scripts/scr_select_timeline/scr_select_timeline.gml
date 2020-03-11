@@ -8,7 +8,7 @@ if (override_timeline != -1){
 
 
 var timeline = scr_choose_evasive_timeline(ship_speed_class)
-if (distance_to_object(battle_manager) > 500){
+if (distance_to_object(battle_manager) > 1200){
 	timeline = tl_return_to_engagement
 }
 if (weapons_ready){
